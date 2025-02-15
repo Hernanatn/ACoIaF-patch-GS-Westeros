@@ -177,6 +177,11 @@
       </Properties>
       <File>Scripts/ACoIaF_Greyjoy.lua</File>
       <File>Scripts/ACoIaF_CityReplacement.lua</File>
+    </AddGameplayScripts>
+    <AddGameplayScripts id="ACoIaFBaseOnly" criteria="ACoIaFBaseOnly">
+      <Properties>
+        <LoadOrder>200</LoadOrder>
+      </Properties>
       <File>Scripts/ACoIaF_Westeros_Positioning.lua</File>
       <File>Scripts/ACoIaF_WesterosEssos_Positioning.lua</File>
     </AddGameplayScripts>

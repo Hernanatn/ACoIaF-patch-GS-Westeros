@@ -4,6 +4,7 @@ local silent=false;
 g_iW, g_iH = Map.GetGridSize();
 -- Standard Westeros Coordinates
 
+print("Loading GSWesterosEssos_Positioning.lua");
 if(not silent) then
 	print("Establishing Variables"); 
 
@@ -612,3 +613,5 @@ else
 		print("Not the right map"); 
 	end
 end
+
+print("GSWesterosEssos_Positioning.lua loaded!");

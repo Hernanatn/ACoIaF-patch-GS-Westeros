@@ -73,6 +73,8 @@
 			<LoadOrder>400</LoadOrder>
 		  </Properties>
 		  <File>Scripts/ACoIaF_WhiteWalkers.lua</File>
+		  <File>Scripts/ACoIaF_GSWesteros_Positioning.lua</File>
+		  <File>Scripts/ACoIaF_GSWesterosEssos_Positioning.lua</File>
 		</AddGameplayScripts>
 		<UpdateIcons id="ACoIaF_XP2" criteria="ACoIaF_Expansion2Only" >
 			<Properties>
@@ -108,5 +110,7 @@
 		<File>Data/ACoIaF_GS_Units.xml</File>
 		<File>Data/WW_GS_GameplayData.xml</File>
 		<File>Scripts/ACoIaF_WhiteWalkers.lua</File>
+		<File>Scripts/ACoIaF_GSWesteros_Positioning.lua</File>
+		<File>Scripts/ACoIaF_GSWesterosEssos_Positioning.lua</File>
 	</Files>
 </Mod>
