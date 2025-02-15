@@ -1,5 +1,5 @@
 -- ==================================Starting Points===============================================================================
-local silent=true;
+local silent=false;
 -- Standard Westeros Coordinates
 if(not silent) then
 	print("Establishing Variables");
