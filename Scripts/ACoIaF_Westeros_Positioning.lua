@@ -1,5 +1,5 @@
 -- ==================================Starting Points===============================================================================
-local silent=true;
+local silent=false;
 g_iW, g_iH = Map.GetGridSize();
 -- Standard Westeros Coordinates
 
