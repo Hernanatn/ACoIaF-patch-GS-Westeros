@@ -462,7 +462,7 @@ function Initialize()
 	ContextPtr:SetShutdown( OnShutdown );
     ContextPtr:SetShowHandler( OnShow );
 
-	Controls.CloseButton:RegisterCallback( eLClick, OnClose );
+	Controls.CloseButton:RegisterCallback( Mouse.eLClick, OnClose );
 	Controls.CloseButton:RegisterCallback( Mouse.eMouseEnter, function() UI.PlaySound("Main_Menu_Mouse_Over"); end);
 
 	-- LUA Events
