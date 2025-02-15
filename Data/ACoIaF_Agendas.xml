@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<!--Base-->
+		<Row Type="TRAIT_AGENDA_NORTH_REMEMBERS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_SHITS_GOLD" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_AZOR_AHAI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_REALM_PROTECTOR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_BOUNTIFUL_PLOUGHSHARES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_SEA_REAVERS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_RHOYNISH_ORIGINS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_AWOKEN_DRAGON" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_CHAOS_LADDER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_ERA_OF_PEACE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_DIPLOMATIC_ALLIANCES" Kind="KIND_TRAIT"/>
+
+		<!--Burn Them All-->
+		<Row Type="TRAIT_AGENDA_WILDLING_LOVER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_BURN_THEM_ALL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_THOUSAND_SHIPS" Kind="KIND_TRAIT"/>
+
+		<!--War of the Five Kings-->
+		<Row Type="TRAIT_AGENDA_RENLY_PREFER_STANDING_ARMY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_ROBB_ON_GUARD" Kind="KIND_TRAIT"/>
+
+		<!--Wild Essos-->
+		<Row Type="TRAIT_AGENDA_PREFER_DROGO_CAVALRY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_MANCE_ENJOYS_WAR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_MANCE_IGNORE_WARMONGERING" Kind="KIND_TRAIT"/>
+
+		<Row Type="TRAIT_AGENDA_RED_KING_CONSPIRATOR" Kind="KIND_TRAIT"/>
+	</Types>
+	<AiListTypes>
+		<!--Base-->
+		<Row ListType="ShitsGoldGoldPreference"/>
+		<Row ListType="ChaosLadderDiplomacyPreference"/>
+		<Row ListType="EraOfPeaceWarLimits"/>
+
+		<!--Burn Them All-->
+		<Row ListType="SeaReaversCoastSettlement"/>
+		<Row ListType="SeaReaversHarborPreference"/>
+		<Row ListType="SeaReaversNavalPreference"/>
+
+		<Row ListType="BurnThemAllNukePreference"/>
+		<Row ListType="BurnThemAllUseNukePreference"/>
+		<Row ListType="BurnThemAllGoldPreference"/>
+
+		<!--War of the Five Kings-->
+		<Row ListType="RenlyStandingArmyPseudoYields"/>
+
+		<!--Wild Essos-->
+		<Row ListType="DrogoCavalryPreference"/>
+		<Row ListType="WildlingDarwinistIgnoreWarmongerValue"/>
+
+		<Row ListType="RoosePreferBackstabbing"/>
+	</AiListTypes>
+	<AiLists>
+		<!--Base-->
+		<Row ListType="ShitsGoldGoldPreference" AgendaType="TRAIT_AGENDA_SHITS_GOLD" System="Yields"/>
+		<Row ListType="ChaosLadderDiplomacyPreference" AgendaType="TRAIT_AGENDA_CHAOS_LADDER" System="DiplomaticActions"/>
+		<Row ListType="EraOfPeaceWarLimits" AgendaType="TRAIT_AGENDA_ERA_OF_PEACE" System="DiplomaticActions"/>
+
+		<!--Burn Them All-->
+		<Row ListType="SeaReaversCoastSettlement" AgendaType="TRAIT_AGENDA_SEA_REAVERS" System="PlotEvaluations"/>
+		<Row ListType="SeaReaversHarborPreference" AgendaType="TRAIT_AGENDA_SEA_REAVERS" System="Districts"/>
+		<Row ListType="SeaReaversNavalPreference" AgendaType="TRAIT_AGENDA_SEA_REAVERS" System="PseudoYields"/>
+
+		<Row ListType="BurnThemAllNukePreference" AgendaType="TRAIT_AGENDA_BURN_THEM_ALL" System="PseudoYields"/>
+		<Row ListType="BurnThemAllUseNukePreference" AgendaType="TRAIT_AGENDA_BURN_THEM_ALL" System="DiplomaticActions"/>
+		<Row ListType="BurnThemAllGoldPreference" AgendaType="TRAIT_AGENDA_BURN_THEM_ALL" System="Yields"/>
+
+
+		<!--War of the Five Kings-->
+		<Row ListType="RenlyStandingArmyPseudoYields" AgendaType="TRAIT_AGENDA_RENLY_PREFER_STANDING_ARMY" System="PseudoYields"/>
+
+		<!--Wild Essos-->
+		<Row ListType="DrogoCavalryPreference" AgendaType="TRAIT_AGENDA_PREFER_DROGO_CAVALRY" System="PseudoYields"/>
+		<Row ListType="WildlingDarwinistIgnoreWarmongerValue" AgendaType="TRAIT_AGENDA_MANCE_IGNORE_WARMONGERING" System="PseudoYields"/>
+
+		<Row ListType="RoosePreferBackstabbing" LeaderType="TRAIT_AGENDA_RED_KING_CONSPIRATOR" System="DiplomaticActions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!--Base-->
+		<Row ListType="ShitsGoldGoldPreference" Item="YIELD_GOLD" Value="20"/>
+		<Row ListType="ChaosLadderDiplomacyPreference" Item="DIPLOACTION_KEEP_PROMISE_DONT_SPY" Favored="false"/>
+		<Row ListType="EraOfPeaceWarLimits" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="false"/>
+		<Row ListType="EraOfPeaceWarLimits" Item="DIPLOACTION_DECLARE_FORMAL_WAR" Favored="false"/>
+		<Row ListType="EraOfPeaceWarLimits" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV" Favored="false"/>
+
+		<!--Burn Them All-->
+		<Row ListType="SeaReaversCoastSettlement" Item="Coastal" Favored="false" Value="30"/>
+		<Row ListType="SeaReaversHarborPreference" Item="DISTRICT_HARBOR" Favored="true"/>
+		<Row ListType="SeaReaversNavalPreference" Item="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Value="100"/>
+
+		<Row ListType="BurnThemAllNukePreference" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="20"/>
+		<Row ListType="BurnThemAllUseNukePreference" Item="DIPLOACTION_USE_NUCLEAR_WEAPON" Favored="true"/>
+		<Row ListType="BurnThemAllGoldPreference" Item="YIELD_GOLD" Value="20"/>
+
+		<!--War of the Five Kings-->
+		<Row ListType="RenlyStandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="33"/>
+		<Row ListType="RenlyStandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_VALUE" Value="50"/>
+
+		<!--Wild Essos-->
+		<Row ListType="DrogoCavalryPreference" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="50"/>
+		<Row ListType="WildlingDarwinistIgnoreWarmongerValue" Item="PSEUDOYIELD_DIPLOMATIC_BONUS" Value="-100"/>
+
+		<Row ListType="RoosePreferBackstabbing" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="true"/>
+		<Row ListType="RoosePreferBackstabbing" Item="DIPLOACTION_DENOUNCE" Favored="false"/>
+	</AiFavoredItems>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_NORTH_REMEMBERS" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_SHITS_GOLD" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_AZOR_AHAI" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_REALM_PROTECTOR" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_BOUNTIFUL_PLOUGHSHARES" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_SEA_REAVERS" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_RHOYNISH_ORIGINS" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_AWOKEN_DRAGON" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_CHAOS_LADDER" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_ERA_OF_PEACE" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_DIPLOMATIC_ALLIANCES" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+
+		<Row TraitType="TRAIT_AGENDA_WILDLING_LOVER" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_BURN_THEM_ALL" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_THOUSAND_SHIPS" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+
+		<Row TraitType="TRAIT_AGENDA_RENLY_PREFER_STANDING_ARMY" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_ROBB_ON_GUARD" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+
+		<Row TraitType="TRAIT_AGENDA_PREFER_DROGO_CAVALRY" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_MANCE_ENJOYS_WAR" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_AGENDA_MANCE_IGNORE_WARMONGERING" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+
+		<Row TraitType="TRAIT_AGENDA_RED_KING_CONSPIRATOR" Name="LOC_AGENDA_RED_KING_CONSPIRATOR_NAME" Description="LOC_AGENDA_RED_KING_CONSPIRATOR_DESCRIPTION"/>
+	</Traits>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_NORTH_REMEMBERS" Name="LOC_AGENDA_NORTH_REMEMBERS_NAME" Description="LOC_AGENDA_NORTH_REMEMBERS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_SHITS_GOLD" Name="LOC_AGENDA_SHITS_GOLD_NAME" Description="LOC_AGENDA_SHITS_GOLD_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_AZOR_AHAI" Name="LOC_AGENDA_AZOR_AHAI_NAME" Description="LOC_AGENDA_AZOR_AHAI_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_REALM_PROTECTOR" Name="LOC_AGENDA_REALM_PROTECTOR_NAME" Description="LOC_AGENDA_REALM_PROTECTOR_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_BOUNTIFUL_PLOUGHSHARES" Name="LOC_AGENDA_BOUNTIFUL_PLOUGHSHARES_NAME" Description="LOC_AGENDA_BOUNTIFUL_PLOUGHSHARES_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_SEA_REAVERS" Name="LOC_AGENDA_SEA_REAVERS_NAME" Description="LOC_AGENDA_SEA_REAVERS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_RHOYNISH_ORIGINS" Name="LOC_AGENDA_RHOYNISH_ORIGINS_NAME" Description="LOC_AGENDA_RHOYNISH_ORIGINS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_AWOKEN_DRAGON" Name="LOC_AGENDA_AWOKEN_DRAGON_NAME" Description="LOC_AGENDA_AWOKEN_DRAGON_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_CHAOS_LADDER" Name="LOC_AGENDA_CHAOS_LADDER_NAME" Description="LOC_AGENDA_CHAOS_LADDER_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_ERA_OF_PEACE" Name="LOC_AGENDA_ERA_OF_PEACE_NAME" Description="LOC_AGENDA_ERA_OF_PEACE_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_DIPLOMATIC_ALLIANCES" Name="LOC_AGENDA_DIPLOMATIC_ALLIANCES_NAME" Description="LOC_AGENDA_DIPLOMATIC_ALLIANCES_DESCRIPTION"/>
+
+		<Row AgendaType="AGENDA_WILDLING_LOVER" Name="LOC_AGENDA_WILDLING_LOVER_NAME" Description="LOC_AGENDA_WILDLING_LOVER_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_BURN_THEM_ALL" Name="LOC_AGENDA_BURN_THEM_ALL_NAME" Description="LOC_AGENDA_BURN_THEM_ALL_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_THOUSAND_SHIPS" Name="LOC_AGENDA_THOUSAND_SHIPS_NAME" Description="LOC_AGENDA_THOUSAND_SHIPS_DESCRIPTION"/>
+
+		<Row AgendaType="AGENDA_RENLY_STANDING_ARMY" Name="LOC_AGENDA_RENLY_STANDING_ARMY_NAME" Description="LOC_AGENDA_RENLY_STANDING_ARMY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_ROBB_ON_GUARD" Name="LOC_AGENDA_ROBB_ON_GUARD_NAME" Description="LOC_AGENDA_ROBB_ON_GUARD_DESCRIPTION"/>
+
+		<Row AgendaType="AGENDA_DROGO_CAVALRY" Name="LOC_AGENDA_DROGO_CAVALRY_NAME" Description="LOC_AGENDA_DROGO_CAVALRY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_WILDLING_DARWINIST" Name="LOC_AGENDA_WILDLING_DARWINIST_NAME" Description="LOC_AGENDA_WILDLING_DARWINIST_DESCRIPTION"/>
+
+		<Row AgendaType="AGENDA_RED_KING_CONSPIRATOR" Name="LOC_AGENDA_RED_KING_CONSPIRATOR_NAME" Description="LOC_AGENDA_RED_KING_CONSPIRATOR_DESCRIPTION"/>
+	</Agendas>
+
+	<AgendaPreferredLeaders>
+	</AgendaPreferredLeaders>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_NORTH_REMEMBERS" AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_NORTH_REMEMBERS" AgendaTwo="AGENDA_EXPLOITATIVE"/>
+		<Row AgendaOne="AGENDA_SHITS_GOLD" AgendaTwo="AGENDA_DEVOUT"/>
+		<Row AgendaOne="AGENDA_SHITS_GOLD" AgendaTwo="AGENDA_MONEY_GRUBBER"/>
+		<Row AgendaOne="AGENDA_SEA_REAVERS" AgendaTwo="AGENDA_PARANOID" />
+		<Row AgendaOne="AGENDA_RHOYNISH_ORIGINS" AgendaTwo="AGENDA_GREAT_PERSON_ADVOCATE"/>
+		<Row AgendaOne="AGENDA_AWOKEN_DRAGON" AgendaTwo="AGENDA_CITY_STATE_ALLY"/>
+		<Row AgendaOne="AGENDA_AWOKEN_DRAGON" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_WILDLING_LOVER" AgendaTwo="AGENDA_CIVILIZED"/>
+		<Row AgendaOne="AGENDA_WILDLING_DARWINIST" AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_WILDLING_DARWINIST" AgendaTwo="AGENDA_CIVILIZED"/>
+		<Row AgendaOne="AGENDA_ROBB_ON_GUARD" AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_RED_KING_CONSPIRATOR" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+	</ExclusiveAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_NORTH_REMEMBERS" TraitType="TRAIT_AGENDA_NORTH_REMEMBERS"/>
+		<Row AgendaType="AGENDA_SHITS_GOLD" TraitType="TRAIT_AGENDA_SHITS_GOLD"/>
+		<Row AgendaType="AGENDA_AZOR_AHAI" TraitType="TRAIT_AGENDA_AZOR_AHAI"/>
+		<Row AgendaType="AGENDA_REALM_PROTECTOR" TraitType="TRAIT_AGENDA_REALM_PROTECTOR"/>
+		<Row AgendaType="AGENDA_BOUNTIFUL_PLOUGHSHARES" TraitType="TRAIT_AGENDA_BOUNTIFUL_PLOUGHSHARES"/>
+		<Row AgendaType="AGENDA_SEA_REAVERS" TraitType="TRAIT_AGENDA_SEA_REAVERS"/>
+		<Row AgendaType="AGENDA_RHOYNISH_ORIGINS" TraitType="TRAIT_AGENDA_RHOYNISH_ORIGINS"/>
+		<Row AgendaType="AGENDA_AWOKEN_DRAGON" TraitType="TRAIT_AGENDA_AWOKEN_DRAGON"/>
+		<Row AgendaType="AGENDA_CHAOS_LADDER" TraitType="TRAIT_AGENDA_CHAOS_LADDER"/>
+		<Row AgendaType="AGENDA_ERA_OF_PEACE" TraitType="TRAIT_AGENDA_ERA_OF_PEACE"/>
+		<Row AgendaType="AGENDA_DIPLOMATIC_ALLIANCES" TraitType="TRAIT_AGENDA_DIPLOMATIC_ALLIANCES"/>
+
+		<Row AgendaType="AGENDA_WILDLING_LOVER" TraitType="TRAIT_AGENDA_WILDLING_LOVER"/>
+		<Row AgendaType="AGENDA_BURN_THEM_ALL" TraitType="TRAIT_AGENDA_BURN_THEM_ALL"/>
+		<Row AgendaType="AGENDA_THOUSAND_SHIPS" TraitType="TRAIT_AGENDA_THOUSAND_SHIPS"/>
+
+		<Row AgendaType="AGENDA_ROBB_ON_GUARD" TraitType="TRAIT_AGENDA_ROBB_ON_GUARD"/>
+
+		<Row AgendaType="AGENDA_DROGO_CAVALRY" TraitType="TRAIT_AGENDA_PREFER_DROGO_CAVALRY"/>
+		<Row AgendaType="AGENDA_WILDLING_DARWINIST" TraitType="TRAIT_AGENDA_MANCE_ENJOYS_WAR"/>
+		<Row AgendaType="AGENDA_WILDLING_DARWINIST" TraitType="TRAIT_AGENDA_MANCE_IGNORE_WARMONGERING"/>
+
+		<Row AgendaType="AGENDA_RED_KING_CONSPIRATOR" TraitType="TRAIT_AGENDA_RED_KING_CONSPIRATOR"/>
+	</AgendaTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_NORTH_REMEMBERS" ModifierId="AGENDA_NORTH_REMEMBERS_ATTACKED"/>
+		<Row TraitType="TRAIT_AGENDA_NORTH_REMEMBERS" ModifierId="AGENDA_NORTH_REMEMBERS_PEACEFUL"/>
+		<Row TraitType="TRAIT_AGENDA_SHITS_GOLD" ModifierId="AGENDA_SHITS_GOLD_HIGH_INCOME"/>
+		<Row TraitType="TRAIT_AGENDA_SHITS_GOLD" ModifierId="AGENDA_SHITS_GOLD_LOW_INCOME"/>
+		<Row TraitType="TRAIT_AGENDA_AZOR_AHAI" ModifierId="AGENDA_MODIFIER_AZOR_AHAI_SAME_RELIGION"/>
+		<Row TraitType="TRAIT_AGENDA_AZOR_AHAI" ModifierId="AGENDA_MODIFIER_AZOR_AHAI_ENCROACHING_RELIGION"/>
+		<Row TraitType="TRAIT_AGENDA_REALM_PROTECTOR" ModifierId="AGENDA_REALM_PROTECTOR_HIGH_ATTACK_CITY_STATES"/>
+		<Row TraitType="TRAIT_AGENDA_REALM_PROTECTOR" ModifierId="AGENDA_REALM_PROTECTOR_HIGH_PROTECT_CITY_STATES"/>
+		<Row TraitType="TRAIT_AGENDA_REALM_PROTECTOR" ModifierId="AGENDA_REALM_PROTECTOR_MED_ATTACK_CITY_STATES"/>
+		<Row TraitType="TRAIT_AGENDA_REALM_PROTECTOR" ModifierId="AGENDA_REALM_PROTECTOR_MED_PROTECT_CITY_STATES"/>
+		<Row TraitType="TRAIT_AGENDA_REALM_PROTECTOR" ModifierId="AGENDA_REALM_PROTECTOR_CLEARS_BARBARIAN_CAMPS"/>
+		<Row TraitType="TRAIT_AGENDA_BOUNTIFUL_PLOUGHSHARES" ModifierId="AGENDA_OLENNA_HIGH_POPULATION"/>
+		<Row TraitType="TRAIT_AGENDA_BOUNTIFUL_PLOUGHSHARES" ModifierId="AGENDA_OLENNA_LOW_POPULATION"/>
+		<Row TraitType="TRAIT_AGENDA_SEA_REAVERS" ModifierId="AGENDA_MODIFIER_SEA_REAVERS"/>
+		<Row TraitType="TRAIT_AGENDA_RHOYNISH_ORIGINS" ModifierId="AGENDA_MODIFIER_RHOYNISH_LAGS_GREAT_PEOPLE"/>
+		<Row TraitType="TRAIT_AGENDA_RHOYNISH_ORIGINS" ModifierId="AGENDA_MODIFIER_RHOYNISH_LEADS_GREAT_PEOPLE"/>
+		<Row TraitType="TRAIT_AGENDA_AWOKEN_DRAGON" ModifierId="AGENDA_MODIFIER_DRAGON_NOT_INVOLVED_MINORS"/>
+		<Row TraitType="TRAIT_AGENDA_AWOKEN_DRAGON" ModifierId="AGENDA_MODIFIER_DRAGON_CONQUERING_ALLYING_MINORS"/>
+		<Row TraitType="TRAIT_AGENDA_CHAOS_LADDER" ModifierId="AGENDA_MODIFIER_CHAOS_LADDER"/>
+		<Row TraitType="TRAIT_AGENDA_ERA_OF_PEACE" ModifierId="AGENDA_MODIFIER_NOT_WARMONGER"/>
+		<Row TraitType="TRAIT_AGENDA_ERA_OF_PEACE" ModifierId="AGENDA_MODIFIER_WARMONGER"/>
+		<Row TraitType="TRAIT_AGENDA_DIPLOMATIC_ALLIANCES" ModifierId="AGENDA_DIPLOMATIC_ALLIANCES_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_DIPLOMATIC_ALLIANCES" ModifierId="AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND"/>
+
+		<Row TraitType="TRAIT_AGENDA_WILDLING_LOVER" ModifierId="AGENDA_WILDLING_LOVER_CLEARS_BARBARIAN_CAMPS"/>
+		<Row TraitType="TRAIT_AGENDA_WILDLING_LOVER" ModifierId="AGENDA_WILDLING_LOVER_IGNORES_BARBARIAN_CAMPS"/>
+		<Row TraitType="TRAIT_AGENDA_BURN_THEM_ALL" ModifierId="AGENDA_HIGH_BURN_THEM_ALL"/>
+		<Row TraitType="TRAIT_AGENDA_BURN_THEM_ALL" ModifierId="AGENDA_LOW_BURN_THEM_ALL"/>
+		<Row TraitType="TRAIT_AGENDA_THOUSAND_SHIPS" ModifierId="AGENDA_THOUSAND_SHIPS"/>
+
+		<Row TraitType="TRAIT_AGENDA_RENLY_PREFER_STANDING_ARMY" ModifierId="AGENDA_RENLY_HIGH_STANDING_ARMY"/>
+		<Row TraitType="TRAIT_AGENDA_RENLY_PREFER_STANDING_ARMY" ModifierId="AGENDA_RENLY_LOW_STANDING_ARMY"/>
+		<Row TraitType="TRAIT_AGENDA_ROBB_ON_GUARD" ModifierId="AGENDA_ROBB_ON_GUARD_LIBERATION"/>
+		<Row TraitType="TRAIT_AGENDA_ROBB_ON_GUARD" ModifierId="AGENDA_ROBB_ON_GUARD_OCCUPATION"/>
+
+		<Row TraitType="TRAIT_AGENDA_PREFER_DROGO_CAVALRY" ModifierId="AGENDA_DROGO_HIGH_CAVALRY"/>
+		<Row TraitType="TRAIT_AGENDA_PREFER_DROGO_CAVALRY" ModifierId="AGENDA_DROGO_LOW_CAVALRY"/>
+		<Row TraitType="TRAIT_AGENDA_MANCE_IGNORE_WARMONGERING" ModifierId="AGENDA_MANCE_IGNORE_WARMONGERING"/>
+
+		<Row TraitType="TRAIT_AGENDA_RED_KING_CONSPIRATOR" ModifierId="AGENDA_RED_KING_CONSPIRATOR"/>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- Agendas -->
+		<Row>
+			<ModifierId>AGENDA_NORTH_REMEMBERS_ATTACKED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ATTACKED_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NORTH_REMEMBERS_PEACEFUL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_PEACEFUL_ON_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHITS_GOLD_HIGH_INCOME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_INCOME</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHITS_GOLD_LOW_INCOME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_INCOME</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_AZOR_AHAI_SAME_RELIGION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_SAME_RELIGION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_AZOR_AHAI_ENCROACHING_RELIGION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENCROACHING_RELIGION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_HIGH_ATTACK_CITY_STATES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_CITY_STATE_AGGRESSION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_HIGH_PROTECT_CITY_STATES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_CITY_STATE_PROTECTION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_MED_ATTACK_CITY_STATES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MED_CITY_STATE_AGGRESSION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_MED_PROTECT_CITY_STATES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MED_CITY_STATE_PROTECTION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_CLEARS_BARBARIAN_CAMPS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_CHAOS_LADDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_BLACK_QUEEN</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_OLENNA_HIGH_POPULATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_POPULATION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_OLENNA_LOW_POPULATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_POPULATION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_RHOYNISH_LAGS_GREAT_PEOPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_LAGS_GREAT_PEOPLE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_RHOYNISH_LEADS_GREAT_PEOPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_LEADS_GREAT_PEOPLE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_SEA_REAVERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_LAST_VIKING_KING</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_DRAGON_NOT_INVOLVED_MINORS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_NOT_INVOLVED_MINORS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_DRAGON_CONQUERING_ALLYING_MINORS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_CONQUERING_ALLYING_MINORS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_CLEARS_BARBARIAN_CAMPS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_IGNORES_BARBARIAN_CAMPS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IGNORES_BARBARIAN_CAMPS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_BURN_THEM_ALL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_NUKE_LOVE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LOW_BURN_THEM_ALL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_NUKE_LOVE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THOUSAND_SHIPS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_QUEEN_OF_NILE</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RENLY_HIGH_STANDING_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_STANDING_ARMY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RENLY_LOW_STANDING_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_STANDING_ARMY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MANCE_IGNORE_WARMONGERING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WARMONGER_MULTIPLIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_LIBERATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_CITY_LIBERATED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_OCCUPATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_PERPETUALLY_ON_GUARD</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MANCE_ENJOYS_WAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARES_WAR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DROGO_HIGH_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_DROGO_HIGH_CAVALRY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DROGO_LOW_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_DROGO_LOW_CAVALRY</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_RED_KING_CONSPIRATOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_OPPORTUNIST</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>AGENDA_NORTH_REMEMBERS_ATTACKED</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NORTH_REMEMBERS_ATTACKED</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_EDDARD_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NORTH_REMEMBERS_ATTACKED</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_NORTH_REMEMBERS_CONTINENT_ATTACKED</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NORTH_REMEMBERS_PEACEFUL</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NORTH_REMEMBERS_PEACEFUL</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_EDDARD_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NORTH_REMEMBERS_PEACEFUL</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_NORTH_REMEMBERS_CONTINENT_PEACEFUL</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHITS_GOLD_HIGH_INCOME</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHITS_GOLD_HIGH_INCOME</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_TYWIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHITS_GOLD_HIGH_INCOME</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_SHITS_GOLD_HIGH_INCOME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHITS_GOLD_LOW_INCOME</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHITS_GOLD_LOW_INCOME</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_TYWIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHITS_GOLD_LOW_INCOME</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_SHITS_GOLD_LOW_INCOME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_AZOR_AHAI_SAME_RELIGION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_AZOR_AHAI_SAME_RELIGION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_STANNIS_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_AZOR_AHAI_SAME_RELIGION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_AZOR_AHAI_SAME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_AZOR_AHAI_ENCROACHING_RELIGION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_AZOR_AHAI_ENCROACHING_RELIGION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_STANNIS_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_AZOR_AHAI_ENCROACHING_RELIGION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_AZOR_AHAI_ENCROACHING</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_HIGH_ATTACK_CITY_STATES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_HIGH_ATTACK_CITY_STATES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_KING_ROBERT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_HIGH_ATTACK_CITY_STATES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_REALM_PROTECTOR_HIGH_CITY_STATE_AGGRESSION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_HIGH_PROTECT_CITY_STATES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_HIGH_PROTECT_CITY_STATES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_KING_ROBERT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_HIGH_PROTECT_CITY_STATES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_REALM_PROTECTOR_HIGH_CITY_STATE_PROTECTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_MED_ATTACK_CITY_STATES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_MED_ATTACK_CITY_STATES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_KING_ROBERT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_MED_ATTACK_CITY_STATES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_REALM_PROTECTOR_MED_CITY_STATE_AGGRESSION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_MED_PROTECT_CITY_STATES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_MED_PROTECT_CITY_STATES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_KING_ROBERT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_MED_PROTECT_CITY_STATES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_REALM_PROTECTOR_MED_CITY_STATE_PROTECTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<Name>Accumulates</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_KING_ROBERT_REASON_AGENDA_BARBARIANS</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_REALM_PROTECTOR_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_REALM_PROTECTOR_ATTACKS_BARBARIANS</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_OLENNA_HIGH_POPULATION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_OLENNA_HIGH_POPULATION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_OLENNA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_OLENNA_HIGH_POPULATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_OLENNA_HIGH_POPULATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_OLENNA_LOW_POPULATION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_OLENNA_LOW_POPULATION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_OLENNA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_OLENNA_LOW_POPULATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_OLENNA_LOW_POPULATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_RHOYNISH_LAGS_GREAT_PEOPLE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_RHOYNISH_LAGS_GREAT_PEOPLE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_DORAN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_RHOYNISH_LAGS_GREAT_PEOPLE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_RHOYNISH_GREAT_PEOPLE_OBSESSED_LAGGING</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_RHOYNISH_LEADS_GREAT_PEOPLE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_RHOYNISH_LEADS_GREAT_PEOPLE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_DORAN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_RHOYNISH_LEADS_GREAT_PEOPLE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_RHOYNISH_GREAT_PEOPLE_OBSESSED_LEADING</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_DRAGON_NOT_INVOLVED_MINORS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_DRAGON_NOT_INVOLVED_MINORS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_DANY_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_DRAGON_NOT_INVOLVED_MINORS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DRAGON_NOT_INVOLVED</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_DRAGON_CONQUERING_ALLYING_MINORS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_DRAGON_CONQUERING_ALLYING_MINORS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_DANY_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_DRAGON_CONQUERING_ALLYING_MINORS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DRAGON_INVOLVED</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_CHAOS_LADDER</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_CHAOS_LADDER_WARNING</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_EDMURE_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DIPLOMATIC_ALLIANCES_DECLARED_FRIEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_EDMURE_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_JON_SNOW_REASON_AGENDA_BARBARIANS</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_CLEARS_BARBARIAN_CAMPS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_WILDLING_LOVER_ATTACKS_BARBARIANS</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_IGNORES_BARBARIAN_CAMPS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_IGNORES_BARBARIAN_CAMPS</ModifierId>
+			<Name>Accumulates</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_IGNORES_BARBARIAN_CAMPS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_JON_SNOW_REASON_AGENDA_BARBARIANS</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WILDLING_LOVER_IGNORES_BARBARIAN_CAMPS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_WILDLING_LOVER_IGNORES_BARBARIANS</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_BURN_THEM_ALL</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_BURN_THEM_ALL</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_CERSEI_REASON_AGENDA_HIGH_BURN_THEM_ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_BURN_THEM_ALL</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_NUKE_LOVE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LOW_BURN_THEM_ALL</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LOW_BURN_THEM_ALL</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_CERSEI_REASON_AGENDA_LOW_BURN_THEM_ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LOW_BURN_THEM_ALL</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_NUKE_LOVE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THOUSAND_SHIPS</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_QUEEN_OF_NILE_WARNING</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_RENLY_HIGH_STANDING_ARMY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RENLY_HIGH_STANDING_ARMY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RENLY_HIGH_STANDING_ARMY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RENLY_LOW_STANDING_ARMY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RENLY_LOW_STANDING_ARMY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RENLY_LOW_STANDING_ARMY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_LIBERATION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_LIBERATION</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_LIBERATION</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_LIBERATION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ROBB_STARK_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_LIBERATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ON_GUARD_LIBERATE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_OCCUPATION</ModifierId>
+			<Name>PenaltyPerOccupiedCity</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_OCCUPATION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_ROBB_STARK_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROBB_ON_GUARD_OCCUPATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ON_GUARD_OCCUPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MANCE_IGNORE_WARMONGERING</ModifierId>
+			<Name>Amount</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MANCE_ENJOYS_WAR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MANCE_ENJOYS_WAR</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MANCE_ENJOYS_WAR</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MANCE_ENJOYS_WAR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_ENJOYS_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MANCE_ENJOYS_WAR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_ENJOYS_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DROGO_HIGH_CAVALRY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DROGO_HIGH_CAVALRY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_DROGO_HIGH_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DROGO_HIGH_CAVALRY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_DROGO_HIGH_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DROGO_LOW_CAVALRY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DROGO_LOW_CAVALRY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_DROGO_LOW_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DROGO_LOW_CAVALRY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_DROGO_LOW_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RED_KING_CONSPIRATOR</ModifierId>
+			<Name>RecentSurpriseWarBonus</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RED_KING_CONSPIRATOR</ModifierId>
+			<Name>SurpriseWarDegradeTurns</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RED_KING_CONSPIRATOR</ModifierId>
+			<Name>EachSurpriseWarBonus</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RED_KING_CONSPIRATOR</ModifierId>
+			<Name>NeverSurpriseWarPenalty</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_RED_KING_CONSPIRATOR</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_RED_KING_CONSPIRATOR</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_NORTH_REMEMBERS_ATTACKED" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_NORTH_REMEMBERS_PEACEFUL" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_SHITS_GOLD_LOW_INCOME" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_SHITS_GOLD_HIGH_INCOME" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_AZOR_AHAI_ENCROACHING_RELIGION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_AZOR_AHAI_SAME_RELIGION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_REALM_PROTECTOR_HIGH_ATTACK_CITY_STATES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_REALM_PROTECTOR_HIGH_PROTECT_CITY_STATES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_REALM_PROTECTOR_MED_ATTACK_CITY_STATES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_REALM_PROTECTOR_MED_PROTECT_CITY_STATES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_REALM_PROTECTOR_CLEARS_BARBARIAN_CAMPS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_OLENNA_HIGH_POPULATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_OLENNA_LOW_POPULATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_SEA_REAVERS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_RHOYNISH_LAGS_GREAT_PEOPLE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_RHOYNISH_LEADS_GREAT_PEOPLE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_DRAGON_NOT_INVOLVED_MINORS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_DRAGON_CONQUERING_ALLYING_MINORS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_CHAOS_LADDER" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_DIPLOMATIC_ALLIANCES_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_DIPLOMATIC_ALLIANCES_DENOUNCED_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_RENLY_HIGH_STANDING_ARMY" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_RENLY_LOW_STANDING_ARMY" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_ROBB_ON_GUARD_LIBERATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_ROBB_ON_GUARD_OCCUPATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_DROGO_HIGH_CAVALRY" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_RED_KING_CONSPIRATOR" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DROGO_HIGH_CAVALRY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DROGO_LOW_CAVALRY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DROGO_HIGH_CAVALRY</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DROGO_HIGH_CAVALRY</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DROGO_HIGH_CAVALRY</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_DROGO_HIGH_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DROGO_LOW_CAVALRY</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DROGO_LOW_CAVALRY</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DROGO_LOW_CAVALRY</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_DROGO_LOW_CAVALRY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_DROGO_HIGH_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_MILITARY_STRENGTH_LEAD</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_DROGO_LOW_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_MILITARY_STRENGTH_LEAD</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_DROGO_HIGH_CAVALRY</RequirementId>
+			<Name>MinimumDelta</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_DROGO_HIGH_CAVALRY</RequirementId>
+			<Name>StrengthRatio</Name>
+			<Value>1.2</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_DROGO_HIGH_CAVALRY</RequirementId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_DROGO_LOW_CAVALRY</RequirementId>
+			<Name>MinimumDelta</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_DROGO_LOW_CAVALRY</RequirementId>
+			<Name>StrengthRatio</Name>
+			<Value>-1.2</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_DROGO_LOW_CAVALRY</RequirementId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>

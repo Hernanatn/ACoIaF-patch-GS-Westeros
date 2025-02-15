@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+	</Kinds>
+
+	<Types>
+		<Delete Type="GOVERNMENT_MONARCHY"/>
+		<Row Type="GOVERNMENT_MONARCHY" Kind="KIND_GOVERNMENT"/>
+	</Types>
+
+	<GovernmentTiers>
+	</GovernmentTiers>
+
+	<Governments>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_DESPOT"/>
+			<Set>
+				<Tier>Tier2</Tier>
+			</Set>
+		</Update>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" Name="LOC_GOVERNMENT_MONARCHY_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1" BonusType="GOVERNMENTBONUS_ENVOYS" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1" PrereqCivic="CIVIC_MONARCHY" OtherGovernmentIntolerance="-5" InfluencePointsPerTurn="7" InfluencePointsThreshold="200" InfluenceTokensPerThreshold="3"  PolicyToUnlock="POLICY_GOV_MONARCHY" Tier="Tier3"/>
+
+	</Governments>
+
+	<Governments_XP2>
+		<Row GovernmentType="GOVERNMENT_DESPOT" Favor="2"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" Favor="3"/>
+	</Governments_XP2>
+
+	<Policies>
+	</Policies>
+
+	<StartingGovernments>
+	</StartingGovernments>
+
+	<Government_SlotCounts>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_MILITARY" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="2"/>
+	</Government_SlotCounts>
+
+	<GovernmentBonusNames>
+	</GovernmentBonusNames>
+
+	<Modifiers>
+	</Modifiers>
+
+	<ModifierArguments>
+	</ModifierArguments>
+
+	<GovernmentModifiers>
+		<Row GovernmentType="GOVERNMENT_MONARCHY">
+			<ModifierId>MONARCHY_WALLS_HOUSING</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_MONARCHY">
+			<ModifierId>MONARCHY_CASTLE_HOUSING</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_MONARCHY">
+			<ModifierId>MONARCHY_STARFORT_HOUSING</ModifierId>
+		</Row>
+	</GovernmentModifiers>
+
+	<PolicyModifiers>
+	</PolicyModifiers>
+
+	<RequirementSets>
+	</RequirementSets>
+
+	<Requirements>
+	</Requirements>
+
+	<RequirementArguments>
+	</RequirementArguments>
+
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+</GameInfo>

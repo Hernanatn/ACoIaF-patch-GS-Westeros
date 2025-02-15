@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+	</Types>
+	
+	<Tags>
+	</Tags>
+	
+	<TypeTags>
+	</TypeTags>
+	
+	<UnitAbilities>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+	</UnitAbilityModifiers>
+	
+	<Modifiers>
+	</Modifiers>
+	
+	<ModifierArguments>
+	</ModifierArguments>
+	
+	<ModifierStrings>
+	</ModifierStrings>
+
+	<RequirementSets>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+
+	<Requirements>
+	</Requirements>
+	
+	<RequirementArguments>
+	</RequirementArguments>
+	
+	<Unit_BuildingPrereqs>
+	</Unit_BuildingPrereqs>
+	
+	<UnitAiInfos>
+	</UnitAiInfos>
+	
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_RED_CLOAK"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RED_CLOAK_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_VALE_KNIGHT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_VALE_KNIGHT_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RAINBOW_GUARD"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RAINBOW_GUARD_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KINGSGUARD"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KINGSGUARD_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BRUTE"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BRUTE_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_WILDLING"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_WILDLING_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		
+		<Update>
+			<Where UnitType="UNIT_SAND_SNAKE"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SAND_SNAKE_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PIKEMAN_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWORDSMAN_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KNIGHT_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BLOOD_RIDER"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BLOOD_RIDER_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SCREAMER"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SCREAMER_II"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<Units_XP2>
+		<Row UnitType="UNIT_RED_CLOAK" ResourceCost="10"/>
+		<Row UnitType="UNIT_RED_CLOAK_II" ResourceCost="20"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" ResourceCost="10"/>
+		<Row UnitType="UNIT_VALE_KNIGHT_II" ResourceCost="20"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD" ResourceCost="10"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD_II" ResourceCost="20"/>
+		<Row UnitType="UNIT_KINGSGUARD" ResourceCost="10"/>
+		<Row UnitType="UNIT_KINGSGUARD_II" ResourceCost="20"/>
+		<Row UnitType="UNIT_BRUTE" ResourceCost="10"/>
+		<Row UnitType="UNIT_BRUTE_II" ResourceCost="20"/>
+		<Row UnitType="UNIT_WILDLING" ResourceCost="10"/>
+		<Row UnitType="UNIT_WILDLING_II" ResourceCost="20"/>
+		<Row UnitType="UNIT_SAND_SNAKE" ResourceCost="10"/>
+		<Row UnitType="UNIT_SAND_SNAKE_II" ResourceCost="20"/>
+		<Row UnitType="UNIT_BLOOD_RIDER" ResourceCost="10"/>
+		<Row UnitType="UNIT_BLOOD_RIDER_II" ResourceCost="20"/>
+		<Row UnitType="UNIT_SCREAMER" ResourceCost="10"/>
+		<Row UnitType="UNIT_SCREAMER_II" ResourceCost="20"/>
+
+		<Row UnitType="UNIT_PIKEMAN_II" ResourceCost="30"/>
+		<Row UnitType="UNIT_SWORDSMAN_II" ResourceCost="30"/>
+		<Row UnitType="UNIT_KNIGHT_II" ResourceCost="30"/>
+		
+		<Row UnitType="UNIT_ROBERT_SETTLER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_WARLOCK" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_ALCHEMIST" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GEN_ALCHEMIST" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+	</Units_XP2>
+	
+	<UnitReplaces>
+	</UnitReplaces>
+	
+	<UnitUpgrades>
+	</UnitUpgrades>
+
+	<UnitPromotionClasses>
+	</UnitPromotionClasses>
+	
+	<UnitPromotions>
+	</UnitPromotions>
+	
+	<UnitPromotionPrereqs>
+	</UnitPromotionPrereqs>
+	
+	<UnitPromotionModifiers>
+	</UnitPromotionModifiers>
+</GameInfo>

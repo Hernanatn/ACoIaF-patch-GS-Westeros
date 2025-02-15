@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+	</Types>
+	<Improvements>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD"/>
+			<Set>
+				<Name>LOC_IMPROVEMENT_MOON_DOOR_NAME</Name>
+				<Description>LOC_IMPROVEMENT_MOON_DOOR_DESCRIPTION</Description>
+				<PrereqCivic/>
+				<PrereqTech>TECH_MASONRY</PrereqTech>
+				<TraitType>TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR</Name>
+			</Set>
+		</Update>
+	</Improvements>
+	<Improvements_XP2>
+	</Improvements_XP2>
+	<Improvement_Adjacencies>
+	</Improvement_Adjacencies>
+	<Improvement_ValidFeatures>
+	</Improvement_ValidFeatures>
+	<Improvement_ValidTerrains>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidResources>
+	</Improvement_ValidResources>
+	<Improvement_ValidBuildUnits>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+	</Adjacency_YieldChanges>
+	<Modifiers>
+	</Modifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+	<ImprovementModifiers>
+	</ImprovementModifiers>
+	<RequirementSets>
+	</RequirementSets>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+</GameInfo>

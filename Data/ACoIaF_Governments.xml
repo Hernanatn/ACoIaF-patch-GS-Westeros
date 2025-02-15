@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="GOVERNMENT_DESPOT" Kind="KIND_GOVERNMENT"/>
+	</Types>
+	<GovernmentTiers>
+	</GovernmentTiers>
+	<Governments>
+		
+		<Update>
+			<Where GovernmentType="GOVERNMENT_MONARCHY"/>
+			<Set>
+				<PrereqTech/>
+				<PrereqCivic>CIVIC_MONARCHY</PrereqCivic>
+				<OtherGovernmentIntolerance>-5</OtherGovernmentIntolerance>
+				<InfluencePointsPerTurn>7</InfluencePointsPerTurn>
+				<InfluencePointsThreshold>200</InfluencePointsThreshold>
+				<InfluenceTokensPerThreshold>3</InfluenceTokensPerThreshold>
+			</Set>
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/>
+			<Set>
+				<PrereqCivic>CIVIC_GUILDS</PrereqCivic>
+			</Set>
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_THEOCRACY"/>
+			<Set>
+				<PrereqCivic>CIVIC_DIVINE_RIGHT</PrereqCivic>
+			</Set>
+		</Update>
+		<Row GovernmentType="GOVERNMENT_DESPOT" Name="LOC_GOVERNMENT_DESPOT_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MONARCHY" BonusType="GOVERNMENTBONUS_ENVOYS" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_MONARCHY" PrereqCivic="CIVIC_MERCENARIES" OtherGovernmentIntolerance="-3" InfluencePointsPerTurn="5" InfluencePointsThreshold="150" InfluenceTokensPerThreshold="2"/>
+
+	</Governments>
+
+	<Government_SlotCounts>
+		<Row GovernmentType="GOVERNMENT_DESPOT" GovernmentSlotType="SLOT_MILITARY" NumSlots="3"/>
+		<Row GovernmentType="GOVERNMENT_DESPOT" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_DESPOT" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_DESPOT" GovernmentSlotType="SLOT_WILDCARD" NumSlots="1"/>
+		
+		<Delete GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_MILITARY"/>
+		<Delete GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Delete GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+		<Delete GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_WILDCARD"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_MILITARY" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="2"/>
+	</Government_SlotCounts>
+
+	<GovernmentModifiers>
+		<Row GovernmentType="GOVERNMENT_DESPOT">
+			<ModifierId>MONARCHY_WALLSPRODUCTION</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_DESPOT">
+			<ModifierId>MONARCHY_CASTLEPRODUCTION</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_DESPOT">
+			<ModifierId>MONARCHY_STARFORTPRODUCTION</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_DESPOT">
+			<ModifierId>MONARCHY_WALLS_HOUSING</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_DESPOT">
+			<ModifierId>MONARCHY_CASTLE_HOUSING</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_DESPOT">
+			<ModifierId>MONARCHY_STARFORT_HOUSING</ModifierId>
+		</Row>
+	</GovernmentModifiers>
+
+	<Modifiers>
+	</Modifiers>
+
+	<ModifierArguments>
+	</ModifierArguments>
+	<RequirementSets>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+
+	<Requirements>
+	</Requirements>
+</GameInfo>

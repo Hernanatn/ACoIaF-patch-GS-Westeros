@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- Mod Info -->
+		<Row Tag="LOC_MOD_ACOIAF_CIVS_DESCRIPTION" Language="en_US">
+			<Text>This mod aims to bring the world of George R. R. Martin's A Song of Ice and Fire to life in the game Civilization VI.[NEWLINE][NEWLINE]This mod adds new content including new civs, leaders, maps, religions, beliefs, units, and other elements that help make the game feel more like the Song of Ice and Fire series.[NEWLINE][NEWLINE]Leaders:[NEWLINE][NEWLINE]- Eddard Stark and Jon Snow representing House Stark[NEWLINE]- Roose Bolton representing House Bolton[NEWLINE]- Tywin Lannister and Cersei Lannister representing House Lannister[NEWLINE]- Stannis Baratheon, Robert Baratheon, and Renly Baratheon representing House Baratheon[NEWLINE]- Olenna Tyrell representing House Tyrell[NEWLINE]- Balon Greyjoy and Euron Greyjoy representing House Greyjoy[NEWLINE]- Doran Martell representing House Martell[NEWLINE]- Daenerys Targaryen representing House Targaryen[NEWLINE]- Jon Arryn and Petyr Baelish representing House Arryn[NEWLINE]- Edmure Tully representing House Tully[NEWLINE]- Khal Drogo representing the Dothraki[NEWLINE]- Mance Rayder representing the Freefolk[NEWLINE]- The Nightking representing the White Walkers (Requires ACoIaF GS Mod)[NEWLINE][NEWLINE]New City-States:[NEWLINE][NEWLINE]- Westerosi City States: House Bolton, House Mormont, House Frey, House Dayne, House Hightower, House Redwyne, House Reyne, House Royce, House Hoare, and The Night's Watch[NEWLINE]- Free Cities of Essos: Braavos, Lorath, Lys, Myr, Norvos, Pentos, Qohor, Tyrosh, and Volantis[NEWLINE]- Essos City States: Qarth, Saath, Sallosh, Mardosh, Old and New Ghis, Faros, Ibben, Lhazar, Mantarys, and Tolos[NEWLINE][NEWLINE]New Scenarios:[NEWLINE][NEWLINE]- War of the Five Kings[NEWLINE][NEWLINE]New Rulesets, Techs, and Civics[NEWLINE][NEWLINE]New Maps: [NEWLINE][NEWLINE]- Westeros[NEWLINE]- Westeros and Essos[NEWLINE][NEWLINE]New Religions:[NEWLINE][NEWLINE]- The Old Gods[NEWLINE]- The Faith of the Seven[NEWLINE]- The Drowned God[NEWLINE]- Rh'llor[NEWLINE]- The Dothraki Horse God Vezhof[NEWLINE][NEWLINE]New Units:[NEWLINE][NEWLINE]- Alchemist nuclear capable support unit[NEWLINE]- Scorpion anti-cavalry siege unit[NEWLINE]- Warlock range boosting support unit[NEWLINE][NEWLINE]New WMDs:[NEWLINE][NEWLINE]- Wildfire</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_CIVS_TEASER" Language="en_US">
+			<Text>Winter is Coming to Civ...</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_CIVS_THANKS" Language="en_US">
+			<Text>Adler, Gedemon, Antagonise (Dany Trait), Deliverator23 (Scorpion and Dragon Models as well as amazing tutorials), Laiyx (Original Westeros map)</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_CIVS_AUTHORS" Language="en_US">
+			<Text>Decamatus</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_GS_DESCRIPTION" Language="en_US">
+			<Text>This mod enables the Gathering Storm expansion content for the ACoIaF mod.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_GS_TEASER" Language="en_US">
+			<Text>Winter is Coming to Civ...</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_GS_AUTHORS" Language="en_US">
+			<Text>Decamatus</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_ACOIAF_RAF_DESCRIPTION" Language="en_US">
+			<Text>Compatability patch for R&amp;F. [NEWLINE][NEWLINE]When this mod is enabled the ACoIaF scenarios will use and modify the R&amp;F content including governors and the dark/golden age systems. [NEWLINE][NEWLINE]Currently this is just a skin for the governors to bring you some friendly faces and to give everyone access to the Rise and Fall content if you want to play ACoIaF with that content.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_RAF_TEASER" Language="en_US">
+			<Text>Compatability patch for R&amp;F.</Text>
+		</Row>
+
+		<!-- Ruleset Info -->
+		<Row Tag="LOC_RULESET_ACOIAF_2_NAME" Language="en_US">
+			<Text>ACoIaF GS Ruleset</Text>
+		</Row>
+		
+		
+		
+		<!-- Map Info -->
+		<Row Tag="LOC_WESTEROS_MAP_STANDARD_NAME" Language="en_US">
+			<Text>TSL Westeros</Text>
+		</Row>
+		<Row Tag="LOC_WESTEROS_MAP_STANDARD_DESCRIPTION" Language="en_US">
+			<Text>True start location map of Westeros including a small portion of Essos for city-states and Drogo/Dany</Text>
+		</Row>
+		<Row Tag="LOC_WESTEROS_ESSOS_MAP_STANDARD_NAME" Language="en_US">
+			<Text>TSL Westeros and Essos</Text>
+		</Row>
+		<Row Tag="LOC_WESTEROS_ESSOS_MAP_STANDARD_DESCRIPTION" Language="en_US">
+			<Text>True start location map that extends from the Wall to Qarth</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_MAPS_TEST_NAME" Language="en_US">
+			<Text>ACoIaF - Test Map</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_MAPS_TEST_DESCRIPTION" Language="en_US">
+			<Text>For testing, you should not be able to see this!</Text>
+		</Row>
+
+
+		<!-- Map Info -->
+		<Row Tag="LOC_WOTFK_SCENARIO_NAME" Language="en_US">
+			<Text>ACoIaF: War of the Five Kings</Text>
+		</Row>
+		<Row Tag="LOC_WOTFK_SCENARIO_TOOLTIP" Language="en_US">
+			<Text>King Robert is dead. Who will succeed in claiming the Iron Throne?</Text>
+		</Row>
+		<Row Tag="LOC_WOTFK_SCENARIO_DESCRIPTION" Language="en_US">
+			<Text>ACoIaF: War of the Five Kings[NEWLINE][NEWLINE]Disable both Gathering Storm and the ACoIaF: Gathering Storm mod before attempting to start this scenario![NEWLINE][NEWLINE]Description: Play as one of the five kings vying for control over Westeros in this 120 turn scenario.[NEWLINE][NEWLINE]How to Win:[NEWLINE][NEWLINE]The only victory type is Score, you gain score from all the usual sources, but also from a new King of the Hill system that awards only the five playable leaders score based on the territory they control. Each city you control gives a bonus score per turn value with certain cities giving a larger bonus than others.[NEWLINE][NEWLINE]Play to the strengths of each king and you will be successful.[NEWLINE][NEWLINE]Leaders: (Difficulty)[NEWLINE][NEWLINE]- Joffery (Easy)[NEWLINE]- Robb (Average)[NEWLINE]- Renly (Average)[NEWLINE]- Stannis (Moderate)[NEWLINE]- Balon (Hard)</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_WOTFK_SCENARIO" Language="en_US">
+			<Text>King Robert is dead. Who will succeed in claiming the Iron Throne?</Text>
+		</Row>
+		<Row Tag="LOC_MOD_WOTFK_SCENARIO_MAP_NAME" Language="en_US">
+			<Text>Westeros - War of the Five Kings</Text>
+		</Row>
+
+		<Row Tag="LOC_AC_SCENARIO_NAME" Language="en_US">
+			<Text>ACoIaF: Aegon's Conquest</Text>
+		</Row>
+		<Row Tag="LOC_AC_SCENARIO_TOOLTIP" Language="en_US">
+			<Text>House Targaryen, last of the ancient Valyrians led by Aegon I Targaryen take the last three dragons and descent upon Westeros.</Text>
+		</Row>
+		<Row Tag="LOC_AC_SCENARIO_DESCRIPTION" Language="en_US">
+			<Text>ACoIaF: Aegon's Conquest[NEWLINE][NEWLINE]Description:</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_AC_SCENARIO" Language="en_US">
+			<Text>House Targaryen, last of the ancient Valyrians led by Aegon I Targaryen take the last three dragons and descent upon Westeros.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_AC_SCENARIO_MAP_NAME" Language="en_US">
+			<Text>Westeros - War of the Five Kings</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_ACOIAF_SCENARIOS_WOTFK_DESCRIPTION" Language="en_US">
+			<Text>King Robert is dead. Who will succeed in claiming the Iron Throne?</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_SCENARIOS_WOTFK_TEASER" Language="en_US">
+			<Text>Winter is Coming to Civ...</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_SCENARIOS_WOTFK_THANKS" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_MOD_ACOIAF_SCENARIOS_WOTFK_AUTHORS" Language="en_US">
+			<Text>Decamatus</Text>
+		</Row>
+
+
+		<Row Tag="LOC_RULESET_ACOIAF_NAME" Language="en_US">
+			<Text>ACoIaF Ruleset</Text>
+		</Row>
+		<Row Tag="LOC_RULESET_ACOIAF_TOOLTIP" Language="en_US">
+			<Text>Play a random game with the ACoIaF Leaders, Tech/Civics Trees, and other tweaks.</Text>
+		</Row>
+		<Row Tag="LOC_RULESET_ACOIAF_DESCRIPTION" Language="en_US">
+			<Text>ACoIaF Ruleset</Text>
+		</Row>
+
+		<Row Tag="LOC_RULESET_ACOIAF_WESTEROS_NAME" Language="en_US">
+			<Text>ACoIaF Westeros Ruleset</Text>
+		</Row>
+		<Row Tag="LOC_RULESET_ACOIAF_WESTEROS_TOOLTIP" Language="en_US">
+			<Text>Play a game on a TSL Westeros using the ACoIaF ruleset.</Text>
+		</Row>
+		<Row Tag="LOC_RULESET_ACOIAF_WESTEROS_DESCRIPTION" Language="en_US">
+			<Text>ACoIaF Westeros Ruleset</Text>
+		</Row>
+
+		<Row Tag="LOC_RULESET_ACOIAF_WESTEROS_ESSOS_NAME" Language="en_US">
+			<Text>ACoIaF Westeros and Essos Ruleset</Text>
+		</Row>
+		<Row Tag="LOC_RULESET_ACOIAF_WESTEROS_ESSOS_TOOLTIP" Language="en_US">
+			<Text>Play a game on a TSL map of Westeros and Essos using the ACoIaF ruleset.</Text>
+		</Row>
+		<Row Tag="LOC_RULESET_ACOIAF_WESTEROS_ESSOS_DESCRIPTION" Language="en_US">
+			<Text>ACoIaF Westeros and Essos Ruleset</Text>
+		</Row>
+
+		<!-- Civ Info -->
+		<Row Tag="LOC_CIVILIZATION_STARK_NAME" Language="en_US">
+			<Text>House Stark</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_STARK_DESCRIPTION" Language="en_US">
+			<Text>House Stark</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_STARK_ADJECTIVE" Language="en_US">
+			<Text>Stark</Text>
+		</Row>
+
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_STARK_NAME" Language="en_US">
+			<Text>Winter is Coming</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_STARK_DESCRIPTION" Language="en_US">
+			<Text>Tundra and Snow tiles provide +1 [ICON_Faith] Faith and +1 [ICON_Production] Production in addition to an additonal standard addjacency bonus for Holy Site districts. Extra territory upon founding cities.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WINTER_IS_COMING_NAME" Language="en_US">
+			<Text>Winter is Coming</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WINTER_IS_COMING_DESCRIPTION" Language="en_US">
+			<Text>Tundra and Snow tiles provide +1 [ICON_Faith] Faith and +1 [ICON_Production] Production in addition to an additonal standard addjacency bonus for Holy Site districts. Extra territory upon founding cities.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_WEIRWOOD_TREE_NAME" Language="en_US">
+			<Text>Weirwood Tree</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_WEIRWOOD_TREE_DESCRIPTION" Language="en_US">
+			<Text>A building unique to House Stark. Allows the purchasing of Missionaries. Missionaries can only be purchased with [ICON_Faith] Faith. Holy Site districts get an additonal standard addjacency bonus from Woods.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BANNERMAN_NAME" Language="en_US">
+			<Text>Bannerman</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BANNERMAN_DESCRIPTION" Language="en_US">
+			<Text>House Stark unique Ancient era melee unit that replaces the Warrior. Does not suffer combat penalties when damaged.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_EDDARD_NAME" Language="en_US">
+			<Text>Eddard Stark</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_OURS_IS_THE_OLD_WAY_NAME" Language="en_US">
+			<Text>Ours is the Old Way</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_OURS_IS_THE_OLD_WAY_DESCRIPTION" Language="en_US">
+			<Text>All units recieve +5 [ICON_Strength] Combat Strength on their home continent and have a bonus of +4 [ICON_Strength] Combat Strength against players following other Religions.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_JON_SNOW_NAME" Language="en_US">
+			<Text>Jon Snow</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_WHITE_WOLF_NAME" Language="en_US">
+			<Text>White Wolf</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_WHITE_WOLF_DESCRIPTION" Language="en_US">
+			<Text>Missionaries and Apostles can spread Religion 2 extra times, and all Apostles gain the Heathen Conversion promotion. Gain the Wildling Unique Unit when they unlock the Civil Service Civic.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_WILDLING_NAME" Language="en_US">
+			<Text>Raider</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_WILDLING_DESCRIPTION" Language="en_US">
+			<Text>Wildling and Jon Snow unique Medieval era unit. 4 [ICON_Movement] Movement if this unit starts in enemy territory. +7 [ICON_Strength] Combat Strength when attacking and -7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_ROBB_NAME" Language="en_US">
+			<Text>Robb Stark</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YOUNG_WOLF_NAME" Language="en_US">
+			<Text>Young Wolf</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YOUNG_WOLF_DESCRIPTION" Language="en_US">
+			<Text>All units recieve +5 [ICON_Strength] Combat Strength on foreign continents and have a bonus of +4 [ICON_Strength] Combat Strength against players following other Religions.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_LANNISTER_NAME" Language="en_US">
+			<Text>House Lannister</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LANNISTER_DESCRIPTION" Language="en_US">
+			<Text>House Lannister</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LANNISTER_ADJECTIVE" Language="en_US">
+			<Text>Lannister</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANNISTER_NAME" Language="en_US">
+			<Text>Hear Me Roar!</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANNISTER_DESCRIPTION" Language="en_US">
+			<Text>Receive a second Red Cloak each time you train a Red Cloak, Mines built over the [ICON_RESOURCE_GOLD] Gold Resource provide +2 [ICON_GOLD] Gold and +2 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HEAR_ME_ROAR_NAME" Language="en_US">
+			<Text>Hear Me Roar</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HEAR_ME_ROAR_DESCRIPTION" Language="en_US">
+			<Text>Receive a second Red Cloak each time you train a Red Cloak, Mines built over the [ICON_RESOURCE_GOLD] Gold Resource provide +2 [ICON_GOLD] Gold and +2 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_HALL_OF_HEROES_NAME" Language="en_US">
+			<Text>Hall of Heroes</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_HALL_OF_HEROES_DESCRIPTION" Language="en_US">
+			<Text>A building unique to House Lannister. +50% combat experience for all melee and ranged land units trained in his city and +1 [ICON_GOLD] Gold. May not be built in an Encampment district that already has a Stable.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_RED_CLOAK_NAME" Language="en_US">
+			<Text>Red Cloak</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_RED_CLOAK_DESCRIPTION" Language="en_US">
+			<Text>House Lannister unique Medieval era melee unit that replaces and is stronger than the swordsman.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TYWIN_NAME" Language="en_US">
+			<Text>Tywin Lannister</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_LANNISTER_DEBTS_NAME" Language="en_US">
+			<Text>A Lannister Always Pays His Debts</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LANNISTER_DEBTS_DESCRIPTION" Language="en_US">
+			<Text>Units have -2[ICON_GOLD]Maintenance, +20% [ICON_GOLD] Gold in All cities. </Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_CERSEI_NAME" Language="en_US">
+			<Text>Cersei Lannister</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_MAD_QUEEN_NAME" Language="en_US">
+			<Text>Mad Queen</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MAD_QUEEN_DESCRIPTION" Language="en_US">
+			<Text>Declaring a Surprise War only counts as a Formal War for the purpose of warmongering and war weariness. Gain the Alchemist Unique Unit when they unlock the Apprenticeship Technology.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_ALCHEMIST_NAME" Language="en_US">
+			<Text>Alchemist</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_ALCHEMIST_DESCRIPTION" Language="en_US">
+			<Text>House Lannister unique Medieval era melee unit when led by Cersei, very weak and slow, but the first nuclear capable unit in the game.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_BARATHEON_NAME" Language="en_US">
+			<Text>House Baratheon</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_BARATHEON_DESCRIPTION" Language="en_US">
+			<Text>House Baratheon</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_BARATHEON_ADJECTIVE" Language="en_US">
+			<Text>Baratheon</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BARATHEON_NAME" Language="en_US">
+			<Text>Ours is the Fury</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BARATHEON_DESCRIPTION" Language="en_US">
+			<Text>Provides House Baratheon with a copy of [ICON_RESOURCE_Horses] horse and [ICON_RESOURCE_Iron] iron resources if you have revealed them, but do not own them.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_OURS_IS_THE_FURY_NAME" Language="en_US">
+			<Text>Ours is the Fury</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_OURS_IS_THE_FURY_DESCRIPTION" Language="en_US">
+			<Text>Provides House Baratheon with a copy of [ICON_RESOURCE_Horses] horse and [ICON_RESOURCE_Iron] iron resources if you have revealed them, but do not own them.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BRUTE_NAME" Language="en_US">
+			<Text>Brute</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BRUTE_DESCRIPTION" Language="en_US">
+			<Text>House Baratheon unique Medieval era melee unit that replaces and is slightly stronger than the Swordsman, it also ignores Zone of Control.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_KING_ROBERT_NAME" Language="en_US">
+			<Text>Robert Baratheon</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SEVEN_KINGDOMS_NAME" Language="en_US">
+			<Text>Seven Kingdoms One Fist</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SEVEN_KINGDOMS_DESCRIPTION" Language="en_US">
+			<Text>Cannot train settlers, but recieve +50% [ICON_Production] Production towards wonders, +6 Influence points per [ICON_Turn] Turn and +10% [ICON_Culture] Culture, [ICON_Faith] Faith, [ICON_Food] Food, [ICON_Gold] Gold, [ICON_Production] Production, and [ICON_Science] Science per city-state you are the Suzerain of. Gain the Kingsguard Unique Unit when they unlock the Iron Working Technology.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_KINGSGUARD_NAME" Language="en_US">
+			<Text>Kingsguard</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_KINGSGUARD_DESCRIPTION" Language="en_US">
+			<Text>House Baratheon of King's Landing unique Medieval era melee unit that replaces and is stronger than the swordsman.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_ROBERT_SETTLER_NAME" Language="en_US">
+			<Text>King's Landing Settler</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_ROBERT_SETTLER_DESCRIPTION" Language="en_US">
+			<Text>House Baratheon of King's Landing unique Ancient era civilian unit that replaces the settler. This unit can be used to found cities, but cannot be purchased or built.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS_NAME" Language="en_US">
+			<Text>Tournament Grounds</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS_DESCRIPTION" Language="en_US">
+			<Text>A building unique to House Baratheon. Replaces the Arena and provides double the Amenity bonus and an additonal +2 [ICON_Food] Food.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_STANNIS_NAME" Language="en_US">
+			<Text>Stannis Baratheon</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AZHOR_AHAI_REBORN_NAME" Language="en_US">
+			<Text>Azor Ahai Reborn</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_AZHOR_AHAI_REBORN_DESCRIPTION" Language="en_US">
+			<Text>City Center buildings and Encampment district buildings can be bought with [ICON_Faith] Faith. Apostle units can choose from any possible promotion instead of receiving a random promotion. Gain the Red Priest Unique Unit when they unlock the Theology Civic.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_PYRE_OF_RHLLOR_NAME" Language="en_US">
+			<Text>Pyre of R'hllor</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_PYRE_OF_RHLLOR_DESCRIPTION" Language="en_US">
+			<Text>A building unique to House Baratheon of Dragonstone. Replaces the Monument and provides +1 [ICON_FAITH] faith and +1 [ICON_GreatPerson] Great Prohpet point in additon to the usual bonus.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_RED_PRIEST_NAME" Language="en_US">
+			<Text>Red Priest</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_RED_PRIEST_DESCRIPTION" Language="en_US">
+			<Text>House Baratheon of Dragonstone unique Classical era support unit. Can heal adjacent units. If this unit captures a city or is adjacent to a city when it's captured, the city will automatically convert to the Red Priest player's majority Religion.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_JOFFERY_NAME" Language="en_US">
+			<Text>Joffery Baratheon</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_JOFF_NAME" Language="en_US">
+			<Text>Spoiled Brat</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JOFF_DESCRIPTION" Language="en_US">
+			<Text>Cannot train settlers, but recieve +50% [ICON_Production] Production towards wonders, +6 Influence points per [ICON_Turn] Turn and +10% [ICON_Culture] Culture, [ICON_Faith] Faith, [ICON_Food] Food, [ICON_Gold] Gold, [ICON_Production] Production, and [ICON_Science] Science per city-state you are the Suzerain of. Gain the Kingsguard Unique Unit when they unlock the Iron Working Technology.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_RENLY_NAME" Language="en_US">
+			<Text>Renly Baratheon</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_RAINBOW_GUARD_NAME" Language="en_US">
+			<Text>Rainbow Guard</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_RAINBOW_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Renly Baratheon unique Medieval era melee unit that replaces the swordsman and heals every turn, even after moving or combat.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_GOOD_KING_NAME" Language="en_US">
+			<Text>Good King</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_GOOD_KING_DESCRIPTION" Language="en_US">
+			<Text>May form Corps and Armies earlier than usual (Feudalism) and always have one extra Wildcard policy slot in any government. Gain the Rainbow Guard unit when they unlock the Iron Working Technology.</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="LOC_CIVILIZATION_TYRELL_NAME" Language="en_US">
+			<Text>House Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TYRELL_DESCRIPTION" Language="en_US">
+			<Text>House Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TYRELL_ADJECTIVE" Language="en_US">
+			<Text>Tyrell</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TYRELL_NAME" Language="en_US">
+			<Text>Growing Strong</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TYRELL_DESCRIPTION" Language="en_US">
+			<Text>+1[ICON_FOOD]Food from both plains and grass tiles. All tiles in cities with a Tyrell Granary recieve +12 Appeal.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GROWING_STRONG_NAME" Language="en_US">
+			<Text>Growing Strong</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GROWING_STRONG_DESCRIPTION" Language="en_US">
+			<Text>+1[ICON_FOOD]Food from both plains and grass tiles. All tiles in cities with a Tyrell Granary recieve +12 Appeal.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_TYRELL_ARBORETUM_NAME" Language="en_US">
+			<Text>Reach Arboretum</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TYRELL_ARBORETUM_DESCRIPTION" Language="en_US">
+			<Text>A district unique to House Tyrell that replaces the Neighborhood and provides housing based on the Appeal of the tile and provides an adjacency bonus of +1 [ICON_Culture] Culture per Farm or Plantation:[NEWLINE]Breathtaking: +7 [ICON_Housing] Housing.[NEWLINE]Charming: +6 [ICON_Housing] Housing.[NEWLINE]Average: +5 [ICON_Housing] Housing.[NEWLINE]Uninviting: +4 [ICON_Housing] Housing.[NEWLINE]Disgusting: +3 [ICON_Housing] Housing.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_TYRELL_ARBORETUM_ADJACENCY" Language="en_US">
+			<Text>Adjacency: Standard [ICON_Culture] Culture bonus for each farm.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_TYRELL_GRANARY_NAME" Language="en_US">
+			<Text>Tyrell Granary</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_TYRELL_GRANARY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to House Tyrell. Replaces the Granary and provides double the bonus.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_REACH_KNIGHT_NAME" Language="en_US">
+			<Text>Reach Knight</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_REACH_KNIGHT_DESCRIPTION" Language="en_US">
+			<Text>House Tyrell unique Classic era light cavalry unit that replaces and is both slightly cheaper and weaker than the Horseman. +10 [ICON_STRENGTH] Combat Strength if there is at least one adjacent Reach Knight unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_OLENNA_NAME" Language="en_US">
+			<Text>Olenna Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_QUEEN_OF_THORNS_NAME" Language="en_US">
+			<Text>Queen of Thorns</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_QUEEN_OF_THORNS_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to other civilizations provide +4 [ICON_Gold] Gold for House Tyrell. Other civilizations' [ICON_TradeRoute] Trade Routes to House Tyrell provide +2 [ICON_Food] Food for them and +2 [ICON_Gold] Gold for House Tyrell.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_GREYJOY_NAME" Language="en_US">
+			<Text>House Greyjoy</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_GREYJOY_DESCRIPTION" Language="en_US">
+			<Text>House Greyjoy</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_GREYJOY_ADJECTIVE" Language="en_US">
+			<Text>Greyjoy</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WE_DO_NOT_SOW_NAME" Language="en_US">
+			<Text>We Do Not Sow</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WE_DO_NOT_SOW_DESCRIPTION" Language="en_US">
+			<Text>Start with the sailing technology unlocked and the ability to enter ocean tiles immediately. Naval melee units heal in neutral territory. May from Fleets and Armadas earlier than usual (Cartography).</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GREYJOY_NAME" Language="en_US">
+			<Text>We Do Not Sow</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GREYJOY_DESCRIPTION" Language="en_US">
+			<Text>Start with the sailing technology unlocked and the ability to enter ocean tiles immediately. Naval melee units heal in neutral territory. May from Fleets and Armadas earlier than usual (Cartography).</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_IRON_FLEET_NAME" Language="en_US">
+			<Text>Iron Fleet</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_IRON_FLEET_DESCRIPTION" Language="en_US">
+			<Text>House Greyjoy unique Ancient era naval melee unit. Can capture enemy ships.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_IRON_HARBOR_NAME" Language="en_US">
+			<Text>Iron Harbor</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_IRON_HARBOR_DESCRIPTION" Language="en_US">
+			<Text>A district unique to House Greyjoy for naval activity in your city. Replaces the Harbor district and is available earlier. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval units built in Dockyard[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_BALON_NAME" Language="en_US">
+			<Text>Balon Greyjoy</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_THE_IRON_PRICE_NAME" Language="en_US">
+			<Text>The Iron Price</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_THE_IRON_PRICE_DESCRIPTION" Language="en_US">
+			<Text>Naval units receive +10 [ICON_Strength] Combat Strength in Shallow Water tiles. Builds Encampment and Iron Harbor Districts in half the time.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_EURON_NAME" Language="en_US">
+			<Text>Euron Greyjoy</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_THE_STORM_NAME" Language="en_US">
+			<Text>The Storm</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_THE_STORM_DESCRIPTION" Language="en_US">
+			<Text>Receive a second Iron Fleet or Iron Reaver each time you train one. Gain the Iron Reaver Unique Unit when they unlock the Shipbuilding Technology.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_IRON_REAVER_NAME" Language="en_US">
+			<Text>Iron Reaver</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_IRON_REAVER_DESCRIPTION" Language="en_US">
+			<Text>House Greyjoy unique Classic era naval ranged unit when led by Euron.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_CIVILIZATION_MARTELL_NAME" Language="en_US">
+			<Text>House Martell</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_MARTELL_DESCRIPTION" Language="en_US">
+			<Text>House Martell</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_MARTELL_ADJECTIVE" Language="en_US">
+			<Text>Martell</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_DORAN_NAME" Language="en_US">
+			<Text>Doran Martell</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MARTELL_NAME" Language="en_US">
+			<Text>Unbowed, Unbent, Unbroken</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MARTELL_DESCRIPTION" Language="en_US">
+			<Text>+1[ICON_CULTURE] Culture +1[ICON_PRODUCTION] Production from Desert tiles. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_DORNISH_MASTERPLAN_NAME" Language="en_US">
+			<Text>Dornish Masterplan</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_DORNISH_MASTERPLAN_DESCRIPTION" Language="en_US">
+			<Text>Dornish districts provide +1 [ICON_GreatPerson] Great Person point of their type.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_WATER_GARDEN_NAME" Language="en_US">
+			<Text>Dornish Water Garden</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WATER_GARDEN_DESCRIPTION" Language="en_US">
+			<Text>A district unique to House Martell for city growth. Replaces the Aqueduct district.[NEWLINE][NEWLINE]It provides this city with +2 [ICON_CULTURE] Culture per citiezen, +1 [ICON_GreatPerson] Great Person point of each type, and the usual bonus of a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center. In either case, the Water Garden provides an additional bonus of +2 [ICON_Housing] Housing. Must be built adjacent to the City Center.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN_NAME" Language="en_US">
+			<Text>Unbowed, Unbent, Unbroken</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN_DESCRIPTION" Language="en_US">
+			<Text>+1[ICON_CULTURE] Culture +1[ICON_PRODUCTION] Production from Desert tiles. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SAND_SNAKE_NAME" Language="en_US">
+			<Text>Sand Snake</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SAND_SNAKE_DESCRIPTION" Language="en_US">
+			<Text>House Martell Medieval era melee unit that replaces the pikeman. +10 [ICON_Strength] Combat Strength when fighting on Coastal tiles. +5 [ICON_Strength] Combat Strength when fighting on Neutral or Foreign Territory.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_TARGARYEN_NAME" Language="en_US">
+			<Text>House Targaryen</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_TARGARYEN_DESCRIPTION" Language="en_US">
+			<Text>House Targaryen</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_TARGARYEN_ADJECTIVE" Language="en_US">
+			<Text>Targaryen</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_DANY_NAME" Language="en_US">
+			<Text>Daenerys Targaryen</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TARGARYEN_NAME" Language="en_US">
+			<Text>Blood and Fire</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TARGARYEN_DESCRIPTION" Language="en_US">
+			<Text>Each [ICON_Capital] Capital City under your control provides +1 Influence point per [ICON_Turn] Turn. Receive 2 [ICON_ENVOY] Envoys after conquering a [ICON_CAPITAL] Capital City or City-State.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_BREAKER_OF_CHAINS_NAME" Language="en_US">
+			<Text>Breaker of Chains</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BREAKER_OF_CHAINS_DESCRIPTION" Language="en_US">
+			<Text>After researching Bronze Working all found or conquered cities receive a free anti-cavalry unit. Gain the Unsullied Unique Unit when they unlock the Bronze Working Technology.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FIRE_AND_BLOOD_NAME" Language="en_US">
+			<Text>Blood and Fire</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FIRE_AND_BLOOD_DESCRIPTION" Language="en_US">
+			<Text>Each [ICON_Capital] Capital City under your control provides +1 Influence point per [ICON_Turn] Turn. Receive 2 [ICON_ENVOY] Envoys after conquering a [ICON_CAPITAL] Capital City or City-State.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_UNSULLIED_NAME" Language="en_US">
+			<Text>Unsullied</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_UNSULLIED_DESCRIPTION" Language="en_US">
+			<Text>House Targaryen unique Classic era unit that replaces the Spearman when led by Daenerys.  Has a chance to liberate other civilization's military units by turning them into Builders</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_DRAGON_NAME" Language="en_US">
+			<Text>Dragon</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_DRAGON_DESCRIPTION" Language="en_US">
+			<Text>House Targaryen fast-moving Classic era light cavalry unit, extremely expensive to maintain, but very powerful.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_ARRYN_NAME" Language="en_US">
+			<Text>House Arryn</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ARRYN_DESCRIPTION" Language="en_US">
+			<Text>House Arryn</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ARRYN_ADJECTIVE" Language="en_US">
+			<Text>Arryn</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_PETYR_NAME" Language="en_US">
+			<Text>Petyr Baelish</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_JON_ARRYN_NAME" Language="en_US">
+			<Text>Jon Arryn</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ARRYN_NAME" Language="en_US">
+			<Text>As High as Honor</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ARRYN_DESCRIPTION" Language="en_US">
+			<Text>Mountains provide double adjacency bonus for Campus and Holy Site districts. May declare war on anyone at war with their allies without warmonger penalties.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_VALE_DEFENDER_NAME" Language="en_US">
+			<Text>Defender of the Vale</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_VALE_DEFENDER_DESCRIPTION" Language="en_US">
+			<Text>Units gain +5 [ICON_Strength] Combat Strength on hill tiles and an additonal +5 [ICON_Strength] Combat Strength while within their borders.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_LITTLEFINGER_NAME" Language="en_US">
+			<Text>Littlefinger</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LITTLEFINGER_DESCRIPTION" Language="en_US">
+			<Text>Receives a free spy and the capacity to build an extra Spy with the Drama and Poetry Civic.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR_NAME" Language="en_US">
+			<Text>As High as Honor</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR_DESCRIPTION" Language="en_US">
+			<Text>Mountains provide double adjacency bonus for Campus and Holy Site districts. May declare war on anyone at war with their allies without warmonger penalties.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT_NAME" Language="en_US">
+			<Text>Knight of the Vale</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT_DESCRIPTION" Language="en_US">
+			<Text>House Arryn unique, Medieval era heavy cavalry unit that replaces the Knight, can move over Hills faster, and has +10 [ICON_Strength] Combat Strength when fighting on Hill tiles.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_BROTHEL_NAME" Language="en_US">
+			<Text>Brothel</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_BROTHEL_DESCRIPTION" Language="en_US">
+			<Text>A building unique to House Arryn when being led by Petyr Baelish. Replaces the market and provides +2 [ICON_Amenities] Amenities and +1 [ICON_CULTURE] Culture in additon to the usual benefits.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_TULLY_NAME" Language="en_US">
+			<Text>House Tully</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_TULLY_DESCRIPTION" Language="en_US">
+			<Text>House Tully</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_TULLY_ADJECTIVE" Language="en_US">
+			<Text>Tully</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_EDMURE_NAME" Language="en_US">
+			<Text>Edmure Tully</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TULLY_NAME" Language="en_US">
+			<Text>Family, Duty, Honor</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TULLY_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide 60% of civics and technologies instead of 50%.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_EDMURE_NAME" Language="en_US">
+			<Text>River Lords</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_EDMURE_DESCRIPTION" Language="en_US">
+			<Text>+100% increased [icon_production] Production towards districts and gain +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture on tiles adjacent to rivers.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR_NAME" Language="en_US">
+			<Text>Family, Duty, Honor</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide 60% of civics and technologies instead of 50%.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_TULLY_ARCHER_NAME" Language="en_US">
+			<Text>Tully Longbowman</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_TULLY_ARCHER_DESCRIPTION" Language="en_US">
+			<Text>House Tully unique Ancient era ranged unit that replaces the Archer, ignores the movement cost for crossing rivers.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_TULLY_WATER_MILL_NAME" Language="en_US">
+			<Text>Tully Water Gate</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_TULLY_WATER_MILL_DESCRIPTION" Language="en_US">
+			<Text>A building unique to House Tully. Replaces the Water Mill and increases the strength of your outer defenses in additon to the usual bonuses.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_CIVILIZATION_DOTHRAKI_NAME" Language="en_US">
+			<Text>Dothraki</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_DOTHRAKI_DESCRIPTION" Language="en_US">
+			<Text>Dothraki</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_DOTHRAKI_ADJECTIVE" Language="en_US">
+			<Text>Dothraki</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_DROGO_NAME" Language="en_US">
+			<Text>Khal Drogo</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DOTHRAKI_NAME" Language="en_US">
+			<Text>Horselords</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DOTHRAKI_DESCRIPTION" Language="en_US">
+			<Text>Pastures over [ICON_RESOURCE_Horses] Horses provide an extra +2 [ICON_CULTURE] Culture and +1 [ICON_Production] Production. Receive a [ICON_GreatWork_Relic] Relic upon city conquest, +2 [ICON_Food] Food, +2 [ICON_Production] Production, and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Relic] Relic, and the Palace has slots for 5 Great Works.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KHAL_OF_KHALS_NAME" Language="en_US">
+			<Text>Khal of Khals</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KHAL_OF_KHALS_DESCRIPTION" Language="en_US">
+			<Text>All cavalry units earn more experience from combat and earn +10 [ICON_GreatGeneral] Great General points for kills.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HORSELORDS_NAME" Language="en_US">
+			<Text>Horselords</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HORSELORDS_DESCRIPTION" Language="en_US">
+			<Text>Pastures over [ICON_RESOURCE_Horses] Horses provide an extra +2 [ICON_CULTURE] Culture and +1 [ICON_Production] Production. Receive a [ICON_GreatWork_Relic] Relic upon city conquest, +2 [ICON_Food] Food, +2 [ICON_Production] Production, and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Relic] Relic, and the Palace has slots for 5 Great Works.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BLOOD_RIDER_NAME" Language="en_US">
+			<Text>Blood Rider</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BLOOD_RIDER_DESCRIPTION" Language="en_US">
+			<Text>Dothraki unique Medieval era unit that replaces the Knight.  Adjacent enemy units receive -5 [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCREAMER_NAME" Language="en_US">
+			<Text>Screamer</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCREAMER_DESCRIPTION" Language="en_US">
+			<Text>Dothraki unique Classic era ranged unit with 4 [ICON_Movement] Movement with a [ICON_Range] Range of 1, can move after attacking.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_WILDLING_NAME" Language="en_US">
+			<Text>Wildling</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_WILDLING_DESCRIPTION" Language="en_US">
+			<Text>Wildling</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_WILDLING_ADJECTIVE" Language="en_US">
+			<Text>Wildling</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_MANCE_NAME" Language="en_US">
+			<Text>Mance Rayder</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WILDLING_NAME" Language="en_US">
+			<Text>Freefolk</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WILDLING_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Movement] Movement for the first 10 turns after declaring a Surprise War on a Major Civilization. Freefolk Camps trigger a Culture Bomb.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KING_BEYOND_NAME" Language="en_US">
+			<Text>King Beyond The Wall</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KING_BEYOND_DESCRIPTION" Language="en_US">
+			<Text>Cities do not incur war weariness, +100% increased [icon_production] Production towards districts if the city contains a Free Folk Camp adjacent to the City Center.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FREEFOLK_NAME" Language="en_US">
+			<Text>Freefolk</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FREEFOLK_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Movement] Movement for the first 10 turns after declaring a Surprise War on a Major Civilization. Freefolk Camps trigger a Culture Bomb.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_WILDLING_CAMP_NAME" Language="en_US">
+			<Text>Freefolk Camp</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_WILDLING_CAMP_DESCRIPTION" Language="en_US">
+			<Text>Unlock the builder ability to build the Freefolk Camp improvement, unique to the Wildlings[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture, +2 [ICON_Food] Food, +1 [ICON_Production] Production, and +1 [ICON_Housing] Housing. Can only be built in Tundra and Snow tiles.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_BOLTON_NAME" Language="en_US">
+			<Text>House Bolton</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_BOLTON_DESCRIPTION" Language="en_US">
+			<Text>House Bolton</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_BOLTON_ADJECTIVE" Language="en_US">
+			<Text>Bolton</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BOLTON_NAME" Language="en_US">
+			<Text>Our Blades are Sharp</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BOLTON_DESCRIPTION" Language="en_US">
+			<Text>Culture Bomb adjacent tiles when completing a Holy Site or Encampment and occupied cities have no penalties to their yields.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_OUR_BLADES_ARE_SHARP_NAME" Language="en_US">
+			<Text>Our Blades are Sharp</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_OUR_BLADES_ARE_SHARP_DESCRIPTION" Language="en_US">
+			<Text>Culture Bomb adjacent tiles when completing a Holy Site or Encampment and occupied cities have no penalties to their yields.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FLAYER_NAME" Language="en_US">
+			<Text>Flayer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FLAYER_DESCRIPTION" Language="en_US">
+			<Text>House Bolton unique ancient era recon unit that replaces the scout. Adjacent enemy units receive -5 [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_ROOSE_NAME" Language="en_US">
+			<Text>Roose Bolton</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LEECH_LORD_NAME" Language="en_US">
+			<Text>Leech Lord</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LEECH_LORD_DESCRIPTION" Language="en_US">
+			<Text>All units heal up to 50 hit points when they eliminate a unit and all units also heal completely when a city is captured.</Text>
+		</Row>
+
+		<!-- City States -->
+
+		<!-- House Dayne -->
+		<Row Tag="LOC_CIVILIZATION_DAYNE_NAME" Language="en_US">
+			<Text>House Dayne</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DAYNE_DESCRIPTION" Language="en_US">
+			<Text>House Dayne city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DAYNE_ADJECTIVE" Language="en_US">
+			<Text>Dayne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAYNE_1" Language="en_US">
+			<Text>Starfall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAYNE" Language="en_US">
+			<Text>Starfall</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_DAYNE_NAME" Language="en_US">
+			<Text>Dayne Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_DAYNE_DESCRIPTION" Language="en_US">
+			<Text>Your Civilization gains +2% [ICON_Culture] Culture for each Great Person it has ever earned.</Text>
+		</Row>
+
+		<!-- House Hoare -->
+		<Row Tag="LOC_CIVILIZATION_HARRENHAL_NAME" Language="en_US">
+			<Text>House Hoare</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HARRENHAL_DESCRIPTION" Language="en_US">
+			<Text>House Hoare city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HARRENHAL_ADJECTIVE" Language="en_US">
+			<Text>Hoare</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARRENHAL_1" Language="en_US">
+			<Text>Harrenhal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARRENHAL" Language="en_US">
+			<Text>Harrenhal</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_HARRENHAL_NAME" Language="en_US">
+			<Text>Hoare Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HARRENHAL_DESCRIPTION" Language="en_US">
+			<Text>Your Bonus resources behave like Luxury resources, providing 1 [ICON_Amenities] Amenity per type.</Text>
+		</Row>
+
+		<!-- House Royce -->
+		<Row Tag="LOC_CIVILIZATION_ROYCE_NAME" Language="en_US">
+			<Text>House Royce</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYCE_DESCRIPTION" Language="en_US">
+			<Text>House Royce city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYCE_ADJECTIVE" Language="en_US">
+			<Text>Royce</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROYCE_1" Language="en_US">
+			<Text>Runestone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROYCE" Language="en_US">
+			<Text>Runestone</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_ROYCE_NAME" Language="en_US">
+			<Text>Royce Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_ROYCE_DESCRIPTION" Language="en_US">
+			<Text>Your cities earn +15% [ICON_Production] Production whenever you are not at war with any civilization.</Text>
+		</Row>
+
+		<!-- House Frey -->
+		<Row Tag="LOC_CIVILIZATION_THE_TWINS_NAME" Language="en_US">
+			<Text>House Frey</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_TWINS_DESCRIPTION" Language="en_US">
+			<Text>House Frey city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_TWINS_ADJECTIVE" Language="en_US">
+			<Text>Frey</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_TWINS_1" Language="en_US">
+			<Text>The Twins</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_TWINS" Language="en_US">
+			<Text>The Twins</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_THE_TWINS_NAME" Language="en_US">
+			<Text>Frey Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_THE_TWINS_DESCRIPTION" Language="en_US">
+			<Text>Your Encampment districts provide +1 [ICON_TradeRoute] Trade Route capacity each.</Text>
+		</Row>
+
+		<!-- House Mormont -->
+		<Row Tag="LOC_CIVILIZATION_MORMONT_NAME" Language="en_US">
+			<Text>House Mormont</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MORMONT_DESCRIPTION" Language="en_US">
+			<Text>House Mormont city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MORMONT_ADJECTIVE" Language="en_US">
+			<Text>Mormont</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORMONT_1" Language="en_US">
+			<Text>Mormont Keep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORMONT" Language="en_US">
+			<Text>Mormont Keep</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_MORMONT_NAME" Language="en_US">
+			<Text>Mormont Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_MORMONT_DESCRIPTION" Language="en_US">
+			<Text>City growth rate is 15% higher in cities with an Encampment district.</Text>
+		</Row>
+
+		<!-- Nightswatch -->
+		<Row Tag="LOC_CIVILIZATION_NIGHTSWATCH_NAME" Language="en_US">
+			<Text>The Nightswatch</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NIGHTSWATCH_DESCRIPTION" Language="en_US">
+			<Text>The Nightswatch city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NIGHTSWATCH_ADJECTIVE" Language="en_US">
+			<Text>Nightswatch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NIGHTSWATCH_1" Language="en_US">
+			<Text>Castle Black</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NIGHTSWATCH" Language="en_US">
+			<Text>Castle Black</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_NIGHTSWATCH_NAME" Language="en_US">
+			<Text>Nightswatch Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_NIGHTSWATCH_DESCRIPTION" Language="en_US">
+			<Text>+2 Movement if starting turn in friendly territory.</Text>
+		</Row>
+
+		<!-- House Bolton -->
+		<Row Tag="LOC_CIVILIZATION_MINOR_BOLTON_NAME" Language="en_US">
+			<Text>House Bolton</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MINOR_BOLTON_DESCRIPTION" Language="en_US">
+			<Text>House Bolton city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MINOR_BOLTON_ADJECTIVE" Language="en_US">
+			<Text>Bolton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BOLTON_1" Language="en_US">
+			<Text>The Dreadfort</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BOLTON" Language="en_US">
+			<Text>The Dreadfort</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_BOLTON_NAME" Language="en_US">
+			<Text>Bolton Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_BOLTON_DESCRIPTION" Language="en_US">
+			<Text>All units heal up to 50 hit points when they eliminate a unit.</Text>
+		</Row>
+
+		<!-- House Hightower -->
+		<Row Tag="LOC_CIVILIZATION_HIGHTOWER_NAME" Language="en_US">
+			<Text>House Hightower</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HIGHTOWER_DESCRIPTION" Language="en_US">
+			<Text>House Hightower city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HIGHTOWER_ADJECTIVE" Language="en_US">
+			<Text>Hightower</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HIGHTOWER_1" Language="en_US">
+			<Text>Old Town</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HIGHTOWER" Language="en_US">
+			<Text>Old Town</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_HIGHTOWER_NAME" Language="en_US">
+			<Text>Hightower Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HIGHTOWER_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_GreatScientist] Great Scientist points per turn.</Text>
+		</Row>
+
+		<!-- House Reyne -->
+		<Row Tag="LOC_CIVILIZATION_CASTAMERE_NAME" Language="en_US">
+			<Text>House Reyne</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CASTAMERE_DESCRIPTION" Language="en_US">
+			<Text>House Reyne city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CASTAMERE_ADJECTIVE" Language="en_US">
+			<Text>Reyne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTAMERE_1" Language="en_US">
+			<Text>Castamere</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTAMERE" Language="en_US">
+			<Text>Castamere</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_CASTAMERE_NAME" Language="en_US">
+			<Text>Reyne Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_CASTAMERE_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide [ICON_Gold] Gold equal to 50% of the combat strength of the defeated unit.</Text>
+		</Row>
+
+		<!-- House Redwyne -->
+		<Row Tag="LOC_CIVILIZATION_ARBOR_NAME" Language="en_US">
+			<Text>House Redwyne</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ARBOR_DESCRIPTION" Language="en_US">
+			<Text>House Redwyne city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ARBOR_ADJECTIVE" Language="en_US">
+			<Text>Redwyne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARBOR_1" Language="en_US">
+			<Text>The Arbor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARBOR" Language="en_US">
+			<Text>The Arbor</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_ARBOR_NAME" Language="en_US">
+			<Text>Redwyne Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_ARBOR_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to foreign cities earn +1 [ICON_Gold] Gold for each Luxury resource at the destination.</Text>
+		</Row>
+
+		<!-- Braavos -->
+		<Row Tag="LOC_CIVILIZATION_BRAAVOS_NAME" Language="en_US">
+			<Text>Braavos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_BRAAVOS_DESCRIPTION" Language="en_US">
+			<Text>Braavos city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_BRAAVOS_ADJECTIVE" Language="en_US">
+			<Text>Braavosi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRAAVOS_1" Language="en_US">
+			<Text>Braavos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRAAVOS" Language="en_US">
+			<Text>Braavos</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_BRAAVOS_NAME" Language="en_US">
+			<Text>Braavos Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_BRAAVOS_DESCRIPTION" Language="en_US">
+			<Text>Your cities can now make Faceless Men units.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_UNIT_FACELESS_MEN_NAME" Language="en_US">
+			<Text>Faceless Men</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_FACELESS_MEN_DESCRIPTION" Language="en_US">
+			<Text>Braavosi unique Ancient era melee unit. Can enter foreign territory regardless of open borders.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_UNIT_FACELESS_MEN_II_NAME" Language="en_US">
+			<Text>Faceless Men II</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_FACELESS_MEN_II_DESCRIPTION" Language="en_US">
+			<Text>Braavosi unique Medieval era melee unit. Can enter foreign territory regardless of open borders.</Text>
+		</Row>
+		<!-- Lorath -->
+		<Row Tag="LOC_CIVILIZATION_LORATH_NAME" Language="en_US">
+			<Text>Lorath</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LORATH_DESCRIPTION" Language="en_US">
+			<Text>Lorath city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LORATH_ADJECTIVE" Language="en_US">
+			<Text>Lorathi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LORATH_1" Language="en_US">
+			<Text>Lorath</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LORATH" Language="en_US">
+			<Text>Lorath</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_LORATH_NAME" Language="en_US">
+			<Text>Lorath Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_LORATH_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_PRODUCTION] Production for quarries.</Text>
+		</Row>
+		<!-- Lys -->
+		<Row Tag="LOC_CIVILIZATION_LYS_NAME" Language="en_US">
+			<Text>Lys</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LYS_DESCRIPTION" Language="en_US">
+			<Text>Lys city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LYS_ADJECTIVE" Language="en_US">
+			<Text>Lysene</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LYS_1" Language="en_US">
+			<Text>Lys</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LYS" Language="en_US">
+			<Text>Lys</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_LYS_NAME" Language="en_US">
+			<Text>Lys Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_LYS_DESCRIPTION" Language="en_US">
+			<Text>All tiles in your territory get +5 Appeal.</Text>
+		</Row>
+		<!-- Myr -->
+		<Row Tag="LOC_CIVILIZATION_MYR_NAME" Language="en_US">
+			<Text>Myr</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MYR_DESCRIPTION" Language="en_US">
+			<Text>Myr city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MYR_ADJECTIVE" Language="en_US">
+			<Text>Myrmen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYR_1" Language="en_US">
+			<Text>Myr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYR" Language="en_US">
+			<Text>Myr</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_MYR_NAME" Language="en_US">
+			<Text>Myr Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_MYR_DESCRIPTION" Language="en_US">
+			<Text>Shallow water tiles you own provide +2 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<!-- Norvos -->
+		<Row Tag="LOC_CIVILIZATION_NORVOS_NAME" Language="en_US">
+			<Text>Norvos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NORVOS_DESCRIPTION" Language="en_US">
+			<Text>Norvos city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NORVOS_ADJECTIVE" Language="en_US">
+			<Text>Norvoshi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORVOS_1" Language="en_US">
+			<Text>Norvos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORVOS" Language="en_US">
+			<Text>Norvos</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_NORVOS_NAME" Language="en_US">
+			<Text>Norvos Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_NORVOS_DESCRIPTION" Language="en_US">
+			<Text>Your Trader units are immune to being plundered on land tiles.</Text>
+		</Row>
+		<!-- Unit Ability Modifiers -->
+		<Row Tag="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS_DESCRIPTION" Language="en_US">
+			<Text>While on a land tile, its [ICON_TradeRoute] Trade Route cannot be plundered by enemy units. Obtained when Suzerain of Norvos city-state.</Text>
+		</Row>
+		<!-- Pentos -->
+		<Row Tag="LOC_CIVILIZATION_PENTOS_NAME" Language="en_US">
+			<Text>Pentos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PENTOS_DESCRIPTION" Language="en_US">
+			<Text>Pentos city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PENTOS_ADJECTIVE" Language="en_US">
+			<Text>Pentoshi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PENTOS_1" Language="en_US">
+			<Text>Pentos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PENTOS" Language="en_US">
+			<Text>Pentos</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_PENTOS_NAME" Language="en_US">
+			<Text>Pentos Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_PENTOS_DESCRIPTION" Language="en_US">
+			<Text>Your Commercial Hub districts each provide the capacity for 2 [ICON_TradeRoute] Trade Routes instead of 1.</Text>
+		</Row>
+		<!-- Qarth -->
+		<Row Tag="LOC_CIVILIZATION_QARTH_NAME" Language="en_US">
+			<Text>Qarth</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_QARTH_DESCRIPTION" Language="en_US">
+			<Text>Qarth city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_QARTH_ADJECTIVE" Language="en_US">
+			<Text>Qartheen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QARTH_1" Language="en_US">
+			<Text>Qarth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QARTH" Language="en_US">
+			<Text>Qarth</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_QARTH_NAME" Language="en_US">
+			<Text>Qarth Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_QARTH_DESCRIPTION" Language="en_US">
+			<Text>Your cities can now make Warlock units.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_UNIT_WARLOCK_NAME" Language="en_US">
+			<Text>Warlock</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_WARLOCK_DESCRIPTION" Language="en_US">
+			<Text>Qartheen unique Ancient era support unit. Adds +1 [ICON_Range] Range to adjacent siege and ranged units.</Text>
+		</Row>
+		<!-- Qohor -->
+		<Row Tag="LOC_CIVILIZATION_QOHOR_NAME" Language="en_US">
+			<Text>Qohor</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_QOHOR_DESCRIPTION" Language="en_US">
+			<Text>Qohor city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_QOHOR_ADJECTIVE" Language="en_US">
+			<Text>Qohorik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QOHOR_1" Language="en_US">
+			<Text>Qohor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QOHOR" Language="en_US">
+			<Text>Qohor</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_QOHOR_NAME" Language="en_US">
+			<Text>Qohor Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_QOHOR_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradingPost] Trading Posts in foreign cities provide +1 [ICON_FAITH] Faith to your [ICON_TradeRoute] Trade Routes passing through or going to the city.</Text>
+		</Row>
+		<!-- Tyrosh -->
+		<Row Tag="LOC_CIVILIZATION_TYROSH_NAME" Language="en_US">
+			<Text>Tyrosh</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TYROSH_DESCRIPTION" Language="en_US">
+			<Text>Tyrosh city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TYROSH_ADJECTIVE" Language="en_US">
+			<Text>Tyroshi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TYROSH_1" Language="en_US">
+			<Text>Tyrosh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TYROSH" Language="en_US">
+			<Text>Tyrosh</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_TYROSH_NAME" Language="en_US">
+			<Text>Tyrosh Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_TYROSH_DESCRIPTION" Language="en_US">
+			<Text>Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking.</Text>
+		</Row>
+		<!-- Volantis -->
+		<Row Tag="LOC_CIVILIZATION_VOLANTIS_NAME" Language="en_US">
+			<Text>Volantis</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_VOLANTIS_DESCRIPTION" Language="en_US">
+			<Text>Volantis city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_VOLANTIS_ADJECTIVE" Language="en_US">
+			<Text>Volantene</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOLANTIS_1" Language="en_US">
+			<Text>Volantis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOLANTIS" Language="en_US">
+			<Text>Volantis</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TRAIT_VOLANTIS_NAME" Language="en_US">
+			<Text>Volantis Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_VOLANTIS_DESCRIPTION" Language="en_US">
+			<Text>Builders receive two additional charges</Text>
+		</Row>
+
+		<!-- Rykker -->
+		<Row Tag="LOC_CIVILIZATION_RYKKER_NAME" Language="en_US">
+			<Text>House Rykker</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_RYKKER_DESCRIPTION" Language="en_US">
+			<Text>House Rykker city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_RYKKER_ADJECTIVE" Language="en_US">
+			<Text>Rykker</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RYKKER_1" Language="en_US">
+			<Text>Duskendale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RYKKER" Language="en_US">
+			<Text>Duskendale</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_RYKKER_NAME" Language="en_US">
+			<Text>House Rykker Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_RYKKER_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradingPost] Trading Posts in foreign cities provide +1 [ICON_GOLD] Gold to your [ICON_TradeRoute] Trade Routes passing through or going to the city.</Text>
+		</Row>
+
+		<!-- Glover -->
+		<Row Tag="LOC_CIVILIZATION_GLOVER_NAME" Language="en_US">
+			<Text>House Glover</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_GLOVER_DESCRIPTION" Language="en_US">
+			<Text>House Glover city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_GLOVER_ADJECTIVE" Language="en_US">
+			<Text>Glover</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GLOVER_1" Language="en_US">
+			<Text>Deepwood Motte</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GLOVER" Language="en_US">
+			<Text>Deepwood Motte</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_GLOVER_NAME" Language="en_US">
+			<Text>House Glover Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_GLOVER_DESCRIPTION" Language="en_US">
+			<Text>+100% [ICON_PRODUCTION] Production toward defensive buildings.</Text>
+		</Row>
+
+		<!-- Karstark -->
+		<Row Tag="LOC_CIVILIZATION_KARSTARK_NAME" Language="en_US">
+			<Text>House Karstark</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_KARSTARK_DESCRIPTION" Language="en_US">
+			<Text>House Karstark city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_KARSTARK_ADJECTIVE" Language="en_US">
+			<Text>Karstarki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARSTARK_1" Language="en_US">
+			<Text>Karhold</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARSTARK" Language="en_US">
+			<Text>Karhold</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_KARSTARK_NAME" Language="en_US">
+			<Text>House Karstark Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_KARSTARK_DESCRIPTION" Language="en_US">
+			<Text>Allows spending [ICON_FAITH] Faith to purchase melee units.</Text>
+		</Row>
+
+		<!-- Selmy -->
+		<Row Tag="LOC_CIVILIZATION_SELMY_NAME" Language="en_US">
+			<Text>House Selmy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SELMY_DESCRIPTION" Language="en_US">
+			<Text>House Selmy city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SELMY_ADJECTIVE" Language="en_US">
+			<Text>Selmy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SELMY_1" Language="en_US">
+			<Text>Harvest Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SELMY" Language="en_US">
+			<Text>Harvest Hall</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_SELMY_NAME" Language="en_US">
+			<Text>House Selmy Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_SELMY_DESCRIPTION" Language="en_US">
+			<Text>Farms provide +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+
+		<!-- Clegane -->
+		<Row Tag="LOC_CIVILIZATION_CLEGANE_NAME" Language="en_US">
+			<Text>House Clegane</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CLEGANE_DESCRIPTION" Language="en_US">
+			<Text>House Clegane city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CLEGANE_ADJECTIVE" Language="en_US">
+			<Text>Clegane</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLEGANE_1" Language="en_US">
+			<Text>Clegane Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLEGANE" Language="en_US">
+			<Text>Clegane Hall</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_CLEGANE_NAME" Language="en_US">
+			<Text>House Clegane Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_CLEGANE_DESCRIPTION" Language="en_US">
+			<Text>Yields gained from pillaging are doubled for pillaging improvements and districts.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_UNIT_CLEGANE_CORPS_NAME" Language="en_US">
+			<Text>Clegane Corps</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_CLEGANE_CORPS_DESCRIPTION" Language="en_US">
+			<Text>Clegane unique Medieval era melee unit.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_CLEGANE_CORPS_II_NAME" Language="en_US">
+			<Text>Clegane Corps II</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_CLEGANE_CORPS_II_DESCRIPTION" Language="en_US">
+			<Text>Clegane unique late Medieval era melee unit.</Text>
+		</Row>
+		<!-- Tarth -->
+		<Row Tag="LOC_CIVILIZATION_TARTH_NAME" Language="en_US">
+			<Text>House Tarth</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TARTH_DESCRIPTION" Language="en_US">
+			<Text>House Tarth city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TARTH_ADJECTIVE" Language="en_US">
+			<Text>Tarth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARTH_1" Language="en_US">
+			<Text>Evenfall Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARTH" Language="en_US">
+			<Text>Evenfall Hall</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_TARTH_NAME" Language="en_US">
+			<Text>House Tarth Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_TARTH_DESCRIPTION" Language="en_US">
+			<Text>Mines over luxury resources provide +2 [ICON_GOLD] Gold.</Text>
+		</Row>
+
+		<!-- Wyl -->
+		<Row Tag="LOC_CIVILIZATION_WYL_NAME" Language="en_US">
+			<Text>House Wyl</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WYL_DESCRIPTION" Language="en_US">
+			<Text>House Wyl city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WYL_ADJECTIVE" Language="en_US">
+			<Text>Wyl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYL_1" Language="en_US">
+			<Text>Wyl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYL" Language="en_US">
+			<Text>Wyl</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_WYL_NAME" Language="en_US">
+			<Text>House Wyl Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_WYL_DESCRIPTION" Language="en_US">
+			<Text>Units gain +10 [ICON_Strength] Combat Strength on Desert tiles.</Text>
+		</Row>
+
+		<!-- Unit Ability Modifiers -->
+		<Row Tag="LOC_ABILITY_WYL_BONUS_ON_DESERT_DESCRIPTION" Language="en-US">
+			<Text>+10 Combat [ICON_Strength] on Desert tiles.</Text>
+		</Row>
+
+		<!-- Tarly -->
+		<Row Tag="LOC_CIVILIZATION_TARLY_NAME" Language="en_US">
+			<Text>House Tarly</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TARLY_DESCRIPTION" Language="en_US">
+			<Text>House Tarly city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TARLY_ADJECTIVE" Language="en_US">
+			<Text>Tarly</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARLY_1" Language="en_US">
+			<Text>Horn Hill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARLY" Language="en_US">
+			<Text>Horn Hill</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_TARLY_NAME" Language="en_US">
+			<Text>House Tarly Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_TARLY_DESCRIPTION" Language="en_US">
+			<Text>Camps provide +2 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+
+		<!-- Coldwater -->
+		<Row Tag="LOC_CIVILIZATION_COLDWATER_NAME" Language="en_US">
+			<Text>House Coldwater</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_COLDWATER_DESCRIPTION" Language="en_US">
+			<Text>House Coldwater city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_COLDWATER_ADJECTIVE" Language="en_US">
+			<Text>Coldwater</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COLDWATER_1" Language="en_US">
+			<Text>Coldwater Burn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COLDWATER" Language="en_US">
+			<Text>Coldwater Burn</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_COLDWATER_NAME" Language="en_US">
+			<Text>House Coldwater Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_COLDWATER_DESCRIPTION" Language="en_US">
+			<Text>Spy operations take 50% less time.</Text>
+		</Row>
+
+		<!-- Massey -->
+		<Row Tag="LOC_CIVILIZATION_MASSEY_NAME" Language="en_US">
+			<Text>House Massey</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MASSEY_DESCRIPTION" Language="en_US">
+			<Text>House Massey city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MASSEY_ADJECTIVE" Language="en_US">
+			<Text>Massey</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MASSEY_1" Language="en_US">
+			<Text>Stonedance</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MASSEY" Language="en_US">
+			<Text>Stonedance</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_MASSEY_NAME" Language="en_US">
+			<Text>House Massey Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_MASSEY_DESCRIPTION" Language="en_US">
+			<Text>+2 Influence points per [ICON_Turn] Turn.</Text>
+		</Row>
+
+		<!-- Reed -->
+		<Row Tag="LOC_CIVILIZATION_REED_NAME" Language="en_US">
+			<Text>House Reed</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_REED_DESCRIPTION" Language="en_US">
+			<Text>House Reed city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_REED_ADJECTIVE" Language="en_US">
+			<Text>Reed</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_REED_1" Language="en_US">
+			<Text>Greywater Watch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_REED" Language="en_US">
+			<Text>Greywater Watch</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_REED_NAME" Language="en_US">
+			<Text>House Reed Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_REED_DESCRIPTION" Language="en_US">
+			<Text>Marsh tiles provide +2 [ICON_CULTURE] Culture.</Text>
+		</Row>
+
+		<!-- Umber -->
+		<Row Tag="LOC_CIVILIZATION_UMBER_NAME" Language="en_US">
+			<Text>House Umber</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UMBER_DESCRIPTION" Language="en_US">
+			<Text>House Umber city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UMBER_ADJECTIVE" Language="en_US">
+			<Text>Umber</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UMBER_1" Language="en_US">
+			<Text>Last Hearth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UMBER" Language="en_US">
+			<Text>Last Hearth</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_UMBER_NAME" Language="en_US">
+			<Text>House Umber Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_UMBER_DESCRIPTION" Language="en_US">
+			<Text>+25% Holy Site district adjacency bonuses.</Text>
+		</Row>
+
+		<!-- Saath -->
+		<Row Tag="LOC_CIVILIZATION_SARNOR_SAATH_NAME" Language="en_US">
+			<Text>Saath</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SARNOR_SAATH_DESCRIPTION" Language="en_US">
+			<Text>Saath city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SARNOR_SAATH_ADJECTIVE" Language="en_US">
+			<Text>Sarnori</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAATH_1" Language="en_US">
+			<Text>Saath</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAATH" Language="en_US">
+			<Text>Saath</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_SARNOR_SAATH_NAME" Language="en_US">
+			<Text>Saath Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_SARNOR_SAATH_DESCRIPTION" Language="en_US">
+			<Text>Cities with walls recieve +25 City [ICON_Strength] Defense Strength.</Text>
+		</Row>
+
+		<!-- Sallosh -->
+		<Row Tag="LOC_CIVILIZATION_SARNOR_SALLOSH_NAME" Language="en_US">
+			<Text>Sallosh</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SARNOR_SALLOSH_DESCRIPTION" Language="en_US">
+			<Text>Sallosh city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SARNOR_SALLOSH_ADJECTIVE" Language="en_US">
+			<Text>Sarnori</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SALLOSH_1" Language="en_US">
+			<Text>Sallosh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SALLOSH" Language="en_US">
+			<Text>Sallosh</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_SARNOR_SALLOSH_NAME" Language="en_US">
+			<Text>Sallosh Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_SARNOR_SALLOSH_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_SCIENCE] Science from each [ICON_GreatWork_Relic] Relic.</Text>
+		</Row>
+
+		<!-- Mardosh -->
+		<Row Tag="LOC_CIVILIZATION_SARNOR_MARDOSH_NAME" Language="en_US">
+			<Text>Mardosh</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SARNOR_MARDOSH_DESCRIPTION" Language="en_US">
+			<Text>Mardosh city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SARNOR_MARDOSH_ADJECTIVE" Language="en_US">
+			<Text>Sarnori</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MARDOSH_1" Language="en_US">
+			<Text>Mardosh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MARDOSH" Language="en_US">
+			<Text>Mardosh</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_SARNOR_MARDOSH_NAME" Language="en_US">
+			<Text>Mardosh Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_SARNOR_MARDOSH_DESCRIPTION" Language="en_US">
+			<Text>All units gain +50% combat experience.</Text>
+		</Row>
+
+		<!-- Old Ghis -->
+		<Row Tag="LOC_CIVILIZATION_OLD_GHIS_NAME" Language="en_US">
+			<Text>Old Ghis</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_OLD_GHIS_DESCRIPTION" Language="en_US">
+			<Text>Old Ghis city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_OLD_GHIS_ADJECTIVE" Language="en_US">
+			<Text>Ghiscari</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OLD_GHIS_1" Language="en_US">
+			<Text>Old Ghis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OLD_GHIS" Language="en_US">
+			<Text>Old Ghis</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_OLD_GHIS_NAME" Language="en_US">
+			<Text>Old Ghis Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_OLD_GHIS_DESCRIPTION" Language="en_US">
+			<Text>Your cities get +20% [ICON_Production] Production towards wonders.</Text>
+		</Row>
+
+		<!-- New Ghis -->
+		<Row Tag="LOC_CIVILIZATION_NEW_GHIS_NAME" Language="en_US">
+			<Text>New Ghis</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NEW_GHIS_DESCRIPTION" Language="en_US">
+			<Text>New Ghis city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NEW_GHIS_ADJECTIVE" Language="en_US">
+			<Text>Ghiscari</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEW_GHIS_1" Language="en_US">
+			<Text>New Ghis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEW_GHIS" Language="en_US">
+			<Text>New Ghis</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_NEW_GHIS_NAME" Language="en_US">
+			<Text>New Ghis Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_NEW_GHIS_DESCRIPTION" Language="en_US">
+			<Text>Your cities can now make Ghiscari Legion units.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_GHISCARI_LEGION_NAME" Language="en_US">
+			<Text>Ghiscari Legion</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_GHISCARI_LEGION_DESCRIPTION" Language="en_US">
+			<Text>Ghiscari unique Classic era anti-cavalry unit.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_GHISCARI_LEGION_II_NAME" Language="en_US">
+			<Text>Ghiscari Legion II</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_GHISCARI_LEGION_II_DESCRIPTION" Language="en_US">
+			<Text>Ghiscari unique Late Medieval era anti-cavalry unit.</Text>
+		</Row>
+
+		<!-- Faros -->
+		<Row Tag="LOC_CIVILIZATION_FAROS_NAME" Language="en_US">
+			<Text>Faros</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FAROS_DESCRIPTION" Language="en_US">
+			<Text>Faros city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FAROS_ADJECTIVE" Language="en_US">
+			<Text>Farosi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FAROS_1" Language="en_US">
+			<Text>Faros</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FAROS" Language="en_US">
+			<Text>Faros</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_FAROS_NAME" Language="en_US">
+			<Text>Faros Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_FAROS_DESCRIPTION" Language="en_US">
+			<Text>Quarries provide +2 [ICON_FAITH] Faith.</Text>
+		</Row>
+
+		<!-- Ibben -->
+		<Row Tag="LOC_CIVILIZATION_IBBEN_NAME" Language="en_US">
+			<Text>Ibben</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IBBEN_DESCRIPTION" Language="en_US">
+			<Text>Ibben city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IBBEN_ADJECTIVE" Language="en_US">
+			<Text>Ibbenese</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IBBEN_1" Language="en_US">
+			<Text>Ibben</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IBBEN" Language="en_US">
+			<Text>Ibben</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_IBBEN_NAME" Language="en_US">
+			<Text>Ibben Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_IBBEN_DESCRIPTION" Language="en_US">
+			<Text>Fishing Boat improvements provide +2 [ICON_PRODUCTION] Production and Fishing Boats over Whales provide an additonal +2 [ICON_GOLD] Gold.</Text>
+		</Row>
+
+		<!-- Lhazar -->
+		<Row Tag="LOC_CIVILIZATION_LHAZAR_NAME" Language="en_US">
+			<Text>Lhazar</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LHAZAR_DESCRIPTION" Language="en_US">
+			<Text>Lhazar city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LHAZAR_ADJECTIVE" Language="en_US">
+			<Text>Lhazareen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LHAZAR_1" Language="en_US">
+			<Text>Lhazar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LHAZAR" Language="en_US">
+			<Text>Lhazar</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_LHAZAR_NAME" Language="en_US">
+			<Text>Lhazar Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_LHAZAR_DESCRIPTION" Language="en_US">
+			<Text>Sheep tiles provide +2 [ICON_FAITH] Faith.</Text>
+		</Row>
+
+		<!-- Mantarys -->
+		<Row Tag="LOC_CIVILIZATION_MANTARYS_NAME" Language="en_US">
+			<Text>Mantarys</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MANTARYS_DESCRIPTION" Language="en_US">
+			<Text>Mantarys city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MANTARYS_ADJECTIVE" Language="en_US">
+			<Text>Mantyreen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MANTARYS_1" Language="en_US">
+			<Text>Mantarys</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MANTARYS" Language="en_US">
+			<Text>Mantarys</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_MANTARYS_NAME" Language="en_US">
+			<Text>Mantarys Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_MANTARYS_DESCRIPTION" Language="en_US">
+			<Text>Provides an additonal +2 [ICON_Amenities] Amenities in cities with an Entertainment Complex district. </Text>
+		</Row>
+
+		<!-- Tolos -->
+		<Row Tag="LOC_CIVILIZATION_TOLOS_NAME" Language="en_US">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TOLOS_DESCRIPTION" Language="en_US">
+			<Text>Tolos city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TOLOS_ADJECTIVE" Language="en_US">
+			<Text>Tolosi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOLOS_1" Language="en_US">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOLOS" Language="en_US">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_TOLOS_NAME" Language="en_US">
+			<Text>Tolos Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_TOLOS_DESCRIPTION" Language="en_US">
+			<Text>Your cities can now make Tolos Slinger units.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_TOLOS_SLINGER_NAME" Language="en_US">
+			<Text>Tolos Slinger</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_TOLOS_SLINGER_DESCRIPTION" Language="en_US">
+			<Text>Tolos unique Ancient era ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_TOLOS_SLINGER_II_NAME" Language="en_US">
+			<Text>Tolos Slinger II</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_UNIT_TOLOS_SLINGER_II_DESCRIPTION" Language="en_US">
+			<Text>Tolos unique Late Medieval era ranged unit.</Text>
+		</Row>
+		
+		<!-- White Walkers-->
+		<Row Tag="LOC_CIVILIZATION_WHITEWALKER_NAME" Language="en_US">
+			<Text>Other</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WHITEWALKER_DESCRIPTION" Language="en_US">
+			<Text>The Others</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WHITEWALKER_ADJECTIVE" Language="en_US">
+			<Text>Other</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_NIGHTKING_NAME" Language="en_US">
+			<Text>Night King</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WHITEWALKER_NAME" Language="en_US">
+			<Text>White Walkers</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WHITEWALKER_DESCRIPTION" Language="en_US">
+			<Text>Cities are unaffected by loyalty or amenities and do not grow without completing a unique and costly project; Conversion Ceremony. Unable to generate influence, favor, or engage in most forms of diplomacy. Unable to build most standard buildings, districts, units, or wonders. Unable to recruit great people or governors. Units are immune to Blizzards. Units of civilizations who are at war with White Walkers take 100% extra damage from Blizzards while in White Walker territory.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_NECROMANCER_NAME" Language="en_US">
+			<Text>Necromancer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_NECROMANCER_DESCRIPTION" Language="en_US">
+			<Text>White Walker, White Walker Thrower, and Mounted White Walker units that defeat enemy units spawn Wight units, White Walker units that defeat enemy cavalry units replace the White Walker unit with a mounted White Walker Unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_WIGHT_NAME" Language="en_US">
+			<Text>Wight</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_WIGHT_DESCRIPTION" Language="en_US">
+			<Text>Other unique Ancient era undead melee unit that cannot be built and is acquired by defeating units. Slow moving and unable to heal from fortifying, but does not suffer combat penalties when damaged and attacks do full damage to city walls.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_WHITE_WALKER_NAME" Language="en_US">
+			<Text>White Walker</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_WHITE_WALKER_DESCRIPTION" Language="en_US">
+			<Text>Other unique Ancient era melee unit that replaces the Warrior and is considerably stronger. Reduces city's [ICON_Citizen] Population by 1 when completed.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_WHITE_WALKER_THROWER_NAME" Language="en_US">
+			<Text>White Walker Thrower</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_WHITE_WALKER_THROWER_DESCRIPTION" Language="en_US">
+			<Text>Other unique Ancient era ranged unit that replaces the Slinger and is considerably stronger. Reduces city's [ICON_Citizen] Population by 1 when completed.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MOUNTED_WW_NAME" Language="en_US">
+			<Text>Mounted White Walker</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MOUNTED_WW_DESCRIPTION" Language="en_US">
+			<Text>Other unique classic era light cavalry unit that replaces the Horseman and is considerably stronger. Reduces city's [ICON_Citizen] Population by 2 when completed.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

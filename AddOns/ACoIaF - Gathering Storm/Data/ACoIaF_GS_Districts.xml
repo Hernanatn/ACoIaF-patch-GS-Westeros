@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+	</Types>
+	<DistrictReplaces>
+	</DistrictReplaces>
+	<MutuallyExclusiveDistricts>
+	</MutuallyExclusiveDistricts>
+	<Districts>
+		<Update>
+		  <Where DistrictType="DISTRICT_DAM" />
+			<Set>
+				<PrereqTech>TECH_MACHINERY</PrereqTech>
+			</Set>
+		</Update>
+	</Districts>
+	<District_Adjacencies>
+	</District_Adjacencies>
+	
+	<District_TradeRouteYields>
+	</District_TradeRouteYields>
+
+	<Adjacency_YieldChanges>
+	
+	</Adjacency_YieldChanges>
+	
+	<Modifiers>
+	</Modifiers>
+	
+	<GameModifiers>
+	</GameModifiers>
+	
+	<ModifierArguments>
+	</ModifierArguments>
+	
+	<DistrictModifiers>
+	</DistrictModifiers>
+	
+	<RequirementSets>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+	
+	<Requirements>
+	</Requirements>
+	
+	<RequirementArguments>
+	</RequirementArguments>
+</GameInfo>

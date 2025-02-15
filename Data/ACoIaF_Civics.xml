@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="CIVIC_MONARCHY" Kind="KIND_CIVIC"/>
+		<Row Type="CIVIC_PROGRESS" Kind="KIND_CIVIC"/>
+	</Types>
+	<Civics>
+		<Row CivicType="CIVIC_MONARCHY" Name="LOC_CIVIC_MONARCHY_NAME" Cost="430" AdvisorType="ADVISOR_GENERIC" EraType="ERA_MEDIEVAL" UITreeRow="1"/>
+		<Row CivicType="CIVIC_PROGRESS" Name="LOC_CIVIC_FUTURE_CIVIC_NAME" Description="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION" Cost="999" AdvisorType="ADVISOR_CULTURE" EraType="ERA_MEDIEVAL" UITreeRow="0" Repeatable="true"/>
+		
+		<Update>
+		  <Where CivicType="CIVIC_MILITARY_TRAINING" />
+		  <Set Description="LOC_CIVIC_ACOIAF_MILITARY_TRANING_DESCRIPTION" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_DRAMA_POETRY" />
+		  <Set Description="LOC_CIVIC_ACOIAF_DRAMA_POETRY_DESCRIPTION" />
+		</Update>
+		
+		<Update>
+		  <Where CivicType="CIVIC_NATIONALISM" />
+		  <Set EraType="ERA_MEDIEVAL" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_NATIONALISM" />
+		  <Set UITreeRow="-3" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_NATIONALISM" />
+		  <Set Cost="400" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_NATIONALISM" />
+		  <Set Description="LOC_CIVIC_ACOIAF_NATIONALISM_DESCRIPTION" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_MOBILIZATION" />
+		  <Set EraType="ERA_MEDIEVAL" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_MOBILIZATION" />
+		  <Set UITreeRow="-3" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_MOBILIZATION" />
+		  <Set Cost="430" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_DIPLOMATIC_SERVICE" />
+		  <Set EraType="ERA_MEDIEVAL" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_DIPLOMATIC_SERVICE" />
+		  <Set UITreeRow="1" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_DIVINE_RIGHT" />
+		  <Set UITreeRow="3" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_DIVINE_RIGHT" />
+		  <Set Cost="385" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_MERCENARIES" />
+		  <Set Cost="385" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_NAVAL_TRADITION" />
+		  <Set Cost="275" />
+		</Update>
+		<Update>
+		  <Where CivicType="CIVIC_DIPLOMATIC_SERVICE" />
+		  <Set Cost="400" />
+		</Update>
+	</Civics>
+	<CivicPrereqs>
+	
+		<Row Civic="CIVIC_NATIONALISM" PrereqCivic="CIVIC_MERCENARIES"/>
+		<Row Civic="CIVIC_NATIONALISM" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row Civic="CIVIC_MOBILIZATION" PrereqCivic="CIVIC_NATIONALISM"/>
+		<Row Civic="CIVIC_PROGRESS" PrereqCivic="CIVIC_MOBILIZATION"/>
+		<Row Civic="CIVIC_PROGRESS" PrereqCivic="CIVIC_MONARCHY"/>
+		<Row Civic="CIVIC_DIPLOMATIC_SERVICE" PrereqCivic="CIVIC_DIVINE_RIGHT"/>
+		<Row Civic="CIVIC_MONARCHY" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
+		
+	
+	</CivicPrereqs>
+	<Boosts>
+	</Boosts>
+</GameInfo>

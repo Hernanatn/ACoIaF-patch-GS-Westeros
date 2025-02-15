@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e769d0ed-e2de-43ec-b88c-085acfb4a89e" version="2">
+	<Properties>
+		<Name>ACoIaF GS</Name>
+		<Description>LOC_MOD_ACOIAF_GS_DESCRIPTION</Description>
+		<Teaser>LOC_MOD_ACOIAF_GS_TEASER</Teaser>
+		<Authors>LOC_MOD_ACOIAF_GS_AUTHORS</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<ActionCriteria>
+		<Criteria id="ACoIaF_Expansion2Only">
+			<RuleSetInUse>RULESET_ACOIAF_2</RuleSetInUse>
+		</Criteria>
+	</ActionCriteria>
+	<Dependencies>
+		<Mod id="11865ab3-24cd-4c0a-96cc-a8ae7df1b31b" title="ACoIaF" />
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE" />
+	</Dependencies>
+	<FrontEndActions>
+		<UpdateDatabase id="ACoIaF_XP2" >
+			<Properties>
+				<LoadOrder>400</LoadOrder>
+			</Properties>
+			<File>Data/ACoIaF_GS_Config.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="ACoIaF_XP2" >
+			<File>Data/ACoIaF_GS_ConfigText.xml</File>
+		</UpdateText>
+		<UpdateIcons id="ACoIaF_XP2" >
+			<Properties>
+				<LoadOrder>400</LoadOrder>
+			</Properties>
+			<File>Data/ACoIaF_GS_Icons.xml</File>
+		</UpdateIcons>
+	</FrontEndActions>
+	<InGameActions>
+		<ReplaceUIScript id="ACoIaF_XP2" criteria="ACoIaF_Expansion2Only">
+			<Properties>
+				<LuaContext>TopPanel</LuaContext>
+				<LuaReplace>UI/Replacements/TopPanel_Expansion2.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<ImportFiles id="ACoIaF_XP2" criteria="ACoIaF_Expansion2Only">
+			<File>UI/Replacements/TopPanel_Expansion2.lua</File>
+			<File>UI/Replacements/TopPanel.lua</File>
+			<File>UI/Replacements/TopPanel.xml</File>
+		</ImportFiles>
+		<UpdateDatabase id="ACoIaF_XP2" criteria="ACoIaF_Expansion2Only" >
+			<Properties>
+				<LoadOrder>400</LoadOrder>
+			</Properties>
+			<File>Data/ACoIaF_GS_RemoveData.xml</File>
+			<File>Data/ACoIaF_GS_Buildings.xml</File>
+			<File>Data/ACoIaF_GS_DiplomaticActions.xml</File>
+			<File>Data/ACoIaF_GS_Districts.xml</File>
+			<File>Data/ACoIaF_GS_Civics.xml</File>
+			<File>Data/ACoIaF_GS_Civilizations.xml</File>
+			<File>Data/ACoIaF_GS_Governors.xml</File>
+			<File>Data/ACoIaF_GS_Governments.xml</File>
+			<File>Data/ACoIaF_GS_Leaders.xml</File>
+			<File>Data/ACoIaF_GS_Policies.xml</File>
+			<File>Data/ACoIaF_GS_Improvements.xml</File>
+			<File>Data/ACoIaF_GS_NamedPlaces.xml</File>
+			<File>Data/ACoIaF_GS_Technologies.xml</File>
+			<File>Data/ACoIaF_GS_Units.xml</File>
+			<File>Data/WW_GS_GameplayData.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="ACoIaF_XP2" criteria="ACoIaF_Expansion2Only" >
+			<File>Data/ACoIaF_GS_ConfigText.xml</File>
+		</UpdateText>
+		<AddGameplayScripts id="ACoIaF_XP2" criteria="ACoIaF_Expansion2Only">
+		  <Properties>
+			<LoadOrder>400</LoadOrder>
+		  </Properties>
+		  <File>Scripts/ACoIaF_WhiteWalkers.lua</File>
+		</AddGameplayScripts>
+		<UpdateIcons id="ACoIaF_XP2" criteria="ACoIaF_Expansion2Only" >
+			<Properties>
+				<LoadOrder>400</LoadOrder>
+			</Properties>
+			<File>Data/ACoIaF_GS_Icons.xml</File>
+		</UpdateIcons>
+
+
+	</InGameActions>
+	<Files>
+		<File>UI/Replacements/TopPanel.lua</File>
+		<File>UI/Replacements/TopPanel.xml</File>
+		<File>UI/Replacements/TopPanel_Expansion2.lua</File>
+		<File>Maps/GSWesterosEssosHuge.Civ6Map</File>
+		<File>Maps/GSWesterosStandard.Civ6Map</File>
+		<File>Data/ACoIaF_GS_Buildings.xml</File>
+		<File>Data/ACoIaF_GS_DiplomaticActions.xml</File>
+		<File>Data/ACoIaF_GS_Districts.xml</File>
+		<File>Data/ACoIaF_GS_Config.xml</File>
+		<File>Data/ACoIaF_GS_Civics.xml</File>
+		<File>Data/ACoIaF_GS_Civilizations.xml</File>
+		<File>Data/ACoIaF_GS_Governors.xml</File>
+		<File>Data/ACoIaF_GS_Governments.xml</File>
+		<File>Data/ACoIaF_GS_Icons.xml</File>
+		<File>Data/ACoIaF_GS_Leaders.xml</File>
+		<File>Data/ACoIaF_GS_Policies.xml</File>
+		<File>Data/ACoIaF_GS_RemoveData.xml</File>
+		<File>Data/ACoIaF_GS_Improvements.xml</File>
+		<File>Data/ACoIaF_GS_NamedPlaces.xml</File>
+		<File>Data/ACoIaF_GS_ConfigText.xml</File>
+		<File>Data/ACoIaF_GS_Technologies.xml</File>
+		<File>Data/ACoIaF_GS_Units.xml</File>
+		<File>Data/WW_GS_GameplayData.xml</File>
+		<File>Scripts/ACoIaF_WhiteWalkers.lua</File>
+	</Files>
+</Mod>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+	</Types>
+	<DiplomaticActions>
+	</DiplomaticActions>
+	<DiplomaticTriggers>
+	</DiplomaticTriggers>
+	<DiplomaticStates>
+	</DiplomaticStates>
+	<DiplomaticStartStates>
+	</DiplomaticStartStates>
+	<DiplomaticStateActions>
+	</DiplomaticStateActions>
+	<DiplomaticStateTransitions>
+	</DiplomaticStateTransitions>
+	<DiplomaticTriggeredTransitions>
+	</DiplomaticTriggeredTransitions>
+	<DiplomaticTriggers_RequiredStates>
+	</DiplomaticTriggers_RequiredStates>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</GameInfo>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Modifiers>
+	<!-- CIVILIZATIONS -->
+		<!-- LANNISTER -->
+		<Row>
+			<ModifierId>TRAIT_EXTRA_RED_CLOAK_II</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
+		</Row>
+		
+	<!-- LEADERS -->
+		 <!-- EURON -->
+		<Row>
+			<ModifierId>TRAIT_EXTRA_IRON_FLEET_II</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_IRON_REAVER_II</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+	<!-- CIVILIZATIONS -->
+		<!-- LANNISTER -->
+		<Row>
+			<ModifierId>TRAIT_EXTRA_RED_CLOAK_II</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_RED_CLOAK_II</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_RED_CLOAK_II</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+	<!-- LEADERS -->
+		 <!-- EURON -->
+		<Row>
+			<ModifierId>TRAIT_EXTRA_IRON_FLEET_II</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_IRON_FLEET_II</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_IRON_FLEET_II</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_IRON_REAVER_II</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_IRON_REAVER_II</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_IRON_REAVER_II</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+	<!-- CIVILIZATIONS -->
+		<!-- LANNISTER -->
+		<Row TraitType="TRAIT_CIVILIZATION_HEAR_ME_ROAR" ModifierId="TRAIT_EXTRA_RED_CLOAK_II"/>
+	
+	<!-- LEADERS -->
+		 <!-- EURON -->
+		<Row TraitType="TRAIT_LEADER_THE_STORM" ModifierId="TRAIT_EXTRA_IRON_FLEET_II"/>
+		<Row TraitType="TRAIT_LEADER_THE_STORM" ModifierId="TRAIT_EXTRA_IRON_REAVER_II"/>
+	</TraitModifiers>
+</GameInfo>

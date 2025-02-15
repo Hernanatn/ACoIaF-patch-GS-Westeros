@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<!-- Buildings -->
+		<Delete Type="BUILDING_TSIKHE"/>
+		<Delete Type="BUILDING_ORDU"/>
+		<Delete Type="BUILDING_FERRIS_WHEEL"/>
+		<Delete Type="BUILDING_AQUARIUM"/>
+		<Delete Type="BUILDING_AQUATICS_CENTER"/>
+		<Delete Type="BUILDING_FOOD_MARKET"/>
+		<Delete Type="BUILDING_SHOPPING_MALL"/>
+
+		<!-- City-States -->
+		<Delete Type="CIVILIZATION_ANTIOCH"/>
+		<Delete Type="CIVILIZATION_BABYLON"/>
+
+		<!-- Civilizations -->
+		<Delete Type="CIVILIZATION_CREE"/>
+		<Delete Type="CIVILIZATION_GEORGIA"/>
+		<Delete Type="CIVILIZATION_KOREA"/>
+		<Delete Type="CIVILIZATION_MAPUCHE"/>
+		<Delete Type="CIVILIZATION_MONGOLIA"/>
+		<Delete Type="CIVILIZATION_NETHERLANDS"/>
+		<Delete Type="CIVILIZATION_SCOTLAND"/>
+		<Delete Type="CIVILIZATION_ZULU"/>
+
+		<!-- Districts -->
+		<Delete Type="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Delete Type="DISTRICT_WATER_STREET_CARNIVAL"/>
+		<Delete Type="DISTRICT_IKANDA"/>
+		<Delete Type="DISTRICT_SEOWON"/>
+
+		<!--Features-->
+		<Delete Type="FEATURE_DELICATE_ARCH"/>
+		<Delete Type="FEATURE_EYE_OF_THE_SAHARA"/>
+		<Delete Type="FEATURE_LAKE_RETBA"/>
+		<Delete Type="FEATURE_MATTERHORN"/>
+		<Delete Type="FEATURE_RORAIMA"/>
+		<Delete Type="FEATURE_UBSUNUR_HOLLOW"/>
+		<Delete Type="FEATURE_ZHANGYE_DANXIA"/>
+
+		<!-- Great Admirals -->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN"/>
+
+		<!-- Great Generals -->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_TIMUR"/>
+
+		<!-- Improvements-->
+		<Delete Type="IMPROVEMENT_CHEMAMULL"/>
+		<Delete Type="IMPROVEMENT_GOLF_COURSE"/>
+		<Delete Type="IMPROVEMENT_POLDER"/>
+		<Delete Type="IMPROVEMENT_MEKEWAP"/>
+
+		<!-- Policies-->
+		<Delete Type="POLICY_AFTER_ACTION_REPORTS" />
+		<Delete Type="POLICY_COMMUNICATIONS_OFFICE" />
+		<Delete Type="POLICY_SECOND_STRIKE_CAPABILITY" />
+		<Delete Type="POLICY_FORCE_MODERNIZATION" />
+		<Delete Type="POLICY_RETINUES" />
+
+		
+		
+		<!-- Projects -->
+		<Delete Type="PROJECT_WATER_CARNIVAL"/>
+		<Delete Type="PROJECT_BREAD_AND_CIRCUSES"/>
+		<Delete Type="PROJECT_WATER_BREAD_AND_CIRCUSES"/>
+
+		<!-- Wonders -->
+		<Delete Type="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION"/>
+		<Delete Type="BUILDING_CASA_DE_CONTRATACION"/>
+		<Delete Type="BUILDING_KILWA_KISIWANI"/>
+		<Delete Type="BUILDING_KOTOKU_IN"/>
+		<Delete Type="BUILDING_ST_BASILS_CATHEDRAL"/>
+		<Delete Type="BUILDING_STATUE_LIBERTY"/>
+		<Delete Type="BUILDING_TAJ_MAHAL"/>
+		<Delete Type="BUILDING_TEMPLE_ARTEMIS"/>
+
+
+		<!-- Units -->
+		<Delete Type="UNIT_SPEC_OPS"/>
+		<Delete Type="UNIT_DRONE"/>
+		<Delete Type="UNIT_PIKE_AND_SHOT"/>
+		<Delete Type="UNIT_SUPPLY_CONVOY"/>
+
+		<Delete Type="UNIT_ZULU_IMPI"/>
+		<Delete Type="UNIT_KOREAN_HWACHA"/>
+		<Delete Type="UNIT_SCOTTISH_HIGHLANDER"/>
+		<Delete Type="UNIT_DE_ZEVEN_PROVINCIEN"/>
+		<Delete Type="UNIT_MONGOLIAN_KESHIG"/>
+		<Delete Type="UNIT_GEORGIAN_KHEVSURETI"/>
+		<Delete Type="UNIT_MAPUCHE_MALON_RAIDER"/>
+		<Delete Type="UNIT_CREE_OKIHTCITAW"/>
+		
+		<!-- Resolutions -->
+		<Delete Type="WC_RES_GLOBAL_ENERGY_TREATY"/>
+	</Types>
+
+	<Eras_XP1>
+		<!--
+		<Update>
+			<Where EraType="ERA_ANCIENT" />
+			<Set GameEraMinimumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_ANCIENT" />
+			<Set GameEraMaximumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_CLASSICAL" />
+			<Set GameEraMinimumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_CLASSICAL" />
+			<Set GameEraMaximumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_MEDIEVAL" />
+			<Set GameEraMinimumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_MEDIEVAL" />
+			<Set GameEraMaximumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_RENAISSANCE" />
+			<Set GameEraMinimumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_RENAISSANCE" />
+			<Set GameEraMaximumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_INDUSTRIAL" />
+			<Set GameEraMinimumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_INDUSTRIAL" />
+			<Set GameEraMaximumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_MODERN" />
+			<Set GameEraMinimumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_MODERN" />
+			<Set GameEraMaximumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_ATOMIC" />
+			<Set GameEraMinimumTurns="1" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_ATOMIC" />
+			<Set GameEraMaximumTurns="1" />
+		</Update>
+		-->
+	</Eras_XP1>
+
+
+	<Governors>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER" />
+			<Set Name="LOC_GOVERNOR_BRYNDEN_NAME" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER" />
+			<Set Title="LOC_GOVERNOR_BRYNDEN_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER" />
+			<Set ShortTitle="LOC_GOVERNOR_BRYNDEN_SHORT_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER" />
+			<Set Description="LOC_GOVERNOR_BRYNDEN_DESCRIPTION" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER" />
+			<Set PortraitImage="GOVERNOR_ACOIAF_DEFENDER_NORMAL" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER" />
+			<Set PortraitImageSelected="GOVERNOR_ACOIAF_DEFENDER_SELECTED" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_AMBASSADOR" />
+			<Set Name="LOC_GOVERNOR_MISSANDEI_NAME" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_AMBASSADOR" />
+			<Set Title="LOC_GOVERNOR_MISSANDEI_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_AMBASSADOR" />
+			<Set ShortTitle="LOC_GOVERNOR_MISSANDEI_SHORT_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_AMBASSADOR" />
+			<Set Description="LOC_GOVERNOR_MISSANDEI_DESCRIPTION" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_AMBASSADOR" />
+			<Set PortraitImage="GOVERNOR_ACOIAF_AMBASSADOR_NORMAL" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_AMBASSADOR" />
+			<Set PortraitImageSelected="GOVERNOR_ACOIAF_AMBASSADOR_SELECTED" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_CARDINAL" />
+			<Set Name="LOC_GOVERNOR_SPARROW_NAME" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_CARDINAL" />
+			<Set Title="LOC_GOVERNOR_SPARROW_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_CARDINAL" />
+			<Set ShortTitle="LOC_GOVERNOR_SPARROW_SHORT_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_CARDINAL" />
+			<Set Description="LOC_GOVERNOR_SPARROW_DESCRIPTION" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_CARDINAL" />
+			<Set PortraitImage="GOVERNOR_ACOIAF_CARDINAL_NORMAL" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_CARDINAL" />
+			<Set PortraitImageSelected="GOVERNOR_ACOIAF_CARDINAL_SELECTED" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_RESOURCE_MANAGER" />
+			<Set Name="LOC_GOVERNOR_VARYS_NAME" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_RESOURCE_MANAGER" />
+			<Set Title="LOC_GOVERNOR_VARYS_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_RESOURCE_MANAGER" />
+			<Set ShortTitle="LOC_GOVERNOR_VARYS_SHORT_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_RESOURCE_MANAGER" />
+			<Set Description="LOC_GOVERNOR_VARYS_DESCRIPTION" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_RESOURCE_MANAGER" />
+			<Set PortraitImage="GOVERNOR_ACOIAF_RESOURCEMANAGER_NORMAL" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_RESOURCE_MANAGER" />
+			<Set PortraitImageSelected="GOVERNOR_ACOIAF_RESOURCEMANAGER_SELECTED" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_BUILDER" />
+			<Set Name="LOC_GOVERNOR_DAVOS_NAME" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_BUILDER" />
+			<Set Title="LOC_GOVERNOR_DAVOS_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_BUILDER" />
+			<Set ShortTitle="LOC_GOVERNOR_DAVOS_SHORT_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_BUILDER" />
+			<Set Description="LOC_GOVERNOR_DAVOS_DESCRIPTION" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_BUILDER" />
+			<Set PortraitImage="GOVERNOR_ACOIAF_BUILDER_NORMAL" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_BUILDER" />
+			<Set PortraitImageSelected="GOVERNOR_ACOIAF_BUILDER_SELECTED" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_EDUCATOR" />
+			<Set Name="LOC_GOVERNOR_PYCELL_NAME" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_EDUCATOR" />
+			<Set Title="LOC_GOVERNOR_PYCELL_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_EDUCATOR" />
+			<Set ShortTitle="LOC_GOVERNOR_PYCELL_SHORT_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_EDUCATOR" />
+			<Set Description="LOC_GOVERNOR_PYCELL_DESCRIPTION" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_EDUCATOR" />
+			<Set PortraitImage="GOVERNOR_ACOIAF_EDUCATOR_NORMAL" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_EDUCATOR" />
+			<Set PortraitImageSelected="GOVERNOR_ACOIAF_EDUCATOR_SELECTED" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_MERCHANT" />
+			<Set Name="LOC_GOVERNOR_TYRION_NAME" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_MERCHANT" />
+			<Set Title="LOC_GOVERNOR_TYRION_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_MERCHANT" />
+			<Set ShortTitle="LOC_GOVERNOR_TYRION_SHORT_TITLE" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_MERCHANT" />
+			<Set Description="LOC_GOVERNOR_TYRION_DESCRIPTION" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_MERCHANT" />
+			<Set PortraitImage="GOVERNOR_ACOIAF_MERCHANT_NORMAL" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_MERCHANT" />
+			<Set PortraitImageSelected="GOVERNOR_ACOIAF_MERCHANT_SELECTED" />
+		</Update>
+	</Governors>
+
+	<Types>
+		<!-- Civilizations -->
+		<Delete Type="CIVILIZATION_AKKAD"/>
+		<Delete Type="CIVILIZATION_BOLOGNA"/>
+		<Delete Type="CIVILIZATION_CAHOKIA"/>
+		<Delete Type="CIVILIZATION_CARDIFF"/>
+		<Delete Type="CIVILIZATION_FEZ"/>
+		<Delete Type="CIVILIZATION_MEXICO_CITY"/>
+		<Delete Type="CIVILIZATION_NAZCA"/>
+		<Delete Type="CIVILIZATION_NGAZARGAMU"/>
+		<Delete Type="CIVILIZATION_RAPA_NUI"/>
+
+		<!-- Leaders -->
+		<Delete Type="LEADER_DIDO"/>
+		<Delete Type="LEADER_ELEANOR_ENGLAND"/>
+		<Delete Type="LEADER_ELEANOR_FRANCE"/>
+		<Delete Type="LEADER_KRISTINA"/>
+		<Delete Type="LEADER_KUPE"/>
+		<Delete Type="LEADER_LAURIER"/>
+		<Delete Type="LEADER_MANSA_MUSA"/>
+		<Delete Type="LEADER_MATTHIAS_CORVINUS"/>
+		<Delete Type="LEADER_PACHACUTI"/>
+		<Delete Type="LEADER_SULEIMAN"/>
+
+		<!-- Units -->
+		<Delete Type="UNIT_GIANT_DEATH_ROBOT"/>
+		<Delete Type="UNIT_ROCK_BAND"/>
+		<Delete Type="UNIT_CUIRASSIER"/>
+
+		<!-- Features-->
+		<Delete Type="FEATURE_CHOCOLATEHILLS"/>
+		<Delete Type="FEATURE_DEVILSTOWER"/>
+		<Delete Type="FEATURE_GOBUSTAN"/>
+		<Delete Type="FEATURE_IKKIL"/>
+		<Delete Type="FEATURE_PAMUKKALE"/>
+		<Delete Type="FEATURE_VESUVIUS"/>
+		<Delete Type="FEATURE_WHITEDESERT"/>
+
+		<!-- Techs -->
+		<Delete Type="TECH_BUTTRESS"/>
+		<Delete Type="TECH_REFINING"/>
+		<Delete Type="TECH_SEASTEADS"/>
+		<Delete Type="TECH_ADVANCED_AI"/>
+		<Delete Type="TECH_ADVANCED_POWER_CELLS"/>
+		<Delete Type="TECH_CYBERNETICS"/>
+		<Delete Type="TECH_SMART_MATERIALS"/>
+		<Delete Type="TECH_PREDICTIVE_SYSTEMS"/>
+		<Delete Type="TECH_OFFWORLD_MISSION"/>
+		<Delete Type="TECH_FUTURE_TECH"/>
+
+		<!-- Projects -->
+		<Delete Type="PROJECT_LAUNCH_MARS_BASE"/>
+		<Delete Type="PROJECT_LAUNCH_EXOPLANET_EXPEDITION"/>
+		<Delete Type="PROJECT_ORBITAL_LASER"/>
+		<Delete Type="PROJECT_TERRESTRIAL_LASER"/>
+		<Delete Type="PROJECT_SEND_AID"/>
+		<Delete Type="PROJECT_TRAIN_ATHLETES"/>
+		<Delete Type="PROJECT_TRAIN_ASTRONAUTS"/>
+		<Delete Type="PROJECT_RECOMMISSION_REACTOR"/>
+		<Delete Type="PROJECT_COTHON_CAPITAL_MOVE"/>
+		<Delete Type="PROJECT_CARBON_RECAPTURE"/>
+		<Delete Type="PROJECT_CONVERT_REACTOR_TO_COAL"/>
+		<Delete Type="PROJECT_CONVERT_REACTOR_TO_OIL"/>
+		<Delete Type="PROJECT_CONVERT_REACTOR_TO_URANIUM"/>
+
+		<!-- Districts -->
+		<Delete Type="DISTRICT_COTHON"/>
+		<Delete Type="DISTRICT_SUGUBA"/>
+		<Delete Type="DISTRICT_CANAL"/>
+
+		<!-- Improvements -->
+		<Delete Type="IMPROVEMENT_GEOTHERMAL_PLANT"/>
+		<Delete Type="IMPROVEMENT_SOLAR_FARM"/>
+		<Delete Type="IMPROVEMENT_WIND_FARM"/>
+		<Delete Type="IMPROVEMENT_OFFSHORE_WIND_FARM"/>
+		<Delete Type="IMPROVEMENT_SEASTEAD"/>
+		<Delete Type="IMPROVEMENT_MOAI"/>
+		<Delete Type="IMPROVEMENT_MOUND"/>
+		<Delete Type="IMPROVEMENT_NAZCA_LINE"/>
+		<Delete Type="IMPROVEMENT_SKI_RESORT"/>
+		<Delete Type="IMPROVEMENT_MOUNTAIN_TUNNEL"/>
+
+		<!-- Buildings -->
+		<Delete Type="BUILDING_FLOOD_BARRIER"/>
+		<Delete Type="BUILDING_HYDROELECTRIC_DAM"/>
+		<Delete Type="BUILDING_COAL_POWER_PLANT"/>
+		<Delete Type="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+
+		<!-- Governors -->
+		<Delete Type="GOVERNOR_IBRAHIM"/>
+
+
+		<!-- Buildings -->
+		<Delete Type="BUILDING_GRAND_BAZAAR"/>
+		<Delete Type="BUILDING_MARAE"/>
+		<Delete Type="BUILDING_QUEENS_BIBLIOTHEQUE"/>
+		<Delete Type="BUILDING_THERMAL_BATH"/>
+
+		<!-- Wonders -->
+		<Delete Type="BUILDING_GOLDEN_GATE_BRIDGE"/>
+		<Delete Type="BUILDING_GREAT_BATH"/>
+		<Delete Type="BUILDING_MACHU_PICCHU"/>
+		<Delete Type="BUILDING_MEENAKSHI_TEMPLE"/>
+		<Delete Type="BUILDING_ORSZAGHAZ"/>
+		<Delete Type="BUILDING_PANAMA_CANAL"/>
+		<Delete Type="BUILDING_UNIVERSITY_SANKORE"/>
+
+		<!-- Governments -->
+		<Delete Type="GOVERNMENT_CORPORATE_LIBERTARIANISM"/>
+		<Delete Type="GOVERNMENT_DIGITAL_DEMOCRACY"/>
+		<Delete Type="GOVERNMENT_SYNTHETIC_TECHNOCRACY"/>
+
+		<!-- Policies -->
+		<Delete Type="POLICY_FUTURE_VICTORY_SCIENCE"/>
+		<Delete Type="POLICY_FUTURE_COUNTER_CULTURE"/>
+		<Delete Type="POLICY_FUTURE_VICTORY_CULTURE"/>
+		<Delete Type="POLICY_FUTURE_COUNTER_SCIENCE"/>
+		<Delete Type="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Delete Type="POLICY_FUTURE_COUNTER_DIPLOMATIC"/>
+		<Delete Type="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
+		<Delete Type="POLICY_FUTURE_COUNTER_DOMINATION"/>
+		<Delete Type="POLICY_EQUESTRIAN_ORDERS"/>
+		<Delete Type="POLICY_DRILL_MANUALS"/>
+
+		<!-- Named Rivers -->
+		<Delete Type="NAMED_RIVER_ABUKUMA_RIVER"/>
+		<Delete Type="NAMED_RIVER_ACHELOUS_RIVER"/>
+		<Delete Type="NAMED_RIVER_AGNO"/>
+		<Delete Type="NAMED_RIVER_ALAZANI_RIVER"/>
+		<Delete Type="NAMED_RIVER_AMAZON"/>
+		<Delete Type="NAMED_RIVER_AMISKWASIPI"/>
+		<Delete Type="NAMED_RIVER_AMNOK_RIVER"/>
+		<Delete Type="NAMED_RIVER_AMU_DARYA"/>
+		<Delete Type="NAMED_RIVER_AMUR"/>
+		<Delete Type="NAMED_RIVER_APURIMAQ_MAYU"/>
+		<Delete Type="NAMED_RIVER_ARAS_RIVER"/>
+		<Delete Type="NAMED_RIVER_ARKANSAS"/>
+		<Delete Type="NAMED_RIVER_ARNO_RIVER"/>
+		<Delete Type="NAMED_RIVER_ATBARAH_RIVER"/>
+		<Delete Type="NAMED_RIVER_ATHABASCA_RIVER"/>
+		<Delete Type="NAMED_RIVER_ATOYAC_RIVER"/>
+		<Delete Type="NAMED_RIVER_AWRIQ_MAYU"/>
+		<Delete Type="NAMED_RIVER_AYUNG_RIVER"/>
+		<Delete Type="NAMED_RIVER_BAHR_YUSSEF"/>
+		<Delete Type="NAMED_RIVER_BALSAS"/>
+		<Delete Type="NAMED_RIVER_BANI_RIVER"/>
+		<Delete Type="NAMED_RIVER_BARADA_RIVER"/>
+		<Delete Type="NAMED_RIVER_BARITO_RIVER"/>
+		<Delete Type="NAMED_RIVER_BASSAC_RIVER"/>
+		<Delete Type="NAMED_RIVER_BATANGHARI_RIVER"/>
+		<Delete Type="NAMED_RIVER_BEIRUT_RIVER"/>
+		<Delete Type="NAMED_RIVER_BENGAWAN_SOLO_RIVER"/>
+		<Delete Type="NAMED_RIVER_BIO_BIO"/>
+		<Delete Type="NAMED_RIVER_BRAHMAPUTRA"/>
+		<Delete Type="NAMED_RIVER_BRISBANE_RIVER"/>
+		<Delete Type="NAMED_RIVER_BUG"/>
+		<Delete Type="NAMED_RIVER_BUKHAN_RIVER"/>
+		<Delete Type="NAMED_RIVER_CHINCHIPE_RIVER"/>
+		<Delete Type="NAMED_RIVER_COATZACOALCOS_RIVER"/>
+		<Delete Type="NAMED_RIVER_COLORADO"/>
+		<Delete Type="NAMED_RIVER_COLUMBIA"/>
+		<Delete Type="NAMED_RIVER_CONGO"/>
+		<Delete Type="NAMED_RIVER_COOPER_CREEK"/>
+		<Delete Type="NAMED_RIVER_CRNA_RIVER"/>
+		<Delete Type="NAMED_RIVER_DAL"/>
+		<Delete Type="NAMED_RIVER_DAMIETTA_RIVER"/>
+		<Delete Type="NAMED_RIVER_DANUBE"/>
+		<Delete Type="NAMED_RIVER_DARLING"/>
+		<Delete Type="NAMED_RIVER_DAUGAVA"/>
+		<Delete Type="NAMED_RIVER_DELAWARE"/>
+		<Delete Type="NAMED_RIVER_DIYALA_RIVER"/>
+		<Delete Type="NAMED_RIVER_DNIEPER"/>
+		<Delete Type="NAMED_RIVER_DNIESTER"/>
+		<Delete Type="NAMED_RIVER_DON"/>
+		<Delete Type="NAMED_RIVER_DOURO_RIVER"/>
+		<Delete Type="NAMED_RIVER_DUNAJEC_RIVER"/>
+		<Delete Type="NAMED_RIVER_EBRO"/>
+		<Delete Type="NAMED_RIVER_ELBE"/>
+		<Delete Type="NAMED_RIVER_ENGURI_RIVER"/>
+		<Delete Type="NAMED_RIVER_EUPHRATES"/>
+		<Delete Type="NAMED_RIVER_EUROTAS"/>
+		<Delete Type="NAMED_RIVER_FORTH"/>
+		<Delete Type="NAMED_RIVER_FRASER_RIVER"/>
+		<Delete Type="NAMED_RIVER_GAMBIA_RIVER"/>
+		<Delete Type="NAMED_RIVER_GANGES"/>
+		<Delete Type="NAMED_RIVER_GEUM_RIVER"/>
+		<Delete Type="NAMED_RIVER_GLOMMA"/>
+		<Delete Type="NAMED_RIVER_GODAVARI"/>
+		<Delete Type="NAMED_RIVER_GREAT_ZAB_RIVER"/>
+		<Delete Type="NAMED_RIVER_GUADALQUIVIR_RIVER"/>
+		<Delete Type="NAMED_RIVER_GUADIANA_RIVER"/>
+		<Delete Type="NAMED_RIVER_GUDBRANDSDALSLAGEN"/>
+		<Delete Type="NAMED_RIVER_HAI"/>
+		<Delete Type="NAMED_RIVER_HALIACMON_RIVER"/>
+		<Delete Type="NAMED_RIVER_HAN_RIVER"/>
+		<Delete Type="NAMED_RIVER_HUTT_RIVER"/>
+		<Delete Type="NAMED_RIVER_IJSSEL_RIVER"/>
+		<Delete Type="NAMED_RIVER_IMJIN_RIVER"/>
+		<Delete Type="NAMED_RIVER_INDAL_RIVER"/>
+		<Delete Type="NAMED_RIVER_INDUS"/>
+		<Delete Type="NAMED_RIVER_INKISI_RIVER"/>
+		<Delete Type="NAMED_RIVER_IRRAWADDY"/>
+		<Delete Type="NAMED_RIVER_ISHIKARI_RIVER"/>
+		<Delete Type="NAMED_RIVER_ITATA_RIVER"/>
+		<Delete Type="NAMED_RIVER_JAJRUD_RIVER"/>
+		<Delete Type="NAMED_RIVER_JORDAN"/>
+		<Delete Type="NAMED_RIVER_JUCAR_RIVER"/>
+		<Delete Type="NAMED_RIVER_KAPUAS"/>
+		<Delete Type="NAMED_RIVER_KARKHEH_RIVER"/>
+		<Delete Type="NAMED_RIVER_KARUN"/>
+		<Delete Type="NAMED_RIVER_KASAI"/>
+		<Delete Type="NAMED_RIVER_KATEPWEWI_SIPI"/>
+		<Delete Type="NAMED_RIVER_KAVERI_RIVER"/>
+		<Delete Type="NAMED_RIVER_KAWARAU_RIVER"/>
+		<Delete Type="NAMED_RIVER_KAWATIRI_RIVER"/>
+		<Delete Type="NAMED_RIVER_KERULEN_RIVER"/>
+		<Delete Type="NAMED_RIVER_KHABUR_RIVER"/>
+		<Delete Type="NAMED_RIVER_KISISKACIWANI_SIPIY"/>
+		<Delete Type="NAMED_RIVER_KITAKAMI_RIVER"/>
+		<Delete Type="NAMED_RIVER_KIZILIRMAK"/>
+		<Delete Type="NAMED_RIVER_KLARA_RIVER"/>
+		<Delete Type="NAMED_RIVER_KOROS_RIVER"/>
+		<Delete Type="NAMED_RIVER_KSHIPRA_RIVER"/>
+		<Delete Type="NAMED_RIVER_KURA"/>
+		<Delete Type="NAMED_RIVER_LEK_RIVER"/>
+		<Delete Type="NAMED_RIVER_LENA"/>
+		<Delete Type="NAMED_RIVER_LIMPOPO"/>
+		<Delete Type="NAMED_RIVER_LITANI"/>
+		<Delete Type="NAMED_RIVER_LOIRE"/>
+		<Delete Type="NAMED_RIVER_LULE_RIVER"/>
+		<Delete Type="NAMED_RIVER_MACKENZIE"/>
+		<Delete Type="NAMED_RIVER_MADEIRA"/>
+		<Delete Type="NAMED_RIVER_MAHAKAM_RIVER"/>
+		<Delete Type="NAMED_RIVER_MAIPO_RIVER"/>
+		<Delete Type="NAMED_RIVER_MAMBERAMO_RIVER"/>
+		<Delete Type="NAMED_RIVER_MANTO_SIPIY"/>
+		<Delete Type="NAMED_RIVER_MAPOCHO_RIVER"/>
+		<Delete Type="NAMED_RIVER_MAREB_RIVER"/>
+		<Delete Type="NAMED_RIVER_MARITSA_RIVER"/>
+		<Delete Type="NAMED_RIVER_MATA_AU_RIVER"/>
+		<Delete Type="NAMED_RIVER_MAULE_RIVER"/>
+		<Delete Type="NAMED_RIVER_MEDJERDA_RIVER"/>
+		<Delete Type="NAMED_RIVER_MEKONG"/>
+		<Delete Type="NAMED_RIVER_MEUSE"/>
+		<Delete Type="NAMED_RIVER_MISSISSIPPI"/>
+		<Delete Type="NAMED_RIVER_MISSOURI"/>
+		<Delete Type="NAMED_RIVER_MIXTECO_RIVER"/>
+		<Delete Type="NAMED_RIVER_MOGAMI_RIVER"/>
+		<Delete Type="NAMED_RIVER_MTKVARI_RIVER"/>
+		<Delete Type="NAMED_RIVER_MURAT_RIVER"/>
+		<Delete Type="NAMED_RIVER_MURRAY"/>
+		<Delete Type="NAMED_RIVER_MURRUMBIDGEE"/>
+		<Delete Type="NAMED_RIVER_MUSI_RIVER"/>
+		<Delete Type="NAMED_RIVER_NAKDONG"/>
+		<Delete Type="NAMED_RIVER_NAREW_RIVER"/>
+		<Delete Type="NAMED_RIVER_NARMADA_RIVER"/>
+		<Delete Type="NAMED_RIVER_NESTOS_RIVER"/>
+		<Delete Type="NAMED_RIVER_NIGER"/>
+		<Delete Type="NAMED_RIVER_NILE"/>
+		<Delete Type="NAMED_RIVER_NORTHERN_DVINA"/>
+		<Delete Type="NAMED_RIVER_NOTEC_RIVER"/>
+		<Delete Type="NAMED_RIVER_NUMEDAL_RIVER"/>
+		<Delete Type="NAMED_RIVER_OB"/>
+		<Delete Type="NAMED_RIVER_OCHEKWI_SIPI"/>
+		<Delete Type="NAMED_RIVER_ODER"/>
+		<Delete Type="NAMED_RIVER_OFANTO_RIVER"/>
+		<Delete Type="NAMED_RIVER_OHIO"/>
+		<Delete Type="NAMED_RIVER_OKAVANGO"/>
+		<Delete Type="NAMED_RIVER_ORANGE"/>
+		<Delete Type="NAMED_RIVER_ORINOCO"/>
+		<Delete Type="NAMED_RIVER_ORKHON"/>
+		<Delete Type="NAMED_RIVER_ORONTES_RIVER"/>
+		<Delete Type="NAMED_RIVER_OTRA_RIVER"/>
+		<Delete Type="NAMED_RIVER_PAPALOAPAN_RIVER"/>
+		<Delete Type="NAMED_RIVER_PARAGUAY"/>
+		<Delete Type="NAMED_RIVER_PARANA"/>
+		<Delete Type="NAMED_RIVER_PAROO_RIVER"/>
+		<Delete Type="NAMED_RIVER_PEARL"/>
+		<Delete Type="NAMED_RIVER_PO"/>
+		<Delete Type="NAMED_RIVER_POTOMAC"/>
+		<Delete Type="NAMED_RIVER_POWINIGOW"/>
+		<Delete Type="NAMED_RIVER_PUTUMAYU"/>
+		<Delete Type="NAMED_RIVER_RABA_RIVER"/>
+		<Delete Type="NAMED_RIVER_RAKAIA_RIVER"/>
+		<Delete Type="NAMED_RIVER_RANGATIKEI_RIVER"/>
+		<Delete Type="NAMED_RIVER_RAUMA_RIVER"/>
+		<Delete Type="NAMED_RIVER_RED"/>
+		<Delete Type="NAMED_RIVER_RHINE"/>
+		<Delete Type="NAMED_RIVER_RHONE"/>
+		<Delete Type="NAMED_RIVER_RIO_GRANDE"/>
+		<Delete Type="NAMED_RIVER_RIO_NEGRO"/>
+		<Delete Type="NAMED_RIVER_RIONI_RIVER"/>
+		<Delete Type="NAMED_RIVER_RIVER_AVON"/>
+		<Delete Type="NAMED_RIVER_RIVER_CLYDE"/>
+		<Delete Type="NAMED_RIVER_RIVER_DEE"/>
+		<Delete Type="NAMED_RIVER_RIVER_EDEN"/>
+		<Delete Type="NAMED_RIVER_RIVER_GREAT_OUSE"/>
+		<Delete Type="NAMED_RIVER_RIVER_SEVERN"/>
+		<Delete Type="NAMED_RIVER_RIVER_SPEY"/>
+		<Delete Type="NAMED_RIVER_RIVER_TAY"/>
+		<Delete Type="NAMED_RIVER_RIVER_TEES"/>
+		<Delete Type="NAMED_RIVER_RIVER_TRENT"/>
+		<Delete Type="NAMED_RIVER_RIVER_WELLAND"/>
+		<Delete Type="NAMED_RIVER_ROSETTA_RIVER"/>
+		<Delete Type="NAMED_RIVER_RUBICON"/>
+		<Delete Type="NAMED_RIVER_SAINT_LAWRENCE"/>
+		<Delete Type="NAMED_RIVER_SAKARYA_RIVER"/>
+		<Delete Type="NAMED_RIVER_SALWEEN"/>
+		<Delete Type="NAMED_RIVER_SAN_RIVER"/>
+		<Delete Type="NAMED_RIVER_SANKARANI_RIVER"/>
+		<Delete Type="NAMED_RIVER_SANKURU_RIVER"/>
+		<Delete Type="NAMED_RIVER_SAO_FRANCISCO"/>
+		<Delete Type="NAMED_RIVER_SARASWATI"/>
+		<Delete Type="NAMED_RIVER_SCHELDT_RIVER"/>
+		<Delete Type="NAMED_RIVER_SE_KONG_RIVER"/>
+		<Delete Type="NAMED_RIVER_SEFID_RIVER"/>
+		<Delete Type="NAMED_RIVER_SEINE"/>
+		<Delete Type="NAMED_RIVER_SENEGAL_RIVER"/>
+		<Delete Type="NAMED_RIVER_SEOMJIN_RIVER"/>
+		<Delete Type="NAMED_RIVER_SHINANO"/>
+		<Delete Type="NAMED_RIVER_SONGHUA_RIVER"/>
+		<Delete Type="NAMED_RIVER_SREPOK_RIVER"/>
+		<Delete Type="NAMED_RIVER_STRUMA_RIVER"/>
+		<Delete Type="NAMED_RIVER_SUSQUEHANNA"/>
+		<Delete Type="NAMED_RIVER_SYR_DARYA"/>
+		<Delete Type="NAMED_RIVER_TAGUS"/>
+		<Delete Type="NAMED_RIVER_TAPISKWAN_SIPI"/>
+		<Delete Type="NAMED_RIVER_TARIM"/>
+		<Delete Type="NAMED_RIVER_TE_AWAKAIRANGI"/>
+		<Delete Type="NAMED_RIVER_TEHUANTEPEC_RIVER"/>
+		<Delete Type="NAMED_RIVER_TENRYU_RIVER"/>
+		<Delete Type="NAMED_RIVER_TESHIO_RIVER"/>
+		<Delete Type="NAMED_RIVER_THAMES"/>
+		<Delete Type="NAMED_RIVER_TIBER"/>
+		<Delete Type="NAMED_RIVER_TIGRIS"/>
+		<Delete Type="NAMED_RIVER_TISZA_RIVER"/>
+		<Delete Type="NAMED_RIVER_TOCANTINS"/>
+		<Delete Type="NAMED_RIVER_TOLTEN_RIVER"/>
+		<Delete Type="NAMED_RIVER_TONALA_RIVER"/>
+		<Delete Type="NAMED_RIVER_TONE_RIVER"/>
+		<Delete Type="NAMED_RIVER_TONGARIRO_RIVER"/>
+		<Delete Type="NAMED_RIVER_TONLE_SAN_RIVER"/>
+		<Delete Type="NAMED_RIVER_TONLE_SAP_RIVER"/>
+		<Delete Type="NAMED_RIVER_TORNE_RIVER"/>
+		<Delete Type="NAMED_RIVER_TRUFUL_TRUFUL_RIVER"/>
+		<Delete Type="NAMED_RIVER_TSHUAPA_RIVER"/>
+		<Delete Type="NAMED_RIVER_TUGELA_RIVER"/>
+		<Delete Type="NAMED_RIVER_TUUL_RIVER"/>
+		<Delete Type="NAMED_RIVER_UCAYALI"/>
+		<Delete Type="NAMED_RIVER_UMFOLOZI_RIVER"/>
+		<Delete Type="NAMED_RIVER_UMZIMKULU_RIVER"/>
+		<Delete Type="NAMED_RIVER_UMZINYATHI_RIVER"/>
+		<Delete Type="NAMED_RIVER_URAL"/>
+		<Delete Type="NAMED_RIVER_VARDAR"/>
+		<Delete Type="NAMED_RIVER_VISTULA"/>
+		<Delete Type="NAMED_RIVER_VOLGA"/>
+		<Delete Type="NAMED_RIVER_WAAL_RIVER"/>
+		<Delete Type="NAMED_RIVER_WADI_AL_BATIN"/>
+		<Delete Type="NAMED_RIVER_WADI_AL_RUMMAH"/>
+		<Delete Type="NAMED_RIVER_WADI_HANIFA"/>
+		<Delete Type="NAMED_RIVER_WAIAPU_RIVER"/>
+		<Delete Type="NAMED_RIVER_WAIAU_RIVER"/>
+		<Delete Type="NAMED_RIVER_WAIKATO"/>
+		<Delete Type="NAMED_RIVER_WAIMAKARIRI_RIVER"/>
+		<Delete Type="NAMED_RIVER_WAITAKI_RIVER"/>
+		<Delete Type="NAMED_RIVER_WALLAQA_MAYU"/>
+		<Delete Type="NAMED_RIVER_WARREGO_RIVER"/>
+		<Delete Type="NAMED_RIVER_WARTA_RIVER"/>
+		<Delete Type="NAMED_RIVER_WAZALAFKEN_RIVER"/>
+		<Delete Type="NAMED_RIVER_WEI"/>
+		<Delete Type="NAMED_RIVER_WESER_RIVER"/>
+		<Delete Type="NAMED_RIVER_WHANGANUI_RIVER"/>
+		<Delete Type="NAMED_RIVER_WILLKAMAYU"/>
+		<Delete Type="NAMED_RIVER_WISLOKA_RIVER"/>
+		<Delete Type="NAMED_RIVER_WUSKWI_SIPI"/>
+		<Delete Type="NAMED_RIVER_YAMUNA_RIVER"/>
+		<Delete Type="NAMED_RIVER_YANGTZE"/>
+		<Delete Type="NAMED_RIVER_YELLOW"/>
+		<Delete Type="NAMED_RIVER_YENISEI"/>
+		<Delete Type="NAMED_RIVER_YESILIRMAK_RIVER"/>
+		<Delete Type="NAMED_RIVER_YUKON"/>
+		<Delete Type="NAMED_RIVER_ZAGYVA_RIVER"/>
+		<Delete Type="NAMED_RIVER_ZAMBEZI"/>
+		<Delete Type="NAMED_RIVER_ZAVKHAN_RIVER"/>
+		<Delete Type="NAMED_RIVER_ZAYANDE_RIVER"/>
+		<!-- Named Mountains -->
+		<Delete Type="NAMED_MOUNTAIN_AKAISHI"/>
+		<Delete Type="NAMED_MOUNTAIN_ALADAGH_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_ALADAGLAR_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_ALASKAN"/>
+		<Delete Type="NAMED_MOUNTAIN_ALAY_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_ALBORZ"/>
+		<Delete Type="NAMED_MOUNTAIN_ALEUTIANS"/>
+		<Delete Type="NAMED_MOUNTAIN_ALPS"/>
+		<Delete Type="NAMED_MOUNTAIN_ALTAI"/>
+		<Delete Type="NAMED_MOUNTAIN_ANDES"/>
+		<Delete Type="NAMED_MOUNTAIN_ANNAMITES"/>
+		<Delete Type="NAMED_MOUNTAIN_ANTILIBANUS_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_APENNINES"/>
+		<Delete Type="NAMED_MOUNTAIN_APPALACHIANS"/>
+		<Delete Type="NAMED_MOUNTAIN_ARAKAN"/>
+		<Delete Type="NAMED_MOUNTAIN_ARAVALLI_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_ARROCHAR_ALPS"/>
+		<Delete Type="NAMED_MOUNTAIN_ASIR"/>
+		<Delete Type="NAMED_MOUNTAIN_ATLAS"/>
+		<Delete Type="NAMED_MOUNTAIN_BAEKDUDAEGAN"/>
+		<Delete Type="NAMED_MOUNTAIN_BAIKAL_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_BALKANS"/>
+		<Delete Type="NAMED_MOUNTAIN_BALELES_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_BAMBOUK_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_BANDIAGARA_ESCARPMENT"/>
+		<Delete Type="NAMED_MOUNTAIN_BARGYLUS_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_BARISAN"/>
+		<Delete Type="NAMED_MOUNTAIN_BESKIDY_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_BIESZCZADY_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_BLACK_FOREST_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_BLUE_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_BUKK_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_CAIRNGORMS"/>
+		<Delete Type="NAMED_MOUNTAIN_CANTABRICA"/>
+		<Delete Type="NAMED_MOUNTAIN_CARPATHIANS"/>
+		<Delete Type="NAMED_MOUNTAIN_CASCADES"/>
+		<Delete Type="NAMED_MOUNTAIN_CAUCASUS"/>
+		<Delete Type="NAMED_MOUNTAIN_CHERSKY"/>
+		<Delete Type="NAMED_MOUNTAIN_CHEVIOT_HILLS"/>
+		<Delete Type="NAMED_MOUNTAIN_CHIANTI_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_COAST"/>
+		<Delete Type="NAMED_MOUNTAIN_CORDILLERA_DE_QUEULE"/>
+		<Delete Type="NAMED_MOUNTAIN_CORDILLERA_DEL_CONDOR"/>
+		<Delete Type="NAMED_MOUNTAIN_CORDILLERA_DEL_MAHUIDANCHE"/>
+		<Delete Type="NAMED_MOUNTAIN_CORDILLERAS_BETICAS"/>
+		<Delete Type="NAMED_MOUNTAIN_CRYSTAL_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_CUILLIN"/>
+		<Delete Type="NAMED_MOUNTAIN_CUMBRIAN_FELLS"/>
+		<Delete Type="NAMED_MOUNTAIN_DAMREI_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_DANGREK_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_DINARIDES"/>
+		<Delete Type="NAMED_MOUNTAIN_DOLOMITES"/>
+		<Delete Type="NAMED_MOUNTAIN_DONGDAE_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_DOVREFJELL"/>
+		<Delete Type="NAMED_MOUNTAIN_DRAKENSBERG"/>
+		<Delete Type="NAMED_MOUNTAIN_ESPINHACO_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_GAGRA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_GALICIAN_MASSIF"/>
+		<Delete Type="NAMED_MOUNTAIN_GEBEL_AL_AIN"/>
+		<Delete Type="NAMED_MOUNTAIN_GHATS"/>
+		<Delete Type="NAMED_MOUNTAIN_GISSAR_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_GRAMPIANS"/>
+		<Delete Type="NAMED_MOUNTAIN_GREAT_DIVIDING"/>
+		<Delete Type="NAMED_MOUNTAIN_GWAZHAL"/>
+		<Delete Type="NAMED_MOUNTAIN_HAMERSLEY_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_HAMRIN_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_HARDANGERVIDDA"/>
+		<Delete Type="NAMED_MOUNTAIN_HARZ"/>
+		<Delete Type="NAMED_MOUNTAIN_HENGDUAN"/>
+		<Delete Type="NAMED_MOUNTAIN_HIDA_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_HIJAZ_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_HIMALAYAS"/>
+		<Delete Type="NAMED_MOUNTAIN_HINDU_KUSH"/>
+		<Delete Type="NAMED_MOUNTAIN_HOGGAR"/>
+		<Delete Type="NAMED_MOUNTAIN_HOMBORI_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_HONDSRUG"/>
+		<Delete Type="NAMED_MOUNTAIN_HUIARAU_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_IYANG_ARGAPURA_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_JABAL_HARAZ"/>
+		<Delete Type="NAMED_MOUNTAIN_JEBEL_ABYAD_PLATEAU"/>
+		<Delete Type="NAMED_MOUNTAIN_JEBEL_NAGASHUSH"/>
+		<Delete Type="NAMED_MOUNTAIN_JOTUNHEIMEN"/>
+		<Delete Type="NAMED_MOUNTAIN_JURA_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KACKAR_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KAIKOURA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_KAIMAI_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_KAMIKOCHI"/>
+		<Delete Type="NAMED_MOUNTAIN_KANANASKIS_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_KARAKORAM"/>
+		<Delete Type="NAMED_MOUNTAIN_KARKAS_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KARKONOSZE_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KEBNEKAISE_MASSIF"/>
+		<Delete Type="NAMED_MOUNTAIN_KHANGAI_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KHENTII_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KHINGAN"/>
+		<Delete Type="NAMED_MOUNTAIN_KISO_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KOPET_DAG_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_KOSZEG_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KOYTENDAG_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_KRAVANH_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_KUNLUN"/>
+		<Delete Type="NAMED_MOUNTAIN_LEBANON"/>
+		<Delete Type="NAMED_MOUNTAIN_LEBOMBO_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_LEFKA_ORI"/>
+		<Delete Type="NAMED_MOUNTAIN_LIKHI_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_LOWER_RHINE_HEIGHTS"/>
+		<Delete Type="NAMED_MOUNTAIN_MACDONNELL_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_MACKENZIE"/>
+		<Delete Type="NAMED_MOUNTAIN_MANDING_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_MANTIQUEIRA"/>
+		<Delete Type="NAMED_MOUNTAIN_MASSIF_CENTRAL"/>
+		<Delete Type="NAMED_MOUNTAIN_MATRA_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_MERATUS_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_MESKHETI_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_MONADH_LIATH"/>
+		<Delete Type="NAMED_MOUNTAIN_MONT_BLANC_MASSIF"/>
+		<Delete Type="NAMED_MOUNTAIN_MONTES_DE_TOLEDO"/>
+		<Delete Type="NAMED_MOUNTAIN_NAHUELBUTA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_NEBLINA_MASSIF"/>
+		<Delete Type="NAMED_MOUNTAIN_NIKANASSIN_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_NORRA_STORFJALLET"/>
+		<Delete Type="NAMED_MOUNTAIN_NORTH_YORK_MOORS"/>
+		<Delete Type="NAMED_MOUNTAIN_NUBA"/>
+		<Delete Type="NAMED_MOUNTAIN_NUR_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_OWEN_STANLEY"/>
+		<Delete Type="NAMED_MOUNTAIN_ORE_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_PACARAIMA_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_PAMIRS"/>
+		<Delete Type="NAMED_MOUNTAIN_PATKAI"/>
+		<Delete Type="NAMED_MOUNTAIN_PELION_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_PENNINE_CHAIN"/>
+		<Delete Type="NAMED_MOUNTAIN_PINDUS"/>
+		<Delete Type="NAMED_MOUNTAIN_PIR_PANJAL_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_PONTIC_ALPS"/>
+		<Delete Type="NAMED_MOUNTAIN_PURVANCHAL_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_PUTORANA_PLATEAU"/>
+		<Delete Type="NAMED_MOUNTAIN_PYRENEES"/>
+		<Delete Type="NAMED_MOUNTAIN_QANDIL_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_QINLING"/>
+		<Delete Type="NAMED_MOUNTAIN_RAUKUMARA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_RED_SEA_HILLS"/>
+		<Delete Type="NAMED_MOUNTAIN_RHODOPES"/>
+		<Delete Type="NAMED_MOUNTAIN_RIMUTAKA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_ROCKIES"/>
+		<Delete Type="NAMED_MOUNTAIN_RONDANE_MASSIF"/>
+		<Delete Type="NAMED_MOUNTAIN_RWENZORIS"/>
+		<Delete Type="NAMED_MOUNTAIN_SALLANDSE_HILL_RIDGE"/>
+		<Delete Type="NAMED_MOUNTAIN_SARAWAT_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_SATPURA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_SAYAN_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_SCANDES"/>
+		<Delete Type="NAMED_MOUNTAIN_SEMIENS"/>
+		<Delete Type="NAMED_MOUNTAIN_SERRA_DA_CHELA"/>
+		<Delete Type="NAMED_MOUNTAIN_SERRA_DA_LEBA"/>
+		<Delete Type="NAMED_MOUNTAIN_SERRA_DO_MAR"/>
+		<Delete Type="NAMED_MOUNTAIN_SERRA_DO_MOCO"/>
+		<Delete Type="NAMED_MOUNTAIN_SERRA_DOS_ORGAOS"/>
+		<Delete Type="NAMED_MOUNTAIN_SERRA_LONDANUIMA"/>
+		<Delete Type="NAMED_MOUNTAIN_SHROPSHIRE_HILLS"/>
+		<Delete Type="NAMED_MOUNTAIN_SIBILLINI_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_SIERRA_CHICHINAUTZIN"/>
+		<Delete Type="NAMED_MOUNTAIN_SIERRA_DE_LOS_TUXTLAS"/>
+		<Delete Type="NAMED_MOUNTAIN_SIERRA_DE_TAMAULIPAS"/>
+		<Delete Type="NAMED_MOUNTAIN_SIERRA_MADRES"/>
+		<Delete Type="NAMED_MOUNTAIN_SIERRA_NEVADAS"/>
+		<Delete Type="NAMED_MOUNTAIN_SINAI_HIGH_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_SINJAR_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_SNOWY_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_SOBAEK_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_STANOVOY_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_SYLAN"/>
+		<Delete Type="NAMED_MOUNTAIN_TAEBAEK_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_TALYSH_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_TARARUA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_TATRA_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_TAURUS"/>
+		<Delete Type="NAMED_MOUNTAIN_TAYGETUS_MASSIF"/>
+		<Delete Type="NAMED_MOUNTAIN_TENGGER_MASSIF"/>
+		<Delete Type="NAMED_MOUNTAIN_THURINGIAN_FOREST_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_TIBESTI"/>
+		<Delete Type="NAMED_MOUNTAIN_TIEN_SHAN"/>
+		<Delete Type="NAMED_MOUNTAIN_TIRITIRI_O_TE_MOANA"/>
+		<Delete Type="NAMED_MOUNTAIN_TITIWANGSA"/>
+		<Delete Type="NAMED_MOUNTAIN_TRIALETI_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_URALS"/>
+		<Delete Type="NAMED_MOUNTAIN_URUPAMPA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_UTRECHT_HILL_RIDGE"/>
+		<Delete Type="NAMED_MOUNTAIN_VELUWE"/>
+		<Delete Type="NAMED_MOUNTAIN_VERKHOYANSK"/>
+		<Delete Type="NAMED_MOUNTAIN_VERMILION_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_VERMIO_MOUNTAINS"/>
+		<Delete Type="NAMED_MOUNTAIN_VINDHAYA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_VORAS_MOUNTAIN_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_VOSGES"/>
+		<Delete Type="NAMED_MOUNTAIN_WAYTAPALLANA_WALLA"/>
+		<Delete Type="NAMED_MOUNTAIN_WAYWASH_WALLA"/>
+		<Delete Type="NAMED_MOUNTAIN_WILLKANUTA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_WILLKAPAMPA_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_YANA_WALLA"/>
+		<Delete Type="NAMED_MOUNTAIN_YEONGNAM_ALPS"/>
+		<Delete Type="NAMED_MOUNTAIN_YURAQ_WALLA"/>
+		<Delete Type="NAMED_MOUNTAIN_ZAGROS"/>
+		<Delete Type="NAMED_MOUNTAIN_ZARAFSHAN_RANGE"/>
+		<Delete Type="NAMED_MOUNTAIN_ZEMPOALTEPETL"/>
+		<Delete Type="ROUTE_RAILROAD"/>
+	</Types>
+</GameInfo>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="RESOURCE_GOLD" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_MADNESS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SCROLLS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DRAGONGLASS" Kind="KIND_RESOURCE"/>
+	</Types>
+	<TypeTags>
+		<Row Type="RESOURCE_GOLD" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_GOLD" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_SCROLLS" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_DRAGONGLASS" Tag="CLASS_PRODUCTION"/>
+	</TypeTags>
+	<Resources>
+		<Row ResourceType="RESOURCE_GOLD" Name="LOC_RESOURCE_GOLD_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="100"/>
+		<Row ResourceType="RESOURCE_MADNESS" Name="LOC_RESOURCE_MADNESS_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="0"/>
+		<Row ResourceType="RESOURCE_SCROLLS" Name="LOC_RESOURCE_SCROLLS_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="0"/>
+		<Row ResourceType="RESOURCE_DRAGONGLASS" Name="LOC_RESOURCE_DRAGONGLASS_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" NoRiver="true" Frequency="10" PrereqTech="TECH_DRACONOLOGY"/>
+	</Resources>
+	<Resource_ValidTerrains>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_DRAGONGLASS" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_DRAGONGLASS" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_DRAGONGLASS" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_DRAGONGLASS" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Resource_ValidTerrains>
+	<Resource_Harvests>
+	</Resource_Harvests>
+	<Resource_YieldChanges>
+		<Row ResourceType="RESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row ResourceType="RESOURCE_DRAGONGLASS" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_DRAGONGLASS" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Resource_YieldChanges>
+	<Improvement_ValidResources>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_GOLD"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_DRAGONGLASS"/>
+	</Improvement_ValidResources>
+</GameInfo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+
+
+
+
+	<PlayerColors>
+
+
+		<Update>
+		  <Where Type="LEADER_EDMURE" />
+		  <Set PrimaryColor="COLOR_PLAYER_OLD_STARK_PRIMARY" />
+		</Update>
+
+	</PlayerColors>
+
+</GameInfo>

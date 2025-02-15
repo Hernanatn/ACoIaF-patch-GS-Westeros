@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!--Governors-->
+		<Row Type="GOVERNOR_OBERYN" Kind="KIND_GOVERNOR"/>
+	</Types>
+	<Governors>
+		<Row GovernorType="GOVERNOR_OBERYN" Image="GOVERNOR_OBERYN" Name="LOC_GOVERNOR_OBERYN_NAME" Title="LOC_GOVERNOR_OBERYN_TITLE" ShortTitle="LOC_GOVERNOR_OBERYN_SHORT_TITLE" Description="LOC_GOVERNOR_OBERYN_DESCRIPTION" IdentityPressure="8" TransitionStrength="150" AssignCityState="true" PortraitImage="GOVERNOR_ACOIAF_RED_VIPER_NORMAL" PortraitImageSelected="GOVERNOR_ACOIAF_RED_VIPER_SELECTED" TraitType="TRAIT_LEADER_DORNISH_MASTERPLAN"/>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER" />
+			<Set TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_AMBASSADOR" />
+			<Set TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_CARDINAL" />
+			<Set TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER" />
+			<Set TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_RESOURCE_MANAGER" />
+			<Set TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_BUILDER" />
+			<Set TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_EDUCATOR" />
+			<Set TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" />
+		</Update>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_MERCHANT" />
+			<Set TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" />
+		</Update>
+	</Governors>
+	<GovernorPromotionSets>
+		<!--The Defender-->
+		<Row GovernorType="GOVERNOR_OBERYN" GovernorPromotion="GOVERNOR_PROMOTION_PASHA"/>
+		<Row GovernorType="GOVERNOR_OBERYN" GovernorPromotion="GOVERNOR_PROMOTION_HEAD_FALCONER"/>
+		<Row GovernorType="GOVERNOR_OBERYN" GovernorPromotion="GOVERNOR_PROMOTION_SERASKER"/>
+		<Row GovernorType="GOVERNOR_OBERYN" GovernorPromotion="GOVERNOR_PROMOTION_KHASS_ODA_BASHI"/>
+		<Row GovernorType="GOVERNOR_OBERYN" GovernorPromotion="GOVERNOR_PROMOTION_CAPOU_AGHA"/>
+		<Row GovernorType="GOVERNOR_OBERYN" GovernorPromotion="GOVERNOR_PROMOTION_GRAND_VISIER"/>
+	</GovernorPromotionSets>
+	<GovernorPromotions>
+	</GovernorPromotions>
+	<GovernorPromotionPrereqs>
+	</GovernorPromotionPrereqs>
+	<Governors_XP2>
+		<Row GovernorType="GOVERNOR_OBERYN" AssignToMajor="true"/>
+	</Governors_XP2>
+	<GovernorPromotionModifiers>
+	</GovernorPromotionModifiers>
+	
+	<Modifiers>
+	</Modifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+	<RequirementSets>
+	</RequirementSets>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+</GameInfo>

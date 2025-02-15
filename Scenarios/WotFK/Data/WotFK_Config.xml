@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+	<RuleSets>
+		<Row>
+			<RuleSetType>RULESET_SCENARIO_WOTFK</RuleSetType>
+			<Name>LOC_WOTFK_SCENARIO_NAME</Name>
+			<Description>LOC_WOTFK_SCENARIO_TOOLTIP</Description>
+			<LongDescription>LOC_WOTFK_SCENARIO_DESCRIPTION</LongDescription>
+			<VictoryDomain>WotFKScenario_Victories</VictoryDomain>
+			<ScenarioSetupPortrait>SCENARIO_WOTFK_PORTRAIT</ScenarioSetupPortrait>
+			<ScenarioSetupPortraitBackground>SCENARIO_WOTFK_BG</ScenarioSetupPortraitBackground>
+			<IsScenario>1</IsScenario>
+			<SupportsMultiPlayer>1</SupportsMultiPlayer>
+			<RequiresNoTeams>1</RequiresNoTeams>
+			<RequiresUniqueLeaders>1</RequiresUniqueLeaders>
+			<MaxTurns>120</MaxTurns>
+			<FixedMaxTurns>1</FixedMaxTurns>
+			<RequiresUniqueCivilizations>0</RequiresUniqueCivilizations>
+		</Row>
+	</RuleSets>
+	<DomainValues>
+		<Row Domain="WotfkScenario_Players" Name="LOC_RANDOM_LEADER" SortIndex="1" Description="LOC_RANDOM_LEADER" Value="RANDOM"/>
+		<Row Domain="WotFKScenario_Calendar" Name="LOC_PLACEHOLDER" SortIndex="1" Description="LOC_PLACEHOLDER" Value="CALENDAR_STANDARD_FROM_START_ERA"/>
+	</DomainValues>
+	<RulesetDomainOverrides>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" 								ParameterId="PlayerLeader" 			Domain="WotfkScenario_Players" />
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="5" 					ParameterId="PlayerLocked" 			Domain="PlayerLockedAlwaysLocked"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="6" 					ParameterId="PlayerLocked" 			Domain="PlayerLockedAlwaysLocked"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="7" 					ParameterId="PlayerLocked" 			Domain="PlayerLockedAlwaysLocked"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="8" 					ParameterId="PlayerLocked" 			Domain="PlayerLockedAlwaysLocked"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="9" 					ParameterId="PlayerLocked" 			Domain="PlayerLockedAlwaysLocked"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="10" 				ParameterId="PlayerLocked" 			Domain="PlayerLockedAlwaysLocked"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" 								ParameterId="Map" 					Domain="WotFKScenario_Maps"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" 								ParameterId="GameCalendar" 			Domain="WotFKScenario_Calendar"/>
+	</RulesetDomainOverrides>
+	<RulesetSupportedValues>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" Domain="StandardEras" Value="ERA_MEDIEVAL"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" Domain="StandardGameSpeeds" Value="GAMESPEED_QUICK"/>
+
+		<!-- Slot 1 -->
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="0" Domain="WotfkScenario_Players" Value="RANDOM"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="0" Domain="WotfkScenario_Players" Value="LEADER_BALON"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="0" Domain="WotfkScenario_Players" Value="LEADER_ROBB"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="0" Domain="WotfkScenario_Players" Value="LEADER_JOFFERY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="0" Domain="WotfkScenario_Players" Value="LEADER_RENLY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="0" Domain="WotfkScenario_Players" Value="LEADER_STANNIS"/>
+		<!-- Slot 2 -->
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="1" Domain="WotfkScenario_Players" Value="RANDOM"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="1" Domain="WotfkScenario_Players" Value="LEADER_BALON"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="1" Domain="WotfkScenario_Players" Value="LEADER_ROBB"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="1" Domain="WotfkScenario_Players" Value="LEADER_JOFFERY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="1" Domain="WotfkScenario_Players" Value="LEADER_RENLY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="1" Domain="WotfkScenario_Players" Value="LEADER_STANNIS"/>
+		<!-- Slot 3 -->
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="2" Domain="WotfkScenario_Players" Value="RANDOM"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="2" Domain="WotfkScenario_Players" Value="LEADER_BALON"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="2" Domain="WotfkScenario_Players" Value="LEADER_ROBB"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="2" Domain="WotfkScenario_Players" Value="LEADER_JOFFERY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="2" Domain="WotfkScenario_Players" Value="LEADER_RENLY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="2" Domain="WotfkScenario_Players" Value="LEADER_STANNIS"/>
+		<!-- Slot 4 -->
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="3" Domain="WotfkScenario_Players" Value="RANDOM"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="3" Domain="WotfkScenario_Players" Value="LEADER_BALON"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="3" Domain="WotfkScenario_Players" Value="LEADER_ROBB"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="3" Domain="WotfkScenario_Players" Value="LEADER_JOFFERY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="3" Domain="WotfkScenario_Players" Value="LEADER_RENLY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="3" Domain="WotfkScenario_Players" Value="LEADER_STANNIS"/>
+		<!-- Slot 5 -->
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="4" Domain="WotfkScenario_Players" Value="RANDOM"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="4" Domain="WotfkScenario_Players" Value="LEADER_BALON"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="4" Domain="WotfkScenario_Players" Value="LEADER_ROBB"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="4" Domain="WotfkScenario_Players" Value="LEADER_JOFFERY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="4" Domain="WotfkScenario_Players" Value="LEADER_RENLY"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="4" Domain="WotfkScenario_Players" Value="LEADER_STANNIS"/>
+
+		<!-- NPC Slots -->
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="5" Domain="WotfkScenario_Players" Value="LEADER_DORAN"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="6" Domain="WotfkScenario_Players" Value="LEADER_TYWIN"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="7" Domain="WotfkScenario_Players" Value="LEADER_OLENNA"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="8" Domain="WotfkScenario_Players" Value="LEADER_PETYR"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="9" Domain="WotfkScenario_Players" Value="LEADER_EDMURE"/>
+		<Row Ruleset="RULESET_SCENARIO_WOTFK" PlayerId="10" Domain="WotfkScenario_Players" Value="LEADER_MANCE"/>
+	</RulesetSupportedValues>
+	<MapDomainOverrides>
+		<Row Map="{11865ab3-24cd-4c0a-96cc-a8ae7df1b31b}Scenarios/WotFK/Maps/WotFKScenario.Civ6Map" ParameterId="MapSize" Domain="WotFKScenarioMap"  />
+	</MapDomainOverrides>
+	<MapSizes>
+		<Row Domain="WotFKScenarioMap" MapSizeType="MAPSIZE_STANDARD" Name="LOC_MAPSIZE_STANDARD_NAME" Description="LOC_MAPSIZE_STANDARD_DESCRIPTION" MinPlayers="11" MaxPlayers="11" DefaultPlayers="11" MinCityStates="27" MaxCityStates="27" DefaultCityStates="27" SortIndex="10"/>
+	</MapSizes>
+	<Victories>
+		<Row Domain="WotFKScenario_Victories" ReadOnly="true" Description="LOC_VICTORY_SCORE_TT" Name="LOC_VICTORY_SCORE_NAME" VictoryType="VICTORY_SCORE"/>
+	</Victories>
+	<ParameterDependencies>
+		<Row ConfigurationId="RULESET" 						ConfigurationGroup="Game" ParameterId="Resources" 			ConfigurationValue="RULESET_SCENARIO_WOTFK" Operator="NotEquals"/>
+		<Row ConfigurationId="RULESET" 						ConfigurationGroup="Game" ParameterId="StartPosition" 		ConfigurationValue="RULESET_SCENARIO_WOTFK" Operator="NotEquals"/>
+		
+		<Row ConfigurationId="RULESET" 						ConfigurationGroup="Game" ParameterId="NoDupeCivilizations" 		ConfigurationValue="RULESET_SCENARIO_WOTFK" Operator="NotEquals"/>
+	
+		
+	</ParameterDependencies>
+
+	<Players>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_STARK</CivilizationType>
+			<LeaderType>LEADER_ROBB</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_STARK_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_STARK_ROBB</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ROBB_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ROBB</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_STARK_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_STARK_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_STARK_ROBB</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YOUNG_WOLF_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YOUNG_WOLF_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ROBB</LeaderAbilityIcon>
+			<Portrait>ROBB_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_STANNIS</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_BARATHEON_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_BARATHEON_STANNIS</CivilizationIcon>
+			<LeaderName>LOC_LEADER_STANNIS_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_STANNIS</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_BARATHEON_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_BARATHEON_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_BARATHEON_STANNIS</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_AZHOR_AHAI_REBORN_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_AZHOR_AHAI_REBORN_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_STANNIS</LeaderAbilityIcon>
+			<Portrait>STANNIS_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_GREYJOY</CivilizationType>
+			<LeaderType>LEADER_BALON</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_GREYJOY_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_GREYJOY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_BALON_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_BALON</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_GREYJOY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_GREYJOY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_GREYJOY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_THE_IRON_PRICE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_THE_IRON_PRICE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_BALON</LeaderAbilityIcon>
+			<Portrait>BALON_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_JOFFERY</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_BARATHEON_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_BARATHEON_JOFFERY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_JOFFERY_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_JOFFERY</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_BARATHEON_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_BARATHEON_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_BARATHEON_JOFFERY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_JOFF_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_JOFF_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_JOFFERY</LeaderAbilityIcon>
+			<Portrait>JOFFERY_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_RENLY</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_BARATHEON_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_BARATHEON_RENLY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_RENLY_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_RENLY</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_BARATHEON_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_BARATHEON_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_BARATHEON_RENLY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_GOOD_KING_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_GOOD_KING_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_RENLY</LeaderAbilityIcon>
+			<Portrait>RENLY_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_LANNISTER</CivilizationType>
+			<LeaderType>LEADER_TYWIN</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_LANNISTER_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LANNISTER</CivilizationIcon>
+			<LeaderName>LOC_LEADER_TYWIN_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_TYWIN</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LANNISTER_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LANNISTER_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LANNISTER</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_LANNISTER_DEBTS_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_LANNISTER_DEBTS_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_TYWIN</LeaderAbilityIcon>
+			<Portrait>TYWIN_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_TYRELL</CivilizationType>
+			<LeaderType>LEADER_OLENNA</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_TYRELL_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_TYRELL</CivilizationIcon>
+			<LeaderName>LOC_LEADER_OLENNA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_OLENNA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_TYRELL_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_TYRELL_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_TYRELL</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_QUEEN_OF_THORNS_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_QUEEN_OF_THORNS_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_OLENNA</LeaderAbilityIcon>
+			<Portrait>OLENNA_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_MARTELL</CivilizationType>
+			<LeaderType>LEADER_DORAN</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_MARTELL_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_MARTELL</CivilizationIcon>
+			<LeaderName>LOC_LEADER_DORAN_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_DORAN</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MARTELL_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MARTELL_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_MARTELL</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_DORNISH_MASTERPLAN_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_DORNISH_MASTERPLAN_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_DORAN</LeaderAbilityIcon>
+			<Portrait>DORAN_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_ARRYN</CivilizationType>
+			<LeaderType>LEADER_PETYR</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ARRYN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ARRYN</CivilizationIcon>
+			<LeaderName>LOC_LEADER_PETYR_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_PETYR</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ARRYN_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ARRYN_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ARRYN</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_LITTLEFINGER_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_LITTLEFINGER_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_PETYR</LeaderAbilityIcon>
+			<Portrait>PETYR_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_TULLY</CivilizationType>
+			<LeaderType>LEADER_EDMURE</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_TULLY_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_TULLY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_EDMURE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_EDMURE</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_TULLY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_TULLY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_TULLY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_EDMURE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_EDMURE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_EDMURE</LeaderAbilityIcon>
+			<Portrait>EDMURE_4</Portrait>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_WILDLING</CivilizationType>
+			<LeaderType>LEADER_MANCE</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_WILDLING_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_WILDLING</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MANCE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MANCE</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILDLING_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILDLING_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_WILDLING</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_KING_BEYOND_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KING_BEYOND_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MANCE</LeaderAbilityIcon>
+			<Portrait>MANCE_4</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_STARK</CivilizationType>
+			<LeaderType>LEADER_ROBB</LeaderType>
+			<Type>BUILDING_WEIRWOOD_TREE</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_BUILDING_WEIRWOOD_TREE_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_BUILDING_WEIRWOOD_TREE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_WEIRWOOD_TREE</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_STARK</CivilizationType>
+			<LeaderType>LEADER_ROBB</LeaderType>
+			<Type>UNIT_BANNERMAN</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_BANNERMAN_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_BANNERMAN_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BANNERMAN</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_STANNIS</LeaderType>
+			<Type>BUILDING_PYRE_OF_RHLLOR</Type>
+			<Name>LOC_TRAIT_LEADER_BUILDING_PYRE_OF_RHLLOR_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_BUILDING_PYRE_OF_RHLLOR_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_PYRE_OF_RHLLOR</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_STANNIS</LeaderType>
+			<Type>UNIT_RED_PRIEST</Type>
+			<Name>LOC_TRAIT_LEADER_UNIT_RED_PRIEST_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_UNIT_RED_PRIEST_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_RED_PRIEST</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_STANNIS</LeaderType>
+			<Type>UNIT_BRUTE</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_BRUTE_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_BRUTE_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BRUTE</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_GREYJOY</CivilizationType>
+			<LeaderType>LEADER_BALON</LeaderType>
+			<Type>UNIT_IRON_FLEET</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_IRON_FLEET_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_IRON_FLEET_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_IRON_FLEET</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_GREYJOY</CivilizationType>
+			<LeaderType>LEADER_BALON</LeaderType>
+			<Type>DISTRICT_IRON_HARBOR</Type>
+			<Name>LOC_DISTRICT_IRON_HARBOR_NAME</Name>
+			<Description>LOC_DISTRICT_IRON_HARBOR_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_ROYAL_NAVY_DOCKYARD</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_JOFFERY</LeaderType>
+			<Type>BUILDING_TOURNAMENT_GROUNDS</Type>
+			<Name>LOC_TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_TOURNAMENT_GROUNDS</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_JOFFERY</LeaderType>
+			<Type>UNIT_KINGSGUARD</Type>
+			<Name>LOC_TRAIT_LEADER_UNIT_KINGSGUARD_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_UNIT_KINGSGUARD_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_KINGSGUARD</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_RENLY</LeaderType>
+			<Type>BUILDING_TOURNAMENT_GROUNDS</Type>
+			<Name>LOC_TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_TOURNAMENT_GROUNDS</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_RENLY</LeaderType>
+			<Type>UNIT_BRUTE</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_BRUTE_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_BRUTE_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BRUTE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_BARATHEON</CivilizationType>
+			<LeaderType>LEADER_RENLY</LeaderType>
+			<Type>UNIT_RAINBOW_GUARD</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_RAINBOW_GUARD_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_RAINBOW_GUARD_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_RAINBOW_GUARD</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_LANNISTER</CivilizationType>
+			<LeaderType>LEADER_TYWIN</LeaderType>
+			<Type>BUILDING_HALL_OF_HEROES</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_BUILDING_HALL_OF_HEROES_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_BUILDING_HALL_OF_HEROES_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_HALL_OF_HEROES</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_LANNISTER</CivilizationType>
+			<LeaderType>LEADER_TYWIN</LeaderType>
+			<Type>UNIT_RED_CLOAK</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_RED_CLOAK_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_RED_CLOAK_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_RED_CLOAK</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_TYRELL</CivilizationType>
+			<LeaderType>LEADER_OLENNA</LeaderType>
+			<Type>BUILDING_TYRELL_GRANARY</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_BUILDING_TYRELL_GRANARY_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_BUILDING_TYRELL_GRANARY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_TYRELL_GRANARY</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_TYRELL</CivilizationType>
+			<LeaderType>LEADER_OLENNA</LeaderType>
+			<Type>IMPROVEMENT_REACH_FARM</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_IMPROVEMENT_REACH_FARM_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_IMPROVEMENT_REACH_FARM_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_REACH_FARM</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_MARTELL</CivilizationType>
+			<LeaderType>LEADER_DORAN</LeaderType>
+			<Type>DISTRICT_WATER_GARDEN</Type>
+			<Name>LOC_DISTRICT_WATER_GARDEN_NAME</Name>
+			<Description>LOC_DISTRICT_WATER_GARDEN_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_BATH</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_MARTELL</CivilizationType>
+			<LeaderType>LEADER_DORAN</LeaderType>
+			<Type>UNIT_SAND_SNAKE</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_SAND_SNAKE_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_SAND_SNAKE_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SAND_SNAKE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_ARRYN</CivilizationType>
+			<LeaderType>LEADER_PETYR</LeaderType>
+			<Type>BUILDING_BROTHEL</Type>
+			<Name>LOC_TRAIT_LEADER_BUILDING_BROTHEL_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_BUILDING_BROTHEL_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_BROTHEL</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_ARRYN</CivilizationType>
+			<LeaderType>LEADER_PETYR</LeaderType>
+			<Type>UNIT_VALE_KNIGHT</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_VALE_KNIGHT</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_TULLY</CivilizationType>
+			<LeaderType>LEADER_EDMURE</LeaderType>
+			<Type>BUILDING_TULLY_WATER_MILL</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_BUILDING_TULLY_WATER_MILL_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_BUILDING_TULLY_WATER_MILL_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_TULLY_WATER_MILL</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_TULLY</CivilizationType>
+			<LeaderType>LEADER_EDMURE</LeaderType>
+			<Type>UNIT_TULLY_ARCHER</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_TULLY_ARCHER_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_TULLY_ARCHER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_TULLY_ARCHER</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_WILDLING</CivilizationType>
+			<LeaderType>LEADER_MANCE</LeaderType>
+			<Type>IMPROVEMENT_WILDLING_CAMP</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_IMPROVEMENT_WILDLING_CAMP_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_IMPROVEMENT_WILDLING_CAMP_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_WILDLING_CAMP</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>WotfkScenario_Players</Domain>
+			<CivilizationType>CIVILIZATION_WILDLING</CivilizationType>
+			<LeaderType>LEADER_MANCE</LeaderType>
+			<Type>UNIT_WILDLING</Type>
+			<Name>LOC_TRAIT_LEADER_UNIT_WILDLING_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_UNIT_WILDLING_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_WILDLING</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameInfo>

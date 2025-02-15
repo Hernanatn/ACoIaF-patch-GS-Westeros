@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="RELIGION_OLD_GODS" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_RED_GOD" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_SEVEN_GODS" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_DROWNED_GOD" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_MANY_FACED_GOD" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_VEZHOF" Kind="KIND_RELIGION"/>
+	</Types>
+	<Religions>
+		<Row ReligionType="RELIGION_OLD_GODS" Name="LOC_RELIGION_OLD_GODS" Iconstring="Og" RequiresCustomName="false" Color="COLOR_RELIGION_CUSTOM_10"/>
+		<Row ReligionType="RELIGION_RED_GOD" Name="LOC_RELIGION_RED_GOD" Iconstring="Rg" RequiresCustomName="false" Color="COLOR_RELIGION_TAOISM"/>
+		<Row ReligionType="RELIGION_SEVEN_GODS" Name="LOC_RELIGION_SEVEN_GODS" Iconstring="Sg" RequiresCustomName="false" Color="COLOR_RELIGION_ISLAM"/>
+		<Row ReligionType="RELIGION_DROWNED_GOD" Name="LOC_RELIGION_DROWNED_GOD" Iconstring="Dg" RequiresCustomName="false" Color="COLOR_RELIGION_SIKHISM"/>
+		<Row ReligionType="RELIGION_MANY_FACED_GOD" Name="LOC_RELIGION_MANY_FACED_GOD" Iconstring="Mfg" RequiresCustomName="false" Color="COLOR_RELIGION_CUSTOM_5"/>
+		<Row ReligionType="RELIGION_VEZHOF" Name="LOC_RELIGION_VEZHOF" Iconstring="Vg" RequiresCustomName="false" Color="COLOR_RELIGION_CUSTOM_3"/>
+	</Religions>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_EDDARD" ReligionType="RELIGION_OLD_GODS" />
+		<Row LeaderType="LEADER_STANNIS" ReligionType="RELIGION_RED_GOD" />
+		<Row LeaderType="LEADER_DANY" ReligionType="RELIGION_RED_GOD" />
+		<Row LeaderType="LEADER_KING_ROBERT" ReligionType="RELIGION_SEVEN_GODS" />
+		<Row LeaderType="LEADER_TYWIN" ReligionType="RELIGION_SEVEN_GODS" />
+		<Row LeaderType="LEADER_EDMURE" ReligionType="RELIGION_SEVEN_GODS" />
+		<Row LeaderType="LEADER_OLENNA" ReligionType="RELIGION_SEVEN_GODS" />
+		<Row LeaderType="LEADER_PETYR" ReligionType="RELIGION_SEVEN_GODS" />
+		<Row LeaderType="LEADER_DORAN" ReligionType="RELIGION_SEVEN_GODS" />
+		<Row LeaderType="LEADER_BALON" ReligionType="RELIGION_DROWNED_GOD" />
+		
+		<Row LeaderType="LEADER_JON_SNOW" ReligionType="RELIGION_OLD_GODS" />
+		<Row LeaderType="LEADER_CERSEI" ReligionType="RELIGION_SEVEN_GODS" />
+		<Row LeaderType="LEADER_EURON" ReligionType="RELIGION_DROWNED_GOD" />
+		
+		<Row LeaderType="LEADER_ROBB" ReligionType="RELIGION_OLD_GODS"/>
+		<Row LeaderType="LEADER_JOFFERY" ReligionType="RELIGION_SEVEN_GODS"/>
+
+		<Row LeaderType="LEADER_MANCE" ReligionType="RELIGION_OLD_GODS"/>
+		<Row LeaderType="LEADER_DROGO" ReligionType="RELIGION_VEZHOF"/>
+		
+		<Row LeaderType="LEADER_ROOSE" ReligionType="RELIGION_OLD_GODS"/>
+	</FavoredReligions>
+	<Beliefs>
+	</Beliefs>
+	<BeliefModifiers>
+	</BeliefModifiers>
+	<Modifiers>
+	</Modifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+
+		<!--Buildings-->
+		<Delete Type="BUILDING_GREAT_PYRAMID"/>
+		<Delete Type="BUILDING_WHITE_CASTLE"/>
+		<Delete Type="BUILDING_GRAND_FIGHTING_PIT"/>
+		<Delete Type="BUILDING_THOUSAND_ROOM_PALACE"/>
+
+		<!-- Units-->
+		<Delete Type="UNIT_SETTLER"/>
+		<Delete Type="UNIT_ROBERT_SETTLER"/>
+		<Delete Type="UNIT_UND_SETTLER"/>
+		<Delete Type="UNIT_ALCHEMIST"/>
+		<Delete Type="UNIT_GEN_ALCHEMIST"/>
+
+		<!-- Great Prophets -->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_BRANDON_STARK"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MELISANDRE"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_AERON_GREYJOY"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_HIGH_SPARROW"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_RUS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_KINVARA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_THOROS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_HIGH_SEPTON_MAYNARD"/>
+
+		<!-- Projects -->
+		<Delete Type="PROJECT_BUILD_M_WILDFIRE"/>
+		<Delete Type="PROJECT_BURN_THEM_ALL"/>
+		<Delete Type="PROJECT_WILDFIRE_RESEARCH"/>
+		<Delete Type="PROJECT_BUILD_WILDFIRE"/>
+
+
+		<!-- Victories -->
+		<Delete Type="VICTORY_CONQUEST"/>
+		<Delete Type="VICTORY_DEFAULT"/>
+		<Delete Type="VICTORY_CULTURE"/>
+		<Delete Type="VICTORY_RELIGIOUS"/>
+	</Types>
+</GameInfo>

@@ -1,0 +1,1166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<!-- Units -->
+		<!-- Base -->
+		<Row Type="UNIT_BANNERMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BANNERMAN_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_RED_CLOAK" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_RED_CLOAK_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_RED_PRIEST" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_KINGSGUARD" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_KINGSGUARD_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ROBERT_SETTLER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BRUTE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BRUTE_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_RAINBOW_GUARD" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_RAINBOW_GUARD_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_REACH_KNIGHT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_REACH_KNIGHT_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_IRON_FLEET" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_IRON_FLEET_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SAND_SNAKE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SAND_SNAKE_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_UNSULLIED" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_UNSULLIED_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_DRAGON" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_DRAGON_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_VALE_KNIGHT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_VALE_KNIGHT_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TULLY_ARCHER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TULLY_ARCHER_II" Kind="KIND_UNIT"/>
+
+		<!-- Regular Unit Upgrades-->
+		<Row Type="UNIT_SWORDSMAN_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_PIKEMAN_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_KNIGHT_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GALLEY_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_QUADRIREME_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CROSSBOWMAN_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CATAPULT_II" Kind="KIND_UNIT"/>
+
+
+		<!-- Burn Them All -->
+		<Row Type="UNIT_WILDLING" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_WILDLING_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ALCHEMIST" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_IRON_REAVER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_IRON_REAVER_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GEN_ALCHEMIST" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SCORPION" Kind="KIND_UNIT"/>
+
+		<!-- Wild Essos -->
+		<Row Type="UNIT_BLOOD_RIDER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BLOOD_RIDER_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SCREAMER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SCREAMER_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FACELESS_MEN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FACELESS_MEN_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_WARLOCK" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GHISCARI_LEGION" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GHISCARI_LEGION_II" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TOLOS_SLINGER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TOLOS_SLINGER_II" Kind="KIND_UNIT"/>
+
+		<!-- War of the Five Kings-->
+		<Row Type="UNIT_CLEGANE_CORPS" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CLEGANE_CORPS_II" Kind="KIND_UNIT"/>
+
+		<Row Type="UNIT_FLAYER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FLAYER_II" Kind="KIND_UNIT"/>
+
+		<!-- Abilities -->
+		<!-- Base -->
+		<Row Type="ABILITY_BRUTE_IGNORE_ZOC" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RED_PRIEST" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SAND_SNAKE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_VALE_KNIGHT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_REACH_KNIGHT" Kind="KIND_ABILITY"/>
+
+		<Row Type="ABILITY_KHAL_CAVALRY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BLOOD_RIDER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FLAYER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SCREAMER" Kind="KIND_ABILITY"/>
+
+		<!-- Wild Essos -->
+		<Row Type="ABILITY_NO_BORDER_RESTRICTIONS_BRAAVOS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GRANT_RANGE_BONUS_WARLOCK" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_WARLOCK" Kind="KIND_ABILITY"/>
+
+		<!-- WotFK -->
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Kind="KIND_ABILITY"/>
+
+		<!-- Other Invasion -->
+
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS" Kind="KIND_ABILITY"/>
+
+
+		<Row Type="PROMOTION_CLASS_BONUS" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_SEASONED" Kind="KIND_PROMOTION"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_BRUTE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_BANNERMAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_RED_PRIEST" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_RAINBOW_GUARD" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SAND_SNAKE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_VALE_KNIGHT" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_REACH_KNIGHT" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_TULLY_ARCHER" Vocabulary="ABILITY_CLASS"/>
+
+		<Row Tag="CLASS_ALCHEMIST" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_IRON_REAVER" Vocabulary="ABILITY_CLASS"/>
+
+		<Row Tag="CLASS_BLOOD_RIDER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_FLAYER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SCREAMER" Vocabulary="ABILITY_CLASS"/>
+
+		<Row Tag="CLASS_FACELESS_MEN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GLASS_CANDLE_OBSERVATION" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GLASS_CANDLE_FORWARD_OBSERVER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!-- Base -->
+		<Row Type="UNIT_BANNERMAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_BANNERMAN" Tag="CLASS_BANNERMAN"/>
+		<Row Type="UNIT_BANNERMAN_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_BANNERMAN_II" Tag="CLASS_BANNERMAN"/>
+		<Row Type="UNIT_RED_CLOAK" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_RED_CLOAK_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_BRUTE" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_BRUTE" Tag="CLASS_BRUTE"/>
+		<Row Type="UNIT_BRUTE_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_BRUTE_II" Tag="CLASS_BRUTE"/>
+		<Row Type="UNIT_RED_PRIEST" Tag="CLASS_MEDIC"/>
+		<Row Type="UNIT_RED_PRIEST" Tag="CLASS_RED_PRIEST"/>
+		<Row Type="UNIT_KINGSGUARD" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_KINGSGUARD_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_ROBERT_SETTLER" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_RAINBOW_GUARD" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_RAINBOW_GUARD" Tag="CLASS_RAINBOW_GUARD"/>
+		<Row Type="UNIT_RAINBOW_GUARD_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_RAINBOW_GUARD_II" Tag="CLASS_RAINBOW_GUARD"/>
+		<Row Type="UNIT_REACH_KNIGHT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_REACH_KNIGHT" Tag="CLASS_REACH_KNIGHT"/>
+		<Row Type="UNIT_REACH_KNIGHT_II" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_REACH_KNIGHT_II" Tag="CLASS_REACH_KNIGHT"/>
+		<Row Type="UNIT_IRON_FLEET" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_IRON_FLEET" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_IRON_FLEET" Tag="CLASS_CAPTURE_SHIPS"/>
+		<Row Type="UNIT_IRON_FLEET_II" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_IRON_FLEET_II" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_IRON_FLEET_II" Tag="CLASS_CAPTURE_SHIPS"/>
+		<Row Type="UNIT_SAND_SNAKE" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_SAND_SNAKE" Tag="CLASS_SAND_SNAKE"/>
+		<Row Type="UNIT_SAND_SNAKE_II" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_SAND_SNAKE_II" Tag="CLASS_SAND_SNAKE"/>
+		<Row Type="UNIT_UNSULLIED" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_UNSULLIED" Tag="CLASS_CAPTURE_WORKER"/>
+		<Row Type="UNIT_UNSULLIED_II" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_UNSULLIED_II" Tag="CLASS_CAPTURE_WORKER"/>
+		<Row Type="UNIT_DRAGON" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_DRAGON" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_DRAGON_II" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_DRAGON_II" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_VALE_KNIGHT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_VALE_KNIGHT" Tag="CLASS_VALE_KNIGHT"/>
+		<Row Type="UNIT_VALE_KNIGHT_II" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_VALE_KNIGHT_II" Tag="CLASS_VALE_KNIGHT"/>
+		<Row Type="UNIT_TULLY_ARCHER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_TULLY_ARCHER" Tag="CLASS_TULLY_ARCHER"/>
+		<Row Type="UNIT_TULLY_ARCHER_II" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_TULLY_ARCHER_II" Tag="CLASS_TULLY_ARCHER"/>
+
+
+		<Row Type="UNIT_GEN_ALCHEMIST" Tag="CLASS_ALCHEMIST"/>
+		<Row Type="UNIT_SCORPION" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_SCORPION" Tag="CLASS_ANTI_CAVALRY"/>
+
+		<!-- Regular Unit Upgrades-->
+		<Row Type="UNIT_SWORDSMAN_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_PIKEMAN_II" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_KNIGHT_II" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_GALLEY_II" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_QUADRIREME_II" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_CROSSBOWMAN_II" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_CATAPULT_II" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_CATAPULT_II" Tag="CLASS_SIEGE_SETUP"/>
+		<Row Type="UNIT_CATAPULT_II" Tag="CLASS_FORWARD_OBSERVER"/>
+
+		<!-- Burn Them All -->
+		<Row Type="UNIT_WILDLING" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_WILDLING" Tag="CLASS_MELEE_BERSERKER"/>
+		<Row Type="UNIT_WILDLING_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_WILDLING_II" Tag="CLASS_MELEE_BERSERKER"/>
+		<Row Type="UNIT_ALCHEMIST" Tag="CLASS_ALCHEMIST"/>
+		<Row Type="UNIT_IRON_REAVER" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_IRON_REAVER" Tag="CLASS_IRON_REAVER"/>
+		<Row Type="UNIT_IRON_REAVER_II" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_IRON_REAVER_II" Tag="CLASS_IRON_REAVER"/>
+
+
+		<!-- Wild Essos -->
+		<Row Type="UNIT_BLOOD_RIDER" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_BLOOD_RIDER" Tag="CLASS_BLOOD_RIDER"/>
+		<Row Type="UNIT_FLAYER" Tag="CLASS_FLAYER"/>
+		<Row Type="UNIT_FLAYER_II" Tag="CLASS_FLAYER"/>
+		<Row Type="UNIT_BLOOD_RIDER_II" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_BLOOD_RIDER_II" Tag="CLASS_BLOOD_RIDER"/>
+
+		<Row Type="UNIT_SCREAMER" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="UNIT_SCREAMER" Tag="CLASS_SCREAMER"/>
+		<Row Type="UNIT_SCREAMER_II" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="UNIT_SCREAMER_II" Tag="CLASS_SCREAMER"/>
+
+		<Row Type="UNIT_FACELESS_MEN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_FACELESS_MEN" Tag="CLASS_FACELESS_MEN"/>
+		<Row Type="UNIT_FACELESS_MEN_II" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_FACELESS_MEN_II" Tag="CLASS_FACELESS_MEN"/>
+		<Row Type="UNIT_WARLOCK" Tag="CLASS_GLASS_CANDLE_OBSERVATION"/>
+		<Row Type="UNIT_GHISCARI_LEGION" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_GHISCARI_LEGION_II" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_TOLOS_SLINGER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_TOLOS_SLINGER_II" Tag="CLASS_RANGED"/>
+
+		<!-- War of the Five Kings-->
+		<Row Type="UNIT_CLEGANE_CORPS" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_CLEGANE_CORPS_II" Tag="CLASS_MELEE"/>
+
+		<!-- Abilities -->
+		<!-- Base -->
+		<Row Type="ABILITY_IGNORE_ZOC" Tag="CLASS_BRUTE"/>
+		<Row Type="ABILITY_SAMURAI" Tag="CLASS_BANNERMAN"/>
+		<Row Type="ABILITY_RED_PRIEST" Tag="CLASS_RED_PRIEST"/>
+		<Row Type="ABILITY_MAMLUK" Tag="CLASS_RAINBOW_GUARD"/>
+		<Row Type="ABILITY_SAND_SNAKE" Tag="CLASS_SAND_SNAKE"/>
+		<Row Type="ABILITY_VALE_KNIGHT" Tag="CLASS_VALE_KNIGHT"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_VALE_DEFENDER" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_REACH_KNIGHT" Tag="CLASS_REACH_KNIGHT"/>
+		<Row Type="ABILITY_IGNORE_CROSSING_RIVERS_COST" Tag="CLASS_TULLY_ARCHER"/>
+
+		<!-- Wild Essos -->
+		<Row Type="ABILITY_KHAL_CAVALRY" Tag="CLASS_BLOOD_RIDER"/>
+		<Row Type="ABILITY_BLOOD_RIDER" Tag="CLASS_BLOOD_RIDER"/>
+		<Row Type="ABILITY_FLAYER" Tag="CLASS_FLAYER"/>
+		<Row Type="ABILITY_SCREAMER" Tag="CLASS_SCREAMER"/>
+
+		<Row Type="ABILITY_NO_BORDER_RESTRICTIONS_BRAAVOS" Tag="CLASS_FACELESS_MEN"/>
+		<Row Type="ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS" Tag="CLASS_TRADER"/>
+		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_WARLOCK" Tag="CLASS_GLASS_CANDLE_FORWARD_OBSERVER"/>
+		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_WARLOCK" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_WARLOCK" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_WARLOCK" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_UNOBSTRUCTED_VIEW" Tag="CLASS_GLASS_CANDLE_OBSERVATION"/>
+
+		<!-- WOTFK -->
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_STRONGER_IN_DESERT_WYL" Tag="CLASS_SIEGE"/>
+
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Tag="CLASS_LANDCIVILIAN"/>
+
+		<Row Type="ABILITY_TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS" Tag="CLASS_NAVAL_RANGED"/>
+
+		<Row Type="UNIT_FLAYER" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_FLAYER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_FLAYER_II" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_FLAYER_II" Tag="CLASS_REVEAL_STEALTH"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_BRUTE_IGNORE_ZOC" Name="LOC_ABILITY_BRUTE_IGNORE_ZOC" Description="LOC_ABILITY_BRUTE_IGNORE_ZOC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RED_PRIEST" Name="LOC_ABILITY_RED_PRIEST_NAME" Description="LOC_ABILITY_RED_PRIEST_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SAND_SNAKE" Name="LOC_ABILITY_SAND_SNAKE_NAME" Description="LOC_ABILITY_SAND_SNAKE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_VALE_KNIGHT" Name="LOC_ABILITY_VALE_KNIGHT_NAME" Description="LOC_ABILITY_VALE_KNIGHT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_VALE_DEFENDER" Name="LOC_ABILITY_VALE_DEFENDER_NAME" Description="LOC_ABILITY_VALE_DEFENDER_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_REACH_KNIGHT" Name="LOC_ABILITY_REACH_KNIGHT_NAME" Description="LOC_ABILITY_REACH_KNIGHT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_KHAL_CAVALRY" Name="LOC_ABILITY_KHAL_CAVALRY_NAME" Description="LOC_ABILITY_KHAL_CAVALRY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BLOOD_RIDER" Name="LOC_ABILITY_BLOOD_RIDER_NAME" Description="LOC_ABILITY_BLOOD_RIDER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FLAYER" Name="LOC_ABILITY_FLAYER_NAME" Description="LOC_ABILITY_FLAYER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SCREAMER" Name="LOC_ABILITY_SCREAMER_NAME" Description="LOC_ABILITY_SCREAMER_DESCRIPTION"/>
+
+		<Row UnitAbilityType="ABILITY_NO_BORDER_RESTRICTIONS_BRAAVOS" Name="LOC_ABILITY_NO_BORDER_RESTRICTIONS_BRAAVOS_NAME" Description="LOC_ABILITY_NO_BORDER_RESTRICTIONS_BRAAVOS_DESCRIPTION" />
+		<Row UnitAbilityType="ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS" Name="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS_NAME" Description="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS_DESCRIPTION" Inactive="true"/>
+
+
+		<Row UnitAbilityType="ABILITY_GRANT_RANGE_BONUS_WARLOCK" Name="LOC_ABILITY_GRANT_RANGE_BONUS_WARLOCK_NAME" Description="LOC_ABILITY_GRANT_RANGE_BONUS_WARLOCK_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RECEIVE_RANGE_BONUS_WARLOCK" Name="LOC_ABILITY_RECEIVE_RANGE_BONUS_WARLOCK" Description="LOC_ABILITY_RECEIVE_RANGE_BONUS_WARLOCK_DESCRIPTION"/>
+
+		<Row UnitAbilityType="ABILITY_STRONGER_IN_DESERT_WYL" Name="LOC_ABILITY_STRONGER_IN_DESERT_WYL_NAME" Description="LOC_ABILITY_STRONGER_IN_DESERT_WYL_DESCRIPTION" Inactive="true"/>
+
+		<Row UnitAbilityType="ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY" Name="LOC_ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY_NAME" Description="LOC_ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS" Name="LOC_ABILITY_TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS_NAME" Description="LOC_ABILITY_TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS_DESCRIPTION" Inactive="true"/>
+
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_BRUTE_IGNORE_ZOC</UnitAbilityType>
+			<ModifierId>BRUTE_IGNOREZOC_IGNORE_ZOC</ModifierId>
+		</Row>
+		<Row UnitAbilityType="ABILITY_RED_PRIEST" ModifierId="CONQUISTADOR_CITY_RELIGION_COMBAT"/>
+		<Row UnitAbilityType="ABILITY_SAND_SNAKE" ModifierId="SAND_SNAKE_BONUS_ON_COAST"/>
+		<Row UnitAbilityType="ABILITY_SAND_SNAKE" ModifierId="SAND_SNAKE_NON_DOMESTIC_BONUS"/>
+		<Row UnitAbilityType="ABILITY_VALE_KNIGHT" ModifierId="VALE_KNIGHT_COMBAT_HILLS"/>
+		<Row UnitAbilityType="ABILITY_VALE_KNIGHT" ModifierId="VALE_KNIGHT_IGNORE_HILLS"/>
+		<Row UnitAbilityType="ABILITY_VALE_DEFENDER" ModifierId="VALE_DEFENDER_FREINDLY_TERRITORY_COMBAT"/>
+		<Row UnitAbilityType="ABILITY_VALE_DEFENDER" ModifierId="VALE_DEFENDER_COMBAT_HILLS"/>
+
+		<Row>
+			<UnitAbilityType>ABILITY_REACH_KNIGHT</UnitAbilityType>
+			<ModifierId>REACH_KNIGHT_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KHAL_CAVALRY</UnitAbilityType>
+			<ModifierId>KHAL_CAVALRY_GREAT_GENERAL_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KHAL_CAVALRY</UnitAbilityType>
+			<ModifierId>KHAL_CAVALRY_MORE_EXPERIENCE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BLOOD_RIDER</UnitAbilityType>
+			<ModifierId>BLOOD_RIDER_NEGATIVE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FLAYER</UnitAbilityType>
+			<ModifierId>FLAYER_NEGATIVE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SCREAMER</UnitAbilityType>
+			<ModifierId>SCREAMER_MOVE_AFTER_ATTACK</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitAbilityType>ABILITY_NO_BORDER_RESTRICTIONS_BRAAVOS</UnitAbilityType>
+			<ModifierId>MOD_ENTER_FOREIGN_LANDS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS</UnitAbilityType>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS</ModifierId>
+		</Row>
+
+
+
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_RANGE_BONUS_WARLOCK</UnitAbilityType>
+			<ModifierId>RECEIVE_RANGE_BONUS_WARLOCK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GRANT_RANGE_BONUS_WARLOCK</UnitAbilityType>
+			<ModifierId>GRANT_RANGE_BONUS_WARLOCK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_STRONGER_IN_DESERT_WYL</UnitAbilityType>
+			<ModifierId>WYL_BONUS_ON_DESERT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY</UnitAbilityType>
+			<ModifierId>EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS</UnitAbilityType>
+			<ModifierId>MOD_ENTER_FOREIGN_LANDS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>BRUTE_IGNOREZOC_IGNORE_ZOC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_ZOC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SAND_SNAKE_BONUS_ON_COAST</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SAND_SNAKE_ON_COAST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SAND_SNAKE_NON_DOMESTIC_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SAND_SNAKE_NON_DOMESTIC_PLOT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VALE_KNIGHT_COMBAT_HILLS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BALKAN_CAVALRY_PLOT_IS_HILS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VALE_KNIGHT_IGNORE_HILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>VALE_DEFENDER_FREINDLY_TERRITORY_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>VALE_DEFENDER_FREINDLY_TERRITORY_PLOT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VALE_DEFENDER_COMBAT_HILLS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BALKAN_CAVALRY_PLOT_IS_HILS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KHAL_CAVALRY_GREAT_GENERAL_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KHAL_CAVALRY_MORE_EXPERIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BLOOD_RIDER_NEGATIVE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BLOOD_RIDER_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BLOOD_RIDER_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FLAYER_NEGATIVE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>FLAYER_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FLAYER_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SCREAMER_MOVE_AFTER_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ATTACK_AND_MOVE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>RECEIVE_RANGE_BONUS_WARLOCK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+			<SubjectRequirementSetId>WARLOCK_RANGE_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_RANGE_BONUS_WARLOCK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_ATTACK_RANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WYL_BONUS_ON_DESERT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>WYL_DESERT_TERRAIN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>REACH_KNIGHT_NEIGHBOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REACH_KNIGHT_PLOT_IS_REACH_KNIGHT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>REACH_KNIGHT_NEIGHBOR_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BRUTE_IGNOREZOC_IGNORE_ZOC</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAND_SNAKE_BONUS_ON_COAST</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAND_SNAKE_NON_DOMESTIC_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALE_KNIGHT_COMBAT_HILLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALE_KNIGHT_IGNORE_HILLS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALE_KNIGHT_IGNORE_HILLS</ModifierId>
+			<Name>Type</Name>
+			<Value>HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KHAL_CAVALRY_GREAT_GENERAL_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>KHAL_CAVALRY_GREAT_GENERAL_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>KHAL_CAVALRY_MORE_EXPERIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLOOD_RIDER_NEGATIVE_COMBAT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>BLOOD_RIDER_NEGATIVE_COMBAT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLOOD_RIDER_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>FLAYER_NEGATIVE_COMBAT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>FLAYER_NEGATIVE_COMBAT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>FLAYER_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCREAMER_MOVE_AFTER_ATTACK</ModifierId>
+			<Name>CanMove</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_NORVOS</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>RECEIVE_RANGE_BONUS_WARLOCK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_RANGE_BONUS_WARLOCK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>WYL_BONUS_ON_DESERT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY</ModifierId>
+			<Name>Type</Name>
+			<Value>HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>REACH_KNIGHT_NEIGHBOR_COMBAT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>REACH_KNIGHT_NEIGHBOR_COMBAT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>REACH_KNIGHT_NEIGHBOR_COMBAT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALE_DEFENDER_FREINDLY_TERRITORY_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALE_DEFENDER_COMBAT_HILLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="BRUTE_IGNOREZOC_IGNORE_ZOC" Context="Preview" Text="LOC_ABILITY_IGNORE_ZOC_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="SAND_SNAKE_BONUS_ON_COAST" Context="Preview" Text="LOC_ABILITY_SAND_SNAKE_BONUS_ON_COAST_DESCRIPTION"/>
+		<Row ModifierId="SAND_SNAKE_NON_DOMESTIC_BONUS" Context="Preview" Text="LOC_ABILITY_SAND_SNAKE_NON_DOMESTIC_BONUS_DESCRIPTION"/>
+		<Row ModifierId="VALE_KNIGHT_COMBAT_HILLS" Context="Preview" Text="LOC_ABILITY_VALE_KNIGHT_COMBAT_HILLS_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="VALE_DEFENDER_FREINDLY_TERRITORY_COMBAT" Context="Preview" Text="LOC_ABILITY_VALE_DEFENDER_FREINDLY_TERRITORY_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="VALE_DEFENDER_COMBAT_HILLS" Context="Preview" Text="LOC_ABILITY_VALE_DEFENDER_COMBAT_HILLS_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="REACH_KNIGHT_NEIGHBOR_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_REACH_KNIGHT_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="BLOOD_RIDER_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_BLOOD_RIDER_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="FLAYER_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_FLAYER_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
+
+		<Row ModifierId="WYL_BONUS_ON_DESERT" Context="Preview" Text="LOC_ABILITY_WYL_BONUS_ON_DESERT_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>SAND_SNAKE_ON_COAST_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>SAND_SNAKE_NON_DOMESTIC_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>VALE_DEFENDER_FREINDLY_TERRITORY_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_BLOOD_RIDER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BLOOD_RIDER_ADJACENT_AT_WAR_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_FLAYER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>FLAYER_ADJACENT_AT_WAR_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>WARLOCK_RANGE_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REACH_KNIGHT_PLOT_IS_REACH_KNIGHT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>SAND_SNAKE_ON_COAST_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_ON_COASTAL_LAND</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SAND_SNAKE_NON_DOMESTIC_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NOT_IN_OWNER_TERRITORY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>VALE_DEFENDER_FREINDLY_TERRITORY_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_IN_OWNER_TERRITORY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BLOOD_RIDER_ADJACENT_AT_WAR_REQUIREMENTS</RequirementSetId>
+			<RequirementId>BLOOD_RIDER_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_BLOOD_RIDER</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_BLOOD_RIDER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>FLAYER_ADJACENT_AT_WAR_REQUIREMENTS</RequirementSetId>
+			<RequirementId>FLAYER_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_FLAYER</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_FLAYER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>WARLOCK_RANGE_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_FRIENDLY_GLASS_CANDLE_OBSERVER_UNIT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REACH_KNIGHT_PLOT_IS_REACH_KNIGHT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_REACH_KNIGHT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REACH_KNIGHT_PLOT_IS_REACH_KNIGHT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_REACH_KNIGHT_II</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IN_OWNER_TERRITORY</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_IN_OWNER_TERRITORY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>BLOOD_RIDER_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_BLOOD_RIDER</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>FLAYER_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_FLAYER</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_GLASS_CANDLE_OBSERVER_UNIT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_REACH_KNIGHT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_REACH_KNIGHT_II</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>BLOOD_RIDER_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>BLOOD_RIDER_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_BLOOD_RIDER</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BLOOD_RIDER</Value>
+		</Row>
+		<Row>
+			<RequirementId>FLAYER_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>FLAYER_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_FLAYER</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_FLAYER</Value>
+		</Row>
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_GLASS_CANDLE_OBSERVER_UNIT_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_GLASS_CANDLE_OBSERVATION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_REACH_KNIGHT</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_REACH_KNIGHT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_REACH_KNIGHT_II</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_REACH_KNIGHT_II</Value>
+		</Row>
+	</RequirementArguments>
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_WEIRWOOD_TREE" NumSupported="-1"/>
+	</Unit_BuildingPrereqs>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_BANNERMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BANNERMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_BANNERMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BANNERMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_BANNERMAN_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BANNERMAN_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_BANNERMAN_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BANNERMAN_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RED_CLOAK" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_RED_CLOAK" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_RED_CLOAK" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_RED_CLOAK" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RED_CLOAK_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_RED_CLOAK_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_RED_CLOAK_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_RED_CLOAK_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RED_PRIEST" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="UNIT_KINGSGUARD_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_KINGSGUARD_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_KINGSGUARD_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_KINGSGUARD_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_KINGSGUARD" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_KINGSGUARD" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_KINGSGUARD" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_KINGSGUARD" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_ROBERT_SETTLER" AiType="UNITAI_SETTLE"/>
+		<Row UnitType="UNIT_ROBERT_SETTLER" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_BRUTE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BRUTE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_BRUTE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BRUTE" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_BRUTE_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BRUTE_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_BRUTE_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BRUTE_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_REACH_KNIGHT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_REACH_KNIGHT" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_REACH_KNIGHT" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_REACH_KNIGHT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_REACH_KNIGHT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_REACH_KNIGHT_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_REACH_KNIGHT_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_REACH_KNIGHT_II" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_REACH_KNIGHT_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_REACH_KNIGHT_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_IRON_FLEET" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_IRON_FLEET" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_IRON_FLEET" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_IRON_FLEET" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_IRON_FLEET_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_IRON_FLEET_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_IRON_FLEET_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_IRON_FLEET_II" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_SAND_SNAKE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SAND_SNAKE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SAND_SNAKE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SAND_SNAKE" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SAND_SNAKE_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SAND_SNAKE_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SAND_SNAKE_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SAND_SNAKE_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_UNSULLIED" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UNSULLIED" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_UNSULLIED" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_UNSULLIED" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_UNSULLIED_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UNSULLIED_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_UNSULLIED_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_UNSULLIED_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_DRAGON" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_DRAGON" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_DRAGON" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_DRAGON" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_DRAGON" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_DRAGON_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_DRAGON_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_DRAGON_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_DRAGON_II" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_DRAGON_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_VALE_KNIGHT_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_VALE_KNIGHT_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_VALE_KNIGHT_II" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_VALE_KNIGHT_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_TULLY_ARCHER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TULLY_ARCHER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_TULLY_ARCHER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_TULLY_ARCHER_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TULLY_ARCHER_II" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_TULLY_ARCHER_II" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_SWORDSMAN_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SWORDSMAN_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SWORDSMAN_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SWORDSMAN_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_PIKEMAN_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PIKEMAN_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_PIKEMAN_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_PIKEMAN_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_KNIGHT_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_KNIGHT_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_KNIGHT_II" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_KNIGHT_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GALLEY_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GALLEY_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GALLEY_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GALLEY_II" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_QUADRIREME_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_QUADRIREME_II" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_QUADRIREME_II" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_CROSSBOWMAN_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CROSSBOWMAN_II" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_CROSSBOWMAN_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_CATAPULT_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CATAPULT_II" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_CATAPULT_II" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_CATAPULT_II" AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_CATAPULT_II" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_GEN_ALCHEMIST" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GEN_ALCHEMIST" AiType="UNITTYPE_NUCLEAR"/>
+
+		<Row UnitType="UNIT_WILDLING" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_WILDLING" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_WILDLING" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_WILDLING" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_WILDLING_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_WILDLING_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_WILDLING_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_WILDLING_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_IRON_REAVER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_IRON_REAVER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_IRON_REAVER" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_IRON_REAVER_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_IRON_REAVER_II" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_IRON_REAVER_II" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_ALCHEMIST" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ALCHEMIST" AiType="UNITTYPE_NUCLEAR"/>
+
+		<Row UnitType="UNIT_BLOOD_RIDER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BLOOD_RIDER" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_BLOOD_RIDER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BLOOD_RIDER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_BLOOD_RIDER_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BLOOD_RIDER_II" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_BLOOD_RIDER_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BLOOD_RIDER_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SCREAMER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SCREAMER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SCREAMER" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_SCREAMER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SCREAMER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SCREAMER_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SCREAMER_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SCREAMER_II" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_SCREAMER_II" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SCREAMER_II" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_FACELESS_MEN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_FACELESS_MEN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_FACELESS_MEN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_FACELESS_MEN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_FACELESS_MEN_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_FACELESS_MEN_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_FACELESS_MEN_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_FACELESS_MEN_II" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_WARLOCK" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+
+		<Row UnitType="UNIT_GHISCARI_LEGION" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_TOLOS_SLINGER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TOLOS_SLINGER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_TOLOS_SLINGER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_TOLOS_SLINGER_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TOLOS_SLINGER_II" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_TOLOS_SLINGER_II" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_CLEGANE_CORPS_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CLEGANE_CORPS_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CLEGANE_CORPS_II" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CLEGANE_CORPS_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_CLEGANE_CORPS" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CLEGANE_CORPS" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CLEGANE_CORPS" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CLEGANE_CORPS" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_FLAYER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_FLAYER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_FLAYER_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_FLAYER_II" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<Units>
+		
+		<Row UnitType="UNIT_BANNERMAN" BaseMoves="2" Cost="40" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_BANNERMAN_NAME" Description="LOC_CIVILIZATION_UNIT_BANNERMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Combat="30" MandatoryObsoleteTech="TECH_OATHS" TraitType="TRAIT_CIVILIZATION_UNIT_BANNERMAN"/>
+		<Row UnitType="UNIT_BANNERMAN_II" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_BANNERMAN_II_NAME" Description="LOC_CIVILIZATION_UNIT_BANNERMAN_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE"  Maintenance="2" Combat="45" PrereqTech="TECH_OATHS" TraitType="TRAIT_CIVILIZATION_UNIT_BANNERMAN"/>
+		<Row UnitType="UNIT_RED_CLOAK" BaseMoves="2" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_RED_CLOAK_NAME" Description="LOC_CIVILIZATION_UNIT_RED_CLOAK_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="38" MandatoryObsoleteTech="TECH_SWORN_SWORDS" PrereqTech="TECH_IRON_WORKING" TraitType="TRAIT_CIVILIZATION_UNIT_RED_CLOAK"/>
+		<Row UnitType="UNIT_RED_CLOAK_II" BaseMoves="3" Cost="210" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_RED_CLOAK_II_NAME" Description="LOC_CIVILIZATION_UNIT_RED_CLOAK_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="5" Combat="50"  PrereqTech="TECH_SWORN_SWORDS" TraitType="TRAIT_CIVILIZATION_UNIT_RED_CLOAK"/>
+		<Row UnitType="UNIT_RED_PRIEST" BaseMoves="2" Cost="60" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT" Name="LOC_LEADER_UNIT_RED_PRIEST_NAME" Description="LOC_LEADER_UNIT_RED_PRIEST_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="2" PrereqCivic="CIVIC_THEOLOGY" TraitType="TRAIT_LEADER_UNIT_RED_PRIEST"/>
+		<Row UnitType="UNIT_KINGSGUARD" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_LEADER_UNIT_KINGSGUARD_NAME" Description="LOC_LEADER_UNIT_KINGSGUARD_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="45" MandatoryObsoleteTech="TECH_SWORN_SWORDS" PrereqTech="TECH_IRON_WORKING" TraitType="TRAIT_LEADER_UNIT_KINGSGUARD"/>
+		<Row UnitType="UNIT_KINGSGUARD_II" BaseMoves="3" Cost="140" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_LEADER_UNIT_KINGSGUARD_II_NAME" Description="LOC_LEADER_UNIT_KINGSGUARD_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="60" PrereqTech="TECH_SWORN_SWORDS" TraitType="TRAIT_LEADER_UNIT_KINGSGUARD"/>
+		<Row UnitType="UNIT_ROBERT_SETTLER" BaseMoves="2" Cost="-1" AdvisorType="ADVISOR_GENERIC" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" FoundCity="true" PopulationCost="1" PrereqPopulation="99" Name="LOC_LEADER_UNIT_ROBERT_SETTLER_NAME" Description="LOC_LEADER_UNIT_ROBERT_SETTLER_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER" TraitType="TRAIT_LEADER_UNIT_KINGS_LANDING_SETTLER"/>
+		<Row UnitType="UNIT_BRUTE" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_BRUTE_NAME" Description="LOC_CIVILIZATION_UNIT_BRUTE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="38" MandatoryObsoleteTech="TECH_SWORN_SWORDS" PrereqTech="TECH_IRON_WORKING" TraitType="TRAIT_CIVILIZATION_UNIT_BRUTE"/>
+		<Row UnitType="UNIT_BRUTE_II" BaseMoves="3" Cost="140" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_BRUTE_II_NAME" Description="LOC_CIVILIZATION_UNIT_BRUTE_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="52"  PrereqTech="TECH_SWORN_SWORDS" TraitType="TRAIT_CIVILIZATION_UNIT_BRUTE"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_RAINBOW_GUARD_NAME" Description="LOC_CIVILIZATION_UNIT_RAINBOW_GUARD_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="36" MandatoryObsoleteTech="TECH_SWORN_SWORDS" PrereqTech="TECH_IRON_WORKING" TraitType="TRAIT_LEADER_UNIT_RAINBOW_GUARD"/>
+		<Row UnitType="UNIT_RAINBOW_GUARD_II" BaseMoves="3" Cost="140" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_RAINBOW_GUARD_II_NAME" Description="LOC_CIVILIZATION_UNIT_RAINBOW_GUARD_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="50"  PrereqTech="TECH_SWORN_SWORDS" TraitType="TRAIT_LEADER_UNIT_RAINBOW_GUARD"/>
+		<Row UnitType="UNIT_REACH_KNIGHT" Cost="60" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="30" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_CIVILIZATION_UNIT_REACH_KNIGHT_NAME" Description="LOC_CIVILIZATION_UNIT_REACH_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_CHIVALRY" PrereqTech="TECH_HORSEBACK_RIDING" TraitType="TRAIT_CIVILIZATION_UNIT_REACH_KNIGHT"/>
+		<Row UnitType="UNIT_REACH_KNIGHT_II" Cost="200" Maintenance="4" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="60" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_CIVILIZATION_UNIT_REACH_KNIGHT_II_NAME" Description="LOC_CIVILIZATION_UNIT_REACH_KNIGHT_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_CHIVALRY" TraitType="TRAIT_CIVILIZATION_UNIT_REACH_KNIGHT"/>
+		<Row UnitType="UNIT_IRON_FLEET" BaseMoves="4" Cost="70" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_CIVILIZATION_UNIT_IRON_FLEET_NAME" Description="LOC_CIVILIZATION_UNIT_IRON_FLEET_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="1" Combat="30" MandatoryObsoleteTech="TECH_SQUARE_RIGGING" PrereqTech="TECH_SAILING" TraitType="TRAIT_CIVILIZATION_UNIT_IRON_FLEET"/>
+		<Row UnitType="UNIT_IRON_FLEET_II" BaseMoves="5" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_CIVILIZATION_UNIT_IRON_FLEET_II_NAME" Description="LOC_CIVILIZATION_UNIT_IRON_FLEET_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="3" Combat="60" PrereqTech="TECH_SQUARE_RIGGING" TraitType="TRAIT_CIVILIZATION_UNIT_IRON_FLEET"/>
+		<Row UnitType="UNIT_SAND_SNAKE" BaseMoves="2" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_SAND_SNAKE_NAME" Description="LOC_CIVILIZATION_UNIT_SAND_SNAKE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="41" MandatoryObsoleteTech="TECH_OATHS" PrereqTech="TECH_MILITARY_TACTICS" TraitType="TRAIT_CIVILIZATION_UNIT_SAND_SNAKE"/>
+		<Row UnitType="UNIT_SAND_SNAKE_II" BaseMoves="3" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_SAND_SNAKE_II_NAME" Description="LOC_CIVILIZATION_UNIT_SAND_SNAKE_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="4" Combat="65"  PrereqTech="TECH_OATHS" TraitType="TRAIT_CIVILIZATION_UNIT_SAND_SNAKE"/>
+		<Row UnitType="UNIT_UNSULLIED" BaseMoves="2" Cost="75" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_LEADER_UNIT_UNSULLIED_NAME" Description="LOC_LEADER_UNIT_UNSULLIED_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="1" Combat="30" MandatoryObsoleteTech="TECH_OATHS" PrereqTech="TECH_BRONZE_WORKING" TraitType="TRAIT_LEADER_UNIT_UNSULLIED"/>
+		<Row UnitType="UNIT_UNSULLIED_II" BaseMoves="3" Cost="230" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_LEADER_UNIT_UNSULLIED_II_NAME" Description="LOC_LEADER_UNIT_UNSULLIED_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="60" PrereqTech="TECH_OATHS" TraitType="TRAIT_LEADER_UNIT_UNSULLIED"/>
+		<Row UnitType="UNIT_DRAGON" BaseMoves="4" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_DRAGON_NAME" Description="LOC_CIVILIZATION_UNIT_DRAGON_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" Maintenance="20" Combat="60" PrereqTech="TECH_HORSEBACK_RIDING" CanTargetAir="TRUE"  TraitType="TRAIT_CIVILIZATION_UNIT_DRAGON"/>
+		<Row UnitType="UNIT_DRAGON_II" BaseMoves="5" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="4" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_DRAGON_II_NAME" Description="LOC_CIVILIZATION_UNIT_DRAGON_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" Maintenance="50" Combat="85" PrereqTech="TECH_DRACONOLOGY" CanTargetAir="TRUE"  TraitType="TRAIT_CIVILIZATION_UNIT_DRAGON"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" BaseMoves="4" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_VALE_KNIGHT_NAME" Description="LOC_CIVILIZATION_UNIT_VALE_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="3" Combat="48" MandatoryObsoleteTech="TECH_CHIVALRY" PrereqTech="TECH_STIRRUPS" TraitType="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT"/>
+		<Row UnitType="UNIT_VALE_KNIGHT_II" BaseMoves="5" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_VALE_KNIGHT_II_NAME" Description="LOC_CIVILIZATION_UNIT_VALE_KNIGHT_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="4" Combat="65" PrereqTech="TECH_CHIVALRY" TraitType="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT"/>
+		<Row UnitType="UNIT_TULLY_ARCHER" BaseMoves="2" Cost="60" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_TULLY_ARCHER_NAME" Description="LOC_CIVILIZATION_UNIT_TULLY_ARCHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="1" Combat="20" MandatoryObsoleteTech="TECH_CHIVALRY" RangedCombat="25" Range="2" PrereqTech="TECH_ARCHERY" TraitType="TRAIT_CIVILIZATION_UNIT_TULLY_ARCHER"/>
+		<Row UnitType="UNIT_TULLY_ARCHER_II" BaseMoves="3" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_TULLY_ARCHER_II_NAME" Description="LOC_CIVILIZATION_UNIT_TULLY_ARCHER_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="4" Combat="25" RangedCombat="60" Range="3" PrereqTech="TECH_CHIVALRY" TraitType="TRAIT_CIVILIZATION_UNIT_TULLY_ARCHER"/>
+
+		<Row UnitType="UNIT_SWORDSMAN_II" BaseMoves="3" Cost="140" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SWORDSMAN_II_NAME" Description="LOC_UNIT_SWORDSMAN_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="3" Combat="50"  PrereqTech="TECH_SWORN_SWORDS" StrategicResource="RESOURCE_IRON"/>
+		<Row UnitType="UNIT_PIKEMAN_II" BaseMoves="3" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PIKEMAN_II_NAME" Description="LOC_UNIT_PIKEMAN_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="60" PrereqTech="TECH_OATHS"/>
+		<Row UnitType="UNIT_KNIGHT_II" BaseMoves="5" Cost="230" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_KNIGHT_II_NAME" Description="LOC_UNIT_KNIGHT_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="5" Combat="65" PrereqTech="TECH_CHIVALRY" StrategicResource="RESOURCE_IRON"/>
+		<Row UnitType="UNIT_GALLEY_II" BaseMoves="4" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_GALLEY_II_NAME" Description="LOC_UNIT_GALLEY_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="1" Combat="50" PrereqTech="TECH_SQUARE_RIGGING"/>
+		<Row UnitType="UNIT_QUADRIREME_II" BaseMoves="3" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_QUADRIREME_II_NAME" Description="LOC_UNIT_QUADRIREME_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="2" Combat="40"  RangedCombat="60" Range="2" PrereqTech="TECH_SQUARE_RIGGING"/>
+		<Row UnitType="UNIT_CROSSBOWMAN_II" BaseMoves="3" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CROSSBOWMAN_II_NAME" Description="LOC_UNIT_CROSSBOWMAN_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="4" Combat="30" RangedCombat="60" Range="3" PrereqTech="TECH_CHIVALRY"/>
+		<Row UnitType="UNIT_CATAPULT_II" Cost="300" Maintenance="5" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="45" Bombard="80" Range="3" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CATAPULT_II_NAME" Description="LOC_UNIT_CATAPULT_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_HEAVY_SIEGE_TACTICS"/>
+
+		<Row UnitType="UNIT_WILDLING" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_LEADER_UNIT_WILDLING_NAME" Description="LOC_LEADER_UNIT_WILDLING_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="3" Combat="40" MandatoryObsoleteTech="TECH_SWORN_SWORDS" TraitType="TRAIT_LEADER_UNIT_WILDLING"  PrereqCivic="CIVIC_CIVIL_SERVICE"/>
+		<Row UnitType="UNIT_WILDLING_II" BaseMoves="3" Cost="230" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_LEADER_UNIT_WILDLING_II_NAME" Description="LOC_LEADER_UNIT_WILDLING_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="60" PrereqTech="TECH_OATHS" TraitType="TRAIT_LEADER_UNIT_WILDLING"  />
+		<Row UnitType="UNIT_ALCHEMIST" BaseMoves="1" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_LEADER_UNIT_ALCHEMIST_NAME" Description="LOC_LEADER_UNIT_ALCHEMIST_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="5"  PrereqTech="TECH_APPRENTICESHIP" WMDCapable="true" TraitType="TRAIT_LEADER_UNIT_ALCHEMIST" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="300" StrategicResource="RESOURCE_SCROLLS"/>
+		<Row UnitType="UNIT_IRON_REAVER" BaseMoves="3" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_LEADER_UNIT_IRON_REAVER_NAME" Description="LOC_LEADER_UNIT_IRON_REAVER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="2" Combat="20" MandatoryObsoleteTech="TECH_SQUARE_RIGGING" RangedCombat="30" Range="2" PrereqTech="TECH_SHIPBUILDING" TraitType="TRAIT_LEADER_UNIT_IRON_REAVER"/>
+		<Row UnitType="UNIT_IRON_REAVER_II" BaseMoves="4" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_LEADER_UNIT_IRON_REAVER_II_NAME" Description="LOC_LEADER_UNIT_IRON_REAVER_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="3" Combat="40" RangedCombat="60" Range="3" PrereqTech="TECH_SQUARE_RIGGING" TraitType="TRAIT_LEADER_UNIT_IRON_REAVER"/>
+
+		<Row UnitType="UNIT_BLOOD_RIDER" BaseMoves="4" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_BLOOD_RIDER_NAME" Description="LOC_CIVILIZATION_UNIT_BLOOD_RIDER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="3" Combat="48" MandatoryObsoleteTech="TECH_CHIVALRY" TraitType="TRAIT_CIVILIZATION_UNIT_BLOOD_RIDER" PrereqTech="TECH_STIRRUPS"/>
+		<Row UnitType="UNIT_BLOOD_RIDER_II" BaseMoves="5" Cost="225" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_BLOOD_RIDER_II_NAME" Description="LOC_CIVILIZATION_UNIT_BLOOD_RIDER_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="3" Combat="65" TraitType="TRAIT_CIVILIZATION_UNIT_BLOOD_RIDER" PrereqTech="TECH_CHIVALRY"/>
+		<Row UnitType="UNIT_SCREAMER" BaseMoves="4" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_SCREAMER_NAME" Description="LOC_CIVILIZATION_UNIT_SCREAMER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="2" Combat="15" MandatoryObsoleteTech="TECH_CHIVALRY" RangedCombat="25" Range="1" TraitType="TRAIT_CIVILIZATION_UNIT_SCREAMER" PrereqTech="TECH_HORSEBACK_RIDING"/>
+		<Row UnitType="UNIT_SCREAMER_II" BaseMoves="5" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_SCREAMER_II_NAME" Description="LOC_CIVILIZATION_UNIT_SCREAMER_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="2" Combat="15" RangedCombat="60" Range="1" TraitType="TRAIT_CIVILIZATION_UNIT_SCREAMER" PrereqTech="TECH_CHIVALRY"/>
+
+		<Row UnitType="UNIT_FACELESS_MEN" BaseMoves="3" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_FACELESS_MEN_NAME" Description="LOC_CIVILIZATION_UNIT_FACELESS_MEN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Combat="50" MandatoryObsoleteTech="TECH_BANKING" TraitType="MINOR_CIV_BRAAVOS_TRAIT"/>
+		<Row UnitType="UNIT_FACELESS_MEN_II" BaseMoves="3" Cost="1000" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_FACELESS_MEN_II_NAME" Description="LOC_CIVILIZATION_UNIT_FACELESS_MEN_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Combat="70" PrereqTech="TECH_BANKING" TraitType="MINOR_CIV_BRAAVOS_TRAIT"/>
+		<Row UnitType="UNIT_WARLOCK" BaseMoves="2" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT" Name="LOC_CIVILIZATION_UNIT_WARLOCK_NAME" Description="LOC_CIVILIZATION_UNIT_WARLOCK_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="2" TraitType="MINOR_CIV_QARTH_TRAIT"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION" BaseMoves="2" Cost="75" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_GHISCARI_LEGION_NAME" Description="LOC_CIVILIZATION_UNIT_GHISCARI_LEGION_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="1" Combat="30" MandatoryObsoleteTech="TECH_OATHS" TraitType="MINOR_CIV_NEW_GHIS_TRAIT"/>
+		<Row UnitType="UNIT_GHISCARI_LEGION_II" BaseMoves="3" Cost="230" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_GHISCARI_LEGION_II_NAME" Description="LOC_CIVILIZATION_UNIT_GHISCARI_LEGION_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="60" PrereqTech="TECH_OATHS" TraitType="MINOR_CIV_NEW_GHIS_TRAIT"/>
+		<Row UnitType="UNIT_TOLOS_SLINGER" Cost="35" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="5" RangedCombat="17" Range="1" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_CIVILIZATION_UNIT_TOLOS_SLINGER_NAME" Description="LOC_CIVILIZATION_UNIT_TOLOS_SLINGER_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="MINOR_CIV_TOLOS_TRAIT"/>
+		<Row UnitType="UNIT_TOLOS_SLINGER_II" Cost="60" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="10" RangedCombat="22" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_CIVILIZATION_UNIT_TOLOS_SLINGER_II_NAME" Description="LOC_CIVILIZATION_UNIT_TOLOS_SLINGER_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ARCHERY" MandatoryObsoleteTech="TECH_CHIVALRY" TraitType="MINOR_CIV_TOLOS_TRAIT"/>
+
+		<Row UnitType="UNIT_CLEGANE_CORPS" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_CLEGANE_CORPS_NAME" Description="LOC_CIVILIZATION_UNIT_CLEGANE_CORPS_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="45" MandatoryObsoleteTech="TECH_SWORN_SWORDS" PrereqTech="TECH_IRON_WORKING" TraitType="MINOR_CIV_CLEGANE_TRAIT"/>
+		<Row UnitType="UNIT_CLEGANE_CORPS_II" BaseMoves="3" Cost="140" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_CIVILIZATION_UNIT_CLEGANE_CORPS_II_NAME" Description="LOC_CIVILIZATION_UNIT_CLEGANE_CORPS_II_NAME" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="65" PrereqTech="TECH_SWORN_SWORDS" TraitType="MINOR_CIV_CLEGANE_TRAIT"/>
+
+		<Row UnitType="UNIT_GEN_ALCHEMIST" BaseMoves="1" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_LEADER_UNIT_GEN_ALCHEMIST_NAME" Description="LOC_LEADER_UNIT_GEN_ALCHEMIST_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="5"  PrereqTech="TECH_ALCHEMY" WMDCapable="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="300" StrategicResource="RESOURCE_SCROLLS" />
+		<Row UnitType="UNIT_SCORPION" BaseMoves="1" Cost="400" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SCORPION_NAME" Description="LOC_UNIT_SCORPION_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="7" Combat="45" Range="1" PrereqTech="TECH_HEAVY_SIEGE_TACTICS" Bombard="100"/>
+
+		<Row UnitType="UNIT_FLAYER" Cost="30" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="15" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" Name="LOC_CIVILIZATION_UNIT_FLAYER_NAME" Description="LOC_CIVILIZATION_UNIT_FLAYER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" MandatoryObsoleteTech="TECH_APPRENTICESHIP"  TraitType="TRAIT_CIVILIZATION_UNIT_FLAYER"/>
+		<Row UnitType="UNIT_FLAYER_II" Cost="150" BaseMoves="4" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="45" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" Name="LOC_CIVILIZATION_UNIT_FLAYER_II_NAME" Description="LOC_CIVILIZATION_UNIT_FLAYER_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" PrereqTech="TECH_APPRENTICESHIP" TraitType="TRAIT_CIVILIZATION_UNIT_FLAYER"/>
+		<Update>
+			<Where UnitType="UNIT_MEDIC"/>
+			<Set>
+				<PrereqTech>TECH_OATHS</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_BANNERMAN" ReplacesUnitType="UNIT_WARRIOR" />
+		<Row CivUniqueUnitType="UNIT_RED_CLOAK" ReplacesUnitType="UNIT_SWORDSMAN" />
+		<Row CivUniqueUnitType="UNIT_RED_CLOAK_II" ReplacesUnitType="UNIT_SWORDSMAN_II" />
+		<Row CivUniqueUnitType="UNIT_KINGSGUARD" ReplacesUnitType="UNIT_SWORDSMAN" />
+		<Row CivUniqueUnitType="UNIT_KINGSGUARD_II" ReplacesUnitType="UNIT_SWORDSMAN_II" />
+		<Row CivUniqueUnitType="UNIT_ROBERT_SETTLER" ReplacesUnitType="UNIT_SETTLER" />
+		<Row CivUniqueUnitType="UNIT_BRUTE" ReplacesUnitType="UNIT_SWORDSMAN" />
+		<Row CivUniqueUnitType="UNIT_BRUTE_II" ReplacesUnitType="UNIT_SWORDSMAN_II" />
+		<Row CivUniqueUnitType="UNIT_RAINBOW_GUARD" ReplacesUnitType="UNIT_SWORDSMAN" />
+		<Row CivUniqueUnitType="UNIT_RAINBOW_GUARD_II" ReplacesUnitType="UNIT_SWORDSMAN_II" />
+		<Row CivUniqueUnitType="UNIT_REACH_KNIGHT" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_REACH_KNIGHT_II" ReplacesUnitType="UNIT_KNIGHT_II"/>
+		<Row CivUniqueUnitType="UNIT_IRON_FLEET" ReplacesUnitType="UNIT_GALLEY" />
+		<Row CivUniqueUnitType="UNIT_IRON_FLEET_II" ReplacesUnitType="UNIT_GALLEY_II" />
+		<Row CivUniqueUnitType="UNIT_SAND_SNAKE" ReplacesUnitType="UNIT_PIKEMAN" />
+		<Row CivUniqueUnitType="UNIT_SAND_SNAKE_II" ReplacesUnitType="UNIT_PIKEMAN_II"/>
+		<Row CivUniqueUnitType="UNIT_UNSULLIED" ReplacesUnitType="UNIT_SPEARMAN" />
+		<Row CivUniqueUnitType="UNIT_UNSULLIED_II" ReplacesUnitType="UNIT_PIKEMAN_II"/>
+		<Row CivUniqueUnitType="UNIT_VALE_KNIGHT" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_VALE_KNIGHT_II" ReplacesUnitType="UNIT_KNIGHT_II"/>
+		<Row CivUniqueUnitType="UNIT_TULLY_ARCHER" ReplacesUnitType="UNIT_ARCHER"/>
+		<Row CivUniqueUnitType="UNIT_TULLY_ARCHER_II" ReplacesUnitType="UNIT_CROSSBOWMAN_II"/>
+
+		<Row CivUniqueUnitType="UNIT_IRON_REAVER" ReplacesUnitType="UNIT_QUADRIREME"/>
+		<Row CivUniqueUnitType="UNIT_IRON_REAVER_II" ReplacesUnitType="UNIT_QUADRIREME_II"/>
+
+		<Row CivUniqueUnitType="UNIT_BLOOD_RIDER" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_BLOOD_RIDER_II" ReplacesUnitType="UNIT_KNIGHT_II"/>
+		<Row CivUniqueUnitType="UNIT_ALCHEMIST" ReplacesUnitType="UNIT_GEN_ALCHEMIST" />
+
+		<Row CivUniqueUnitType="UNIT_FLAYER" ReplacesUnitType="UNIT_SCOUT" />
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Replace Unit="UNIT_SWORDSMAN" UpgradeUnit="UNIT_SWORDSMAN_II"/>
+		<Update>
+			<Where Unit="UNIT_PIKEMAN" />
+			<Set UpgradeUnit="UNIT_PIKEMAN_II" />
+		</Update>
+		<Update>
+			<Where Unit="UNIT_KNIGHT" />
+			<Set UpgradeUnit="UNIT_KNIGHT_II" />
+		</Update>
+		<Row Unit="UNIT_GALLEY" UpgradeUnit="UNIT_GALLEY_II"/>
+		<Row Unit="UNIT_QUADRIREME" UpgradeUnit="UNIT_QUADRIREME_II"/>
+		<Row Unit="UNIT_CROSSBOWMAN" UpgradeUnit="UNIT_CROSSBOWMAN_II"/>
+		<Replace Unit="UNIT_CATAPULT" UpgradeUnit="UNIT_CATAPULT_II"/>
+
+		<Row Unit="UNIT_BANNERMAN" UpgradeUnit="UNIT_BANNERMAN_II"/>
+		<Row Unit="UNIT_RED_CLOAK" UpgradeUnit="UNIT_RED_CLOAK_II"/>
+		<Row Unit="UNIT_KINGSGUARD" UpgradeUnit="UNIT_KINGSGUARD_II"/>
+		<Row Unit="UNIT_BRUTE" UpgradeUnit="UNIT_BRUTE_II"/>
+		<Row Unit="UNIT_RAINBOW_GUARD" UpgradeUnit="UNIT_RAINBOW_GUARD_II"/>
+		<Row Unit="UNIT_REACH_KNIGHT" UpgradeUnit="UNIT_REACH_KNIGHT_II"/>
+		<Row Unit="UNIT_IRON_FLEET" UpgradeUnit="UNIT_IRON_FLEET_II"/>
+		<Update>
+			<Where Unit="UNIT_TULLY_ARCHER" />
+			<Set UpgradeUnit="UNIT_TULLY_ARCHER_II" />
+		</Update>
+		<Row Unit="UNIT_SAND_SNAKE" UpgradeUnit="UNIT_SAND_SNAKE_II"/>
+		<Row Unit="UNIT_UNSULLIED" UpgradeUnit="UNIT_UNSULLIED_II"/>
+		<Row Unit="UNIT_VALE_KNIGHT" UpgradeUnit="UNIT_VALE_KNIGHT_II"/>
+
+		<Row Unit="UNIT_DRAGON" UpgradeUnit="UNIT_DRAGON_II"/>
+		<Row Unit="UNIT_WILDLING" UpgradeUnit="UNIT_WILDLING_II"/>
+		<Row Unit="UNIT_IRON_REAVER" UpgradeUnit="UNIT_IRON_REAVER_II"/>
+
+		<Row Unit="UNIT_BLOOD_RIDER" UpgradeUnit="UNIT_BLOOD_RIDER_II"/>
+		<Row Unit="UNIT_SCREAMER" UpgradeUnit="UNIT_SCREAMER_II"/>
+
+		<Row Unit="UNIT_FACELESS_MEN" UpgradeUnit="UNIT_FACELESS_MEN_II"/>
+
+		<Row Unit="UNIT_GHISCARI_LEGION" UpgradeUnit="UNIT_GHISCARI_LEGION_II"/>
+		<Row Unit="UNIT_TOLOS_SLINGER" UpgradeUnit="UNIT_TOLOS_SLINGER_II"/>
+
+		<Row Unit="UNIT_CLEGANE_CORPS" UpgradeUnit="UNIT_CLEGANE_CORPS_II"/>
+
+		<Row Unit="UNIT_FLAYER" UpgradeUnit="UNIT_FLAYER_II"/>
+	</UnitUpgrades>
+
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_BONUS" Name="LOC_PROMOTION_CLASS_BONUS_NAME"/>
+	</UnitPromotionClasses>
+	<UnitPromotions>
+		<Row UnitPromotionType="PROMOTION_SEASONED" Name="LOC_PROMOTION_SEASONED_NAME" Description="LOC_PROMOTION_SEASONED_DESCRIPTION" Level="-1" Specialization="" PromotionClass="PROMOTION_CLASS_MELEE"/>
+	</UnitPromotions>
+	<UnitPromotionPrereqs>
+	</UnitPromotionPrereqs>
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_SEASONED</UnitPromotionType>
+			<ModifierId>ELITE_GUARD_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+</GameInfo>

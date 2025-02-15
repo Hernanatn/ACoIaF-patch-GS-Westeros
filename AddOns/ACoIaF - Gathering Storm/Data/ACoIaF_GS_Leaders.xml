@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_EDDARD" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_TYWIN" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_STANNIS" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_KING_ROBERT" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_OLENNA" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_BALON" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_DORAN" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_DANY" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_PETYR" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_JON_ARRYN" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_EDMURE" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_JON_SNOW" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_CERSEI" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_EURON" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_ROBB" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_JOFFERY" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_DROGO" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_MANCE" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+		<Row LeaderType="LEADER_ROOSE" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"/>
+	</LeaderTraits>
+	
+	<Traits>
+		<Update>
+			<Set Description="LOC_TRAIT_LEADER_SEVEN_KINGDOMS_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_SEVEN_KINGDOMS"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_LEADER_DORNISH_MASTERPLAN_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_DORNISH_MASTERPLAN"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_LEADER_VALE_DEFENDER_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_VALE_DEFENDER"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_LEADER_THE_STORM_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_THE_STORM"/>
+		</Update>
+		
+		<Row TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_GOVERNORS"  InternalOnly="true"/>
+
+	</Traits>
+	
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SEVEN_KINGDOMS" ModifierId="SEVEN_KINGDOMS_DIPLOMATIC_FAVOR_PER_TURN"/>
+		<Row TraitType="TRAIT_LEADER_VALE_DEFENDER" ModifierId="TRAIT_VALE_DEFENDER_LOYALTY_IN_VALE_CITIES_POST_COMBAT"/>
+		<Row TraitType="TRAIT_LEADER_THE_STORM" ModifierId="TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_4"/>
+		<Row TraitType="TRAIT_LEADER_THE_STORM" ModifierId="TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_5"/>
+	</TraitModifiers>
+
+	<DynamicModifiers>
+	</DynamicModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>SEVEN_KINGDOMS_DIPLOMATIC_FAVOR_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_VALE_DEFENDER_LOYALTY_IN_VALE_CITIES_POST_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_POST_COMBAT_LOYALTY</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SEVEN_KINGDOMS_DIPLOMATIC_FAVOR_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_VALE_DEFENDER_LOYALTY_IN_VALE_CITIES_POST_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_VALE_DEFENDER_LOYALTY_IN_VALE_CITIES_POST_COMBAT</ModifierId>
+			<Name>AffectLocal</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+
+	<Requirements>
+	</Requirements>
+
+	<RequirementArguments>
+	</RequirementArguments>
+
+	<AiListTypes>
+	</AiListTypes>
+
+	<AiLists>
+	</AiLists>
+	
+	<AiFavoredItems>
+	</AiFavoredItems>
+
+	<HistoricalAgendas>
+	</HistoricalAgendas>
+	
+	<LoadingInfo>
+	</LoadingInfo>
+	
+	<DiplomacyInfo>
+	</DiplomacyInfo>
+	
+	<LeaderQuotes>
+	</LeaderQuotes>
+	
+	<ModifierStrings>
+	</ModifierStrings>
+</GameData>

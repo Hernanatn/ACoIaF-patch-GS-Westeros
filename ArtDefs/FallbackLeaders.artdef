@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>210</build>
+		<revision>682</revision>
+	</m_Version>
+	<m_TemplateName text="LeaderFallback"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Leaders"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_EDDARD"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_EDDARD"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_TYWIN"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_TYWIN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_STANNIS"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_STANNIS"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_OLENNA"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_OLENNA"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_BALON"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_BALON"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_KING_ROBERT"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_KING_ROBERT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_DORAN"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_DORAN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_DANY"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_DANY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_PETYR"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_PETYR"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_EDMURE"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_EDMURE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_JON_SNOW"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_JON_SNOW"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_CERSEI"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_CERSEI"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_EURON"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_EURON"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_ROBB"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_ROBB"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_JOFFERY"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_JOFFERY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_RENLY"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_RENLY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_DROGO"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_DROGO"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_MANCE"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_MANCE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_NIGHTKING"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_NIGHTKING"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_ROOSE"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_ROOSE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_AEGON_I"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_AEGON_I"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_TORRHEN"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_TORRHEN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_LOREN"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_LOREN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_ARGILAC"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_ARGILAC"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_MERN"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_MERN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_HARREN"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_HARREN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_MERIA"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_MERIA"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_SHARRA"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_SHARRA"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_JON_ARRYN"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_JON_ARRYN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

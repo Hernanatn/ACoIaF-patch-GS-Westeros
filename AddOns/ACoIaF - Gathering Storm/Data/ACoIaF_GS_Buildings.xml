@@ -1,0 +1,39 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+	</Types>
+	<BuildingReplaces>
+	</BuildingReplaces>
+	<Buildings>
+	</Buildings>
+	<Buildings_XP2>
+	</Buildings_XP2>
+	<BuildingPrereqs>
+	</BuildingPrereqs>
+	<MutuallyExclusiveBuildings>
+	</MutuallyExclusiveBuildings>
+	<Building_YieldChanges>
+	</Building_YieldChanges>
+	<Building_RequiredFeatures>
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+	</Building_ValidTerrains>
+	<Building_GreatWorks>
+	</Building_GreatWorks>
+	<Building_GreatPersonPoints>
+	</Building_GreatPersonPoints>
+	<Building_TourismBombs_XP2>
+	</Building_TourismBombs_XP2>
+	<BuildingModifiers>
+	</BuildingModifiers>
+	<Modifiers>
+	</Modifiers>
+	<GameModifiers>
+	</GameModifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+	<RequirementSets>
+	</RequirementSets>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+</GameInfo>

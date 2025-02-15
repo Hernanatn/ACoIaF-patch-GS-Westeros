@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="11865ab3-24cd-4c0a-96cc-a8ae7df1b31b" version="1">
+  <Properties>
+    <Name>ACoIaF</Name>
+    <Description>LOC_MOD_ACOIAF_CIVS_DESCRIPTION</Description>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <Teaser>LOC_MOD_ACOIAF_CIVS_TEASER</Teaser>
+    <Authors>LOC_MOD_ACOIAF_CIVS_AUTHORS</Authors>
+    <SpecialThanks>LOC_MOD_ACOIAF_CIVS_THANKS</SpecialThanks>
+  </Properties>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE" />
+  </References>
+	<ActionCriteria>
+		<Criteria id="ACoIaF" any="1">
+			<RuleSetInUse>RULESET_ACOIAF, RULESET_ACOIAF_2, RULESET_SCENARIO_WOTFK</RuleSetInUse>
+		</Criteria>
+		<!--Criteria id="ACoIaF" any="1">
+			<RuleSetInUse>RULESET_ACOIAF,RULESET_ACOIAF_1,RULESET_ACOIAF_2, RULESET_SCENARIO_WOTFK</RuleSetInUse>
+		</Criteria-->
+		<Criteria id="ACoIaFBaseOnly">
+			<RuleSetInUse>RULESET_ACOIAF</RuleSetInUse>
+		</Criteria>
+		<!--Criteria id="ACoIaF_Expansion1Only">
+			<RuleSetInUse>RULESET_ACOIAF_1</RuleSetInUse>
+		</Criteria-->
+		<!--Criteria id="ACoIaF_Expansion2Only">
+			<RuleSetInUse>RULESET_ACOIAF_2</RuleSetInUse>
+		</Criteria-->
+		<Criteria id="WotFKScenario">
+			<RuleSetInUse>RULESET_SCENARIO_WOTFK</RuleSetInUse>
+		</Criteria>
+	</ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="ACoIaF">
+      <Properties>
+        <LoadOrder>200</LoadOrder>
+      </Properties>
+      <File>Data/ACoIaF_Config.xml</File>
+    </UpdateDatabase>
+    <!--UpdateDatabase id="ACoIaF_XP1" criteria="ACoIaF_Expansion1Only">
+      <Properties>
+        <LoadOrder>300</LoadOrder>
+      </Properties>
+    </UpdateDatabase-->
+    <UpdateText id="ACoIaF">
+      <File>Data/ACoIaF_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateColors id="ACoIaF">
+      <File>Data/ACoIaF_PlayerColors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="ACoIaF_Icons">
+      <Properties>
+        <LoadOrder>200</LoadOrder>
+      </Properties>
+      <File>Data/ACoIaF_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ACoIaF" >
+      <File>ACoIaF.dep</File>
+    </UpdateArt>
+    <!--AddMap id="ACoIaF_SettingsMap">
+      <Properties>
+        <Group>InvisibleMaps</Group>
+        <Name>LOC_MOD_ACOIAF_MAPS_TEST_NAME</Name>
+        <Description>LOC_MOD_ACOIAF_MAPS_TEST_DESCRIPTION</Description>
+        <SortIndex>10001</SortIndex>
+      </Properties>
+      <File>Maps/Test.Civ6Map</File>
+    </AddMap-->
+	
+	
+    <UpdateDatabase id="WotFK">
+      <File>Scenarios/WotFK/Data/WotFK_Config.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Scenario_Rules.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="WotFK">
+      <File>Scenarios/WotFK/Data/WotFK_ConfigText.xml</File>
+    </UpdateText>
+    <AddMap id="WotFK_SettingsMap" criteria="WotFKScenario">
+      <Properties>
+        <Group>WotFKScenario_Maps</Group>
+        <Name>LOC_WOTFK_SCENARIO_NAME</Name>
+        <Description>LOC_WOTFK_SCENARIO_MAP_DESCRIPTION</Description>
+      </Properties>
+      <File>Scenarios/WotFK/Maps/WotFKScenario.Civ6Map</File>
+    </AddMap>
+	
+    <!--UpdateDatabase id="AC">
+      <File>Scenarios/AC/Data/AC_Config.xml</File>
+      <File>Scenarios/AC/Data/AC_Scenario_Rules.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="AC">
+      <File>Scenarios/AC/Data/AC_ConfigText.xml</File>
+    </UpdateText>
+    <AddMap id="AC_SettingsMap">
+      <Properties>
+        <Group>ACScenario_Maps</Group>
+        <Name>LOC_AC_SCENARIO_NAME</Name>
+        <Description>LOC_AC_SCENARIO_MAP_DESCRIPTION</Description>
+      </Properties>
+      <File>Scenarios/AC/Maps/ACScenario.Civ6Map</File>
+    </AddMap-->
+  </FrontEndActions>
+  <InGameActions>
+    <ImportFiles id="ACoIaF" criteria="ACoIaF">
+      <File>UI/EspionageEscape.lua</File>
+      <File>UI/EspionageEscape.xml</File>
+      <File>UI/TechAndCivicUnlockables.lua</File>
+      <File>UI/TechCivicCompletedPopup.lua</File>
+      <File>UI/TechTree.lua</File>
+      <File>UI/TechTreeIconLoader_EnvoyAwarded.lua</File>
+      <File>UI/TopPanel.lua</File>
+      <File>UI/TopPanel.xml</File>
+      <File>UI/GovernmentScreen.lua</File>
+      <File>UI/GovernmentScreen.xml</File>
+    </ImportFiles>
+    <ImportFiles id="ACoIaF" criteria="ACoIaFBaseOnly">
+      <File>UI/CityBannerManager.lua</File>
+      <File>UI/CityBannerManager.xml</File>
+    </ImportFiles>
+    <!--ImportFiles id="ACoIaF" criteria="ACoIaFBaseOnly">
+      <Properties>
+        <LoadOrder>200</LoadOrder>
+      </Properties>
+    </ImportFiles-->
+    <UpdateColors id="ACoIaF_Colors">
+      <File>Data/ACoIaF_PlayerColors.xml</File>
+    </UpdateColors>
+    <UpdateArt id="ACoIaF_Art">
+      <File>ACoIaF.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="ACoIaF_Icons">
+      <File>Data/ACoIaF_Icons.xml</File>
+    </UpdateIcons>
+    <!--UpdateDatabase id="ACoIaFRuleset">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+        <RuleSet>RULESET_ACOIAF</RuleSet>
+      </Properties>
+    </UpdateDatabase-->
+    <UpdateDatabase id="ACoIaF" criteria="ACoIaF">
+      <Properties>
+        <LoadOrder>200</LoadOrder>
+      </Properties>
+      <File>Data/ACoIaF_RemoveData.xml</File>
+      <File>Data/ACoIaF_Agendas.xml</File>
+      <File>Data/ACoIaF_Buildings.xml</File>
+      <File>Data/ACoIaF_Civics.xml</File>
+      <File>Data/ACoIaF_Civilizations.xml</File>
+      <File>Data/ACoIaF_CivilizationInfo.xml</File>
+      <File>Data/ACoIaF_DiplomaticActions.xml</File>
+      <File>Data/ACoIaF_Districts.xml</File>
+      <File>Data/ACoIaF_GreatPeople.xml</File>
+      <File>Data/ACoIaF_Governments.xml</File>
+      <File>Data/ACoIaF_Improvements.xml</File>
+      <File>Data/ACoIaF_Leaders.xml</File>
+      <File>Data/ACoIaF_Maps.xml</File>
+      <File>Data/ACoIaF_Modifiers.xml</File>
+      <File>Data/ACoIaF_Projects.xml</File>
+      <File>Data/ACoIaF_Policies.xml</File>
+      <File>Data/ACoIaF_Religions.xml</File>
+      <File>Data/ACoIaF_Resources.xml</File>
+      <File>Data/ACoIaF_UnitCommands.xml</File>
+      <File>Data/ACoIaF_Units.xml</File>
+      <File>Data/ACoIaF_Technologies.xml</File>
+      <File>Data/ACoIaF_WMDs.xml</File>
+      <File>Data/WW_GameplayData.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ACoIaF" criteria="ACoIaF">
+      <File>Data/ACoIaF_ConfigText.xml</File>
+      <File>Data/ACoIaF_Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="ACoIaF" criteria="ACoIaF">
+      <Properties>
+        <LoadOrder>200</LoadOrder>
+      </Properties>
+      <File>Scripts/ACoIaF_Greyjoy.lua</File>
+      <File>Scripts/ACoIaF_CityReplacement.lua</File>
+      <File>Scripts/ACoIaF_Westeros_Positioning.lua</File>
+      <File>Scripts/ACoIaF_WesterosEssos_Positioning.lua</File>
+    </AddGameplayScripts>
+	
+	 <ImportFiles id="WotFK" criteria="WotFKScenario">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+        <RuleSet>RULESET_SCENARIO_WOTFK</RuleSet>
+      </Properties>
+      <File>Scenarios/WotFK/UI/WorldRankings.lua</File>
+      <File>Scenarios/WotFK/UI/WorldRankings.xml</File>
+    </ImportFiles>
+    <UpdateDatabase id="WotFK" criteria="WotFKScenario">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+        <RuleSet>RULESET_SCENARIO_WOTFK</RuleSet>
+      </Properties>
+	  <Include mod_id="11865ab3-24cd-4c0a-96cc-a8ae7df1b31b" action_id="ACoIaF"/>
+      <File>Scenarios/WotFK/Data/WotFK_RemoveData.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Civilizations.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Leaders.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Leader_Scenes.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Loading_Screen.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Agendas.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_PlayerColors.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Religions.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_CivilizationInfo.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Gossip.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Modifiers.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Buildings.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Units.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Improvements.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Districts.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_CIty_States.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Global_Parameters.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Eras.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_GameSpeeds.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Great_People.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Great_Works.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Beliefs.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Technologies.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Civics.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Resources.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Policies.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Projects.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Terrains.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Scoring.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Victories.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="WotFK_Text" criteria="WotFKScenario">
+      <File>Scenarios/WotFK/Data/WotFK_Text.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_ConfigText.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Text_Leaders.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Text_Citizens.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Text_Cities.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Text_City_States.xml</File>
+      <File>Scenarios/WotFK/Data/WotFK_Text_Great_People.xml</File>
+    </UpdateText>
+    <UpdateIcons id="WotFK_Icons" criteria="WotFKScenario">
+      <File>Scenarios/WotFK/Data/WotFK_Icons.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="WotFK_Scripts" criteria="WotFKScenario">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+        <RuleSet>RULESET_SCENARIO_WOTFK</RuleSet>
+      </Properties>
+      <File>Scenarios/WotFK/Scripts/WotFKScenario.lua</File>
+    </AddGameplayScripts>
+	
+    <!--ImportFiles id="AC">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+        <RuleSet>RULESET_SCENARIO_AC</RuleSet>
+      </Properties>
+      <File>Scenarios/AC/UI/EndGame/EndGameMenu.lua</File>
+      <File>Scenarios/AC/UI/EndGame/EndGameMenu.xml</File>
+      <File>Scenarios/AC/UI/PartialScreens/WorldRankings.lua</File>
+      <File>Scenarios/AC/UI/PartialScreens/WorldRankings.xml</File>
+    </ImportFiles>
+    <UpdateDatabase id="AC">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+        <RuleSet>RULESET_SCENARIO_AC</RuleSet>
+      </Properties>
+      <File>Scenarios/AC/Data/AC_RemoveData.xml</File>
+      <File>Scenarios/AC/Data/AC_Buildings.xml</File>
+      <File>Scenarios/AC/Data/AC_Civilizations.xml</File>
+      <File>Scenarios/AC/Data/AC_Districts.xml</File>
+      <File>Scenarios/AC/Data/AC_Eras.xml</File>
+      <File>Scenarios/AC/Data/AC_Features.xml</File>
+      <File>Scenarios/AC/Data/AC_GameSpeeds.xml</File>
+      <File>Scenarios/AC/Data/AC_GlobalParameters.xml</File>
+      <File>Scenarios/AC/Data/AC_GreatPeople.xml</File>
+      <File>Scenarios/AC/Data/AC_Improvements.xml</File>
+      <File>Scenarios/AC/Data/AC_Leaders.xml</File>
+      <File>Scenarios/AC/Data/AC_Resources.xml</File>
+      <File>Scenarios/AC/Data/AC_Routes.xml</File>
+      <File>Scenarios/AC/Data/AC_Units.xml</File>
+      <File>Scenarios/AC/Data/AC_Victories.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="AC_Text">
+      <File>Scenarios/AC/Data/AC_Text.xml</File>
+      <File>Scenarios/AC/Data/AC_ConfigText.xml</File>
+      <File>Scenarios/AC/Data/AC_Text_Leaders.xml</File>
+      <File>Scenarios/AC/Data/AC_Text_Citizens.xml</File>
+      <File>Scenarios/AC/Data/AC_Text_Cities.xml</File>
+      <File>Scenarios/AC/Data/AC_Text_City_States.xml</File>
+      <File>Scenarios/AC/Data/AC_Text_Great_People.xml</File>
+    </UpdateText>
+    <UpdateIcons id="AC_Icons">
+      <File>Scenarios/AC/Data/AC_Icons.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="AC_Scripts">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+        <RuleSet>RULESET_SCENARIO_AC</RuleSet>
+      </Properties>
+      <File>Scenarios/AC/Scripts/ACScenario.lua</File>
+    </AddGameplayScripts-->
+    <UpdateDatabase id="ACoIaF_Tables">
+      <Properties>
+        <LoadOrder>-1000</LoadOrder>
+      </Properties>
+      <File>Scripts/ACoIaF_GameplaySchema.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ACoIaF.dep</File>
+    <!--File>AddOns/ACoIaF - Gathering Storm/ACoIaF - Gathering Storm.modinfo</File-->
+    <File>AddOns/ACoIaF - Gathering Storm/ArtDefs/StrategicView.artdef</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Buildings.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Civics.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Civilizations.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Config.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_ConfigText.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_DiplomaticActions.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Districts.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Governments.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Governors.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Icons.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Improvements.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Leaders.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_NamedPlaces.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_PlayerColors.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Policies.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_RemoveData.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/ACoIaF_GS_Technologies.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/Data/WW_GS_GameplayData.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/UI/CityBanners/CityBannerManager.lua</File>
+    <File>AddOns/ACoIaF - Gathering Storm/UI/Loaders/TechTreeIconLoader_GovernorSlot.lua</File>
+    <File>AddOns/ACoIaF - Gathering Storm/UI/Replacements/CityStates.lua</File>
+    <File>AddOns/ACoIaF - Gathering Storm/UI/Replacements/CityStates.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/UI/Replacements/TopPanel.lua</File>
+    <File>AddOns/ACoIaF - Gathering Storm/UI/Replacements/TopPanel.xml</File>
+    <File>AddOns/ACoIaF - Gathering Storm/UI/Replacements/TopPanel_Expansion2.lua</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Features.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Resources.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/Units_Great_People.artdef</File>
+    <File>ArtDefs/Unit_Bins.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>ArtDefs/VFX.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Data/ACoIaF_Agendas.xml</File>
+    <File>Data/ACoIaF_Buildings.xml</File>
+    <File>Data/ACoIaF_Civics.xml</File>
+    <File>Data/ACoIaF_CivilizationInfo.xml</File>
+    <File>Data/ACoIaF_Civilizations.xml</File>
+    <File>Data/ACoIaF_Config.xml</File>
+    <File>Data/ACoIaF_ConfigText.xml</File>
+    <File>Data/ACoIaF_DiplomaticActions.xml</File>
+    <File>Data/ACoIaF_Districts.xml</File>
+    <File>Data/ACoIaF_Governments.xml</File>
+    <File>Data/ACoIaF_GreatPeople.xml</File>
+    <File>Data/ACoIaF_Icons.xml</File>
+    <File>Data/ACoIaF_Improvements.xml</File>
+    <File>Data/ACoIaF_Leaders.xml</File>
+    <File>Data/ACoIaF_Maps.xml</File>
+    <File>Data/ACoIaF_Modifiers.xml</File>
+    <File>Data/ACoIaF_PlayerColors.xml</File>
+    <File>Data/ACoIaF_Policies.xml</File>
+    <File>Data/ACoIaF_Projects.xml</File>
+    <File>Data/ACoIaF_Religions.xml</File>
+    <File>Data/ACoIaF_RemoveData.xml</File>
+    <File>Data/ACoIaF_Resources.xml</File>
+    <File>Data/ACoIaF_Technologies.xml</File>
+    <File>Data/ACoIaF_Text.xml</File>
+    <File>Data/ACoIaF_UnitCommands.xml</File>
+    <File>Data/ACoIaF_Units.xml</File>
+    <File>Data/ACoIaF_WMDs.xml</File>
+    <File>Data/WW_GameplayData.xml</File>
+    <File>Maps/WesterosEssosHuge.Civ6Map</File>
+    <File>Maps/WesterosStandard.Civ6Map</File>
+    <File>Materials/NWON_Isle_O_Faces_Trees.mtl</File>
+    <File>Platforms/MacOS/BLPs/landmarks/hero_buildings.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_metalness_2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Black_Gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Black_Metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BaseMale_WhiteWalker_albedo_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_thracepelta_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_thracepelta_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_thracepelta_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_White_AO</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/units/ballista.blp</File>
+    <File>Platforms/MacOS/BLPs/units/fire_dragon.blp</File>
+    <File>Platforms/MacOS/BLPs/units/units.blp</File>
+    <File>Platforms/MacOS/BLPs/VFX.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/hero_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_metalness_2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BaseMale_WhiteWalker_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BaseMale_WhiteWalker_albedo_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_thracepelta_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_thracepelta_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_thracepelta_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_White_AO</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/units/ballista.blp</File>
+    <File>Platforms/Windows/BLPs/units/fire_dragon.blp</File>
+    <File>Platforms/Windows/BLPs/units/units.blp</File>
+    <File>Platforms/Windows/BLPs/VFX.blp</File>
+    <File>Scenarios/WotFK/ACoIaF_WotFK.modinfo</File>
+    <File>Scenarios/WotFK/Data/WotFK_Agendas.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Beliefs.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Buildings.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_CIty_States.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Civics.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_CivilizationInfo.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Civilizations.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Config.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_ConfigText.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Districts.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Eras.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_GameSpeeds.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Global_Parameters.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Gossip.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Great_People.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Great_Works.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Icons.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Improvements.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Leaders.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Leader_Scenes.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Loading_Screen.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Modifiers.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_PlayerColors.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Policies.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Projects.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Religions.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_RemoveData.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Resources.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Scenario_Rules.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Scoring.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Technologies.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Terrains.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Text.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Text_Cities.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Text_Citizens.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Text_City_States.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Text_Great_People.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Text_Leaders.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Units.xml</File>
+    <File>Scenarios/WotFK/Data/WotFK_Victories.xml</File>
+    <File>Scenarios/WotFK/Maps/WotFKScenario.Civ6Map</File>
+    <File>Scenarios/WotFK/Scripts/WotFKScenario.lua</File>
+    <File>Scenarios/WotFK/UI/WorldRankings.lua</File>
+    <File>Scenarios/WotFK/UI/WorldRankings.xml</File>
+    <File>Scripts/ACoIaF_CityReplacement.lua</File>
+    <File>Scripts/ACoIaF_Greyjoy.lua</File>
+    <File>Scripts/ACoIaF_Olenna_Trait.lua</File>
+    <File>Scripts/ACoIaF_WesterosEssos_Positioning.lua</File>
+    <File>Scripts/ACoIaF_Westeros_Positioning.lua</File>
+    <File>Scripts/ACoIaF_GameplaySchema.sql</File>
+    <File>Scripts/ACoIaF_RaF_Icons.sql</File>
+    <File>UI/CityBannerManager.lua</File>
+    <File>UI/CityBannerManager.xml</File>
+    <File>UI/EspionageEscape.lua</File>
+    <File>UI/EspionageEscape.xml</File>
+    <File>UI/GovernmentScreen.lua</File>
+    <File>UI/GovernmentScreen.xml</File>
+    <File>UI/ReligionScreen.lua</File>
+    <File>UI/ReligionScreen.xml</File>
+    <File>UI/Replacements/CityStates.xml</File>
+    <File>UI/TechAndCivicUnlockables.lua</File>
+    <File>UI/TechCivicCompletedPopup.lua</File>
+    <File>UI/TechTree.lua</File>
+    <File>UI/TechTreeIconLoader_EnvoyAwarded.lua</File>
+    <File>UI/TopPanel.lua</File>
+    <File>UI/TopPanel.xml</File>
+  </Files>
+</Mod>

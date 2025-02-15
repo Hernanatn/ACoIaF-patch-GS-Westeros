@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<GlobalParameters>
+		<Update>
+			<Where Name="CITY_MAX_BUY_PLOT_RANGE" />
+			<Set Value ="5" />
+		</Update>
+		<Update>
+			<Where Name="CITY_MIN_RANGE" />
+			<Set Value="2" />
+		</Update>
+	</GlobalParameters>
+</GameInfo>

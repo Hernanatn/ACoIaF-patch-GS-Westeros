@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LINE_ITEM_KOTH_POINTS" Kind="KIND_SCORING_LINE_ITEM"/>
+	</Types>
+	<ScoringCategories>
+		<Update>
+			<Where CategoryType="CATEGORY_SCENARIO3"/>
+			<Set>
+				<Name>LOC_SCORING_KOTH_POINTS_NAME</Name>
+				<Multiplier>1</Multiplier>
+			</Set>
+		</Update>
+	</ScoringCategories>
+	<ScoringLineItems>
+		<Row LineItemType="LINE_ITEM_KOTH_POINTS" Name="LOC_LINE_ITEM_KOTH_POINTS_NAME" Category="CATEGORY_SCENARIO3" Multiplier="1" ScoringScenario3="true" TieBreakerPriority="100"/>
+	</ScoringLineItems>
+</GameInfo>

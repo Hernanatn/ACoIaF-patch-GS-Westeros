@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+	</Types>
+	<DiplomaticActions>
+		<Update>
+			<Where DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
+			<Set>
+				<InitiatorPrereqCivic/>
+				<InitiatorPrereqTech>TECH_WRITING</InitiatorPrereqTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION"/>
+			<Set>
+				<InitiatorPrereqCivic/>
+				<InitiatorPrereqTech>TECH_WRITING</InitiatorPrereqTech>
+			</Set>
+		</Update>
+	</DiplomaticActions>
+	<DiplomaticTriggers>
+	</DiplomaticTriggers>
+	<DiplomaticStates>
+	</DiplomaticStates>
+	<DiplomaticStartStates>
+	</DiplomaticStartStates>
+	<DiplomaticStateActions>
+	</DiplomaticStateActions>
+	<DiplomaticStateTransitions>
+	</DiplomaticStateTransitions>
+	<DiplomaticTriggeredTransitions>
+	</DiplomaticTriggeredTransitions>
+	<DiplomaticTriggers_RequiredStates>
+	</DiplomaticTriggers_RequiredStates>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</GameInfo>

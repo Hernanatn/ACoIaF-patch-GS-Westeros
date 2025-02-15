@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="CONTINENT_ESSOS" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_ESSOS_FREE_CITIES" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_ESSOS_DOTHRAKI_SEA" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_ESSOS_RED_WASTE" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_ESSOS_OLD_VALYRIA" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_ESSOS_SLAVERS_BAY" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_NORTH" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_RIVERLANDS" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_VALE" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_WESTERLANDS" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_CROWNLANDS" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_REACH" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_STORMLANDS" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_DORNE" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_IRON_ISLANDS" Kind="KIND_CONTINENT"/>
+		<Row Type="CONTINENT_WESTEROS_BEYOND" Kind="KIND_CONTINENT"/>
+
+		<Row Type="FEATURE_ISLE_O_FACES" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_MOTHER_OF_MOUNTAINS" Kind="KIND_FEATURE"/>
+	</Types>
+	<Continents>
+		<Row ContinentType="CONTINENT_ESSOS" Description="LOC_CONTINENT_ESSOS_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_ESSOS_FREE_CITIES" Description="LOC_CONTINENT_ESSOS_FREE_CITIES_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_ESSOS_DOTHRAKI_SEA" Description="LOC_CONTINENT_ESSOS_DOTHRAKI_SEA_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_ESSOS_RED_WASTE" Description="LOC_CONTINENT_ESSOS_RED_WASTE_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_ESSOS_OLD_VALYRIA" Description="LOC_CONTINENT_ESSOS_OLD_VALYRIA_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_ESSOS_SLAVERS_BAY" Description="LOC_CONTINENT_ESSOS_SLAVERS_BAY_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS" Description="LOC_CONTINENT_WESTEROS_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_NORTH" Description="LOC_CONTINENT_WESTEROS_NORTH_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_RIVERLANDS" Description="LOC_CONTINENT_WESTEROS_RIVERLANDS_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_VALE" Description="LOC_CONTINENT_WESTEROS_VALE_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_WESTERLANDS" Description="LOC_CONTINENT_WESTEROS_WESTERLANDS_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_CROWNLANDS" Description="LOC_CONTINENT_WESTEROS_CROWNLANDS_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_REACH" Description="LOC_CONTINENT_WESTEROS_REACH_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_STORMLANDS" Description="LOC_CONTINENT_WESTEROS_STORMLANDS_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_DORNE" Description="LOC_CONTINENT_WESTEROS_DORNE_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_IRON_ISLANDS" Description="LOC_CONTINENT_WESTEROS_IRON_ISLANDS_DESCRIPTION"/>
+		<Row ContinentType="CONTINENT_WESTEROS_BEYOND" Description="LOC_CONTINENT_WESTEROS_BEYOND_DESCRIPTION"/>
+	</Continents>
+	<Features>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" Name="LOC_FEATURE_ISLE_O_FACES_NAME" Description="LOC_FEATURE_ISLE_O_FACES_DESCRIPTION" Quote="LOC_FEATURE_ISLE_O_FACES_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" NoRiver="true" NoCoast="false" Settlement="false" FollowRulesInWB="false" Impassable="false" SightThroughModifier="1" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" Name="LOC_FEATURE_MOTHER_OF_MOUNTAINS_NAME" Description="LOC_FEATURE_MOTHER_OF_MOUNTAINS_DESCRIPTION" Quote="LOC_FEATURE_MOTHER_OF_MOUNTAINS_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="2" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8" CustomPlacement="PLACEMENT_YOSEMITE"/>
+	</Features>
+	<Feature_ValidTerrains>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_DESERT"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_GRASS"/>
+	</Feature_ValidTerrains>
+	<Feature_AdjacentTerrains>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_COAST"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_OCEAN"/>
+	</Feature_AdjacentTerrains>
+	<Feature_NotAdjacentTerrains>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_TUNDRA"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_DESERT"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_SNOW"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+	</Feature_NotAdjacentTerrains>
+	<Feature_AdjacentFeatures>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" FeatureTypeAdjacent="FEATURE_FOREST"/>
+	</Feature_AdjacentFeatures>
+	<Feature_AdjacentYields>
+		<Row FeatureType="FEATURE_ISLE_O_FACES" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Feature_AdjacentYields>
+
+	<Map_GreatPersonClasses>
+		<Delete MapSizeType="MAPSIZE_STANDARD" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/>
+		<Delete MapSizeType="MAPSIZE_LARGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/>
+		<Delete MapSizeType="MAPSIZE_HUGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/>
+		<Row MapSizeType="MAPSIZE_STANDARD" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="6"/>
+		<Row MapSizeType="MAPSIZE_LARGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="6"/>
+		<Row MapSizeType="MAPSIZE_HUGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="6"/>
+	</Map_GreatPersonClasses>
+
+</GameInfo>

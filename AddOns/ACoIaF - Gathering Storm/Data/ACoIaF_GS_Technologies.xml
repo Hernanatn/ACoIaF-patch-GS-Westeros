@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+	</Types>
+	
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_PROGRESS"/>
+			<Set>
+				<Description>LOC_TECH_FUTURE_TECH_XP2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Technologies>
+	
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_PROGRESS</TechnologyType>
+			<ModifierId>FUTURE_TECH_PROJECT_PRODUCTION</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+	
+	<TechnologyPrereqs>
+	</TechnologyPrereqs>
+	
+	<TechnologyQuotes>
+	</TechnologyQuotes>
+	
+	<Boosts>
+	</Boosts>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>ACOIAF_TECH_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ACOIAF_TECH_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

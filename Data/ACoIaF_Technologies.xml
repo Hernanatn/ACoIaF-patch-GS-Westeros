@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- Delete base game data that is irrelevant to the scenario.-->
+	<Types>
+		<Row Type="TECH_SCHOLASTIC_ORDER" Kind="KIND_TECH"/>
+		<Row Type="TECH_CHIVALRY" Kind="KIND_TECH"/>
+		<Row Type="TECH_OATHS" Kind="KIND_TECH"/>
+		<Row Type="TECH_FORTIFICATIONS" Kind="KIND_TECH"/>
+		
+		<Row Type="TECH_CRYPTOZOOLOGY" Kind="KIND_TECH"/>
+		<Row Type="TECH_ALCHEMY" Kind="KIND_TECH"/>
+		<Row Type="TECH_SWORN_SWORDS" Kind="KIND_TECH"/>
+		
+		<Row Type="TECH_DRACONOLOGY" Kind="KIND_TECH"/>
+		<Row Type="TECH_WILDFIRE" Kind="KIND_TECH"/>
+		<Row Type="TECH_KEEPS" Kind="KIND_TECH"/>
+		
+		<Row Type="TECH_HEAVY_SIEGE_TACTICS" Kind="KIND_TECH"/>
+		
+		<Row Type="TECH_PROGRESS" Kind="KIND_TECH"/>
+	</Types>
+	
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_SAILING" Name="LOC_TECH_SAILING_NAME" />
+			<Set EmbarkAll="true" />
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CASTLES" />
+			<Set>
+				<Description/>
+			</Set>
+		</Update>
+		<Update>
+		  <Where TechnologyType="TECH_CARTOGRAPHY" />
+		  <Set EraType="ERA_MEDIEVAL" />
+		</Update>
+		<Update>
+		  <Where TechnologyType="TECH_CARTOGRAPHY" />
+		  <Set Cost="390" />
+		</Update>
+		<Update>
+		  <Where TechnologyType="TECH_BANKING" />
+		  <Set EraType="ERA_MEDIEVAL" />
+		</Update>
+		<Update>
+		  <Where TechnologyType="TECH_BANKING" />
+		  <Set UITreeRow="-2" />
+		</Update>
+		<Update>
+		  <Where TechnologyType="TECH_BANKING" />
+		  <Set Cost="540" />
+		</Update>
+		<Update>
+		  <Where TechnologyType="TECH_SQUARE_RIGGING" />
+		  <Set EraType="ERA_MEDIEVAL" />
+		</Update>
+		<Update>
+		  <Where TechnologyType="TECH_SQUARE_RIGGING" />
+		  <Set UITreeRow="-3" />
+		</Update>
+		<Update>
+		  <Where TechnologyType="TECH_SQUARE_RIGGING" />
+		  <Set Cost="540" />
+		</Update>
+		<Row TechnologyType="TECH_SCHOLASTIC_ORDER" Name="LOC_TECH_SCHOLASTIC_ORDER_NAME" Cost="540" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="-1"/>
+		<Row TechnologyType="TECH_OATHS" Name="LOC_TECH_OATHS_NAME" Cost="540" AdvisorType="ADVISOR_CONQUEST" EraType="ERA_MEDIEVAL" UITreeRow="2"/>
+		<Row TechnologyType="TECH_FORTIFICATIONS" Name="LOC_TECH_FORTIFICATIONS_NAME"  Cost="540" AdvisorType="ADVISOR_CONQUEST" EraType="ERA_MEDIEVAL" UITreeRow="3"/>
+		
+		<Row TechnologyType="TECH_CRYPTOZOOLOGY" Name="LOC_TECH_CRYPTOZOOLOGY_NAME" Cost="660" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="-2"/>
+		<Row TechnologyType="TECH_ALCHEMY" Name="LOC_TECH_ALCHEMY_NAME" Cost="660" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="-1"/>
+		<Row TechnologyType="TECH_CHIVALRY" Name="LOC_TECH_CHIVALRY_NAME" Cost="660" AdvisorType="ADVISOR_CONQUEST" EraType="ERA_MEDIEVAL" UITreeRow="1"/>
+		<Row TechnologyType="TECH_SWORN_SWORDS" Name="LOC_TECH_SWORN_SWORDS_NAME" Cost="660" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="2"/>
+		
+		<Row TechnologyType="TECH_DRACONOLOGY" Name="LOC_TECH_DRACONOLOGY_NAME" Cost="845" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="-3"/>
+		<Row TechnologyType="TECH_WILDFIRE" Name="LOC_TECH_WILDFIRE_NAME" Cost="845" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="-1"/>
+		<Row TechnologyType="TECH_KEEPS" Name="LOC_TECH_KEEPS_NAME" Cost="845" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="2"/>
+		<Row TechnologyType="TECH_HEAVY_SIEGE_TACTICS" Name="LOC_TECH_HEAVY_SIEGE_TACTICS_NAME" Cost="845" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="4"/>
+		
+		<Row TechnologyType="TECH_PROGRESS" Name="LOC_TECH_FUTURE_TECH_NAME"Description="LOC_TECH_FUTURE_TECH_DESCRIPTION" Cost="999" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="0" Repeatable="true"/>
+	</Technologies>
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_SAILING</TechnologyType>
+			<ModifierId>CARTOGRAPHY_GRANT_OCEAN_NAVIGATION</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+	
+	<TechnologyPrereqs>
+		<Row Technology="TECH_SHIPBUILDING" PrereqTech="TECH_CELESTIAL_NAVIGATION"/>
+		<Delete Technology="TECH_CARTOGRAPHY" PrereqTech="TECH_SHIPBUILDING"/>
+		<Row Technology="TECH_CARTOGRAPHY" PrereqTech="TECH_SHIPBUILDING"/>
+		<Row Technology="TECH_CARTOGRAPHY" PrereqTech="TECH_MILITARY_TACTICS"/>
+		<Row Technology="TECH_SCHOLASTIC_ORDER" PrereqTech="TECH_EDUCATION"/>
+		<Row Technology="TECH_OATHS" PrereqTech="TECH_STIRRUPS"/>
+		<Row Technology="TECH_OATHS" PrereqTech="TECH_MILITARY_ENGINEERING"/>
+		<Row Technology="TECH_FORTIFICATIONS" PrereqTech="TECH_CASTLES"/>
+		
+		<Row Technology="TECH_CRYPTOZOOLOGY" PrereqTech="TECH_SCHOLASTIC_ORDER"/>
+		<Row Technology="TECH_ALCHEMY" PrereqTech="TECH_SCHOLASTIC_ORDER"/>
+		<Row Technology="TECH_WILDFIRE" PrereqTech="TECH_ALCHEMY"/>
+		<Row Technology="TECH_DRACONOLOGY" PrereqTech="TECH_CRYPTOZOOLOGY"/>
+		
+		<Row Technology="TECH_CHIVALRY" PrereqTech="TECH_SCHOLASTIC_ORDER"/>
+		<Row Technology="TECH_CHIVALRY" PrereqTech="TECH_OATHS"/>
+		<Row Technology="TECH_SWORN_SWORDS" PrereqTech="TECH_OATHS"/>
+		
+		<Row Technology="TECH_KEEPS" PrereqTech="TECH_CHIVALRY"/>
+		<Row Technology="TECH_KEEPS" PrereqTech="TECH_SWORN_SWORDS"/>
+		<Row Technology="TECH_KEEPS" PrereqTech="TECH_FORTIFICATIONS"/>
+		
+		<Row Technology="TECH_HEAVY_SIEGE_TACTICS" PrereqTech="TECH_MACHINERY"/>
+		<Row Technology="TECH_HEAVY_SIEGE_TACTICS" PrereqTech="TECH_FORTIFICATIONS"/>
+		
+		<Row Technology="TECH_PROGRESS" PrereqTech="TECH_WILDFIRE"/>
+		<Row Technology="TECH_PROGRESS" PrereqTech="TECH_KEEPS"/>
+		<Row Technology="TECH_PROGRESS" PrereqTech="TECH_HEAVY_SIEGE_TACTICS"/>
+	</TechnologyPrereqs>
+	
+	<TechnologyQuotes>
+	</TechnologyQuotes>
+	
+	<Boosts>
+	
+
+		<Row TechnologyType="TECH_SQUARE_RIGGING" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_ACOIAF_SQUARE_RIGGING" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_ACOIAF_SQUARE_RIGGING" BoostClass="BOOST_TRIGGER_HAVE_X_DISTRICTS" DistrictType="DISTRICT_CAMPUS" NumItems="2"/>
+		<Row TechnologyType="TECH_SCHOLASTIC_ORDER" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_SCHOLASTIC_ORDER" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_SCHOLASTIC_ORDER"  BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_SHIPYARD" NumItems="2"/>
+		<Row TechnologyType="TECH_OATHS" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_OATHS" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_OATHS" BoostClass="BOOST_TRIGGER_RECEIVE_DOW"/>
+		<Row TechnologyType="TECH_FORTIFICATIONS" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_FORTIFICATIONS" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_FORTIFICATIONS" BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_CASTLE"  NumItems="2"/>
+		
+		<Row TechnologyType="TECH_CRYPTOZOOLOGY" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_CRYPTOZOOLOGY" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_CRYPTOZOOLOGY" BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_ARENA" NumItems="2"/>
+		<Row TechnologyType="TECH_ALCHEMY" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_ALCHEMY" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_ALCHEMY" BoostClass="BOOST_TRIGGER_HAVE_RESEARCH_AGREEMENT"/>
+		<Row TechnologyType="TECH_WILDFIRE" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_WILDFIRE" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_WILDFIRE" BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_GEN_ALCHEMIST" NumItems="2"/>
+		<Row TechnologyType="TECH_DRACONOLOGY" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_DRACONOLOGY" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_DRACONOLOGY" BoostClass="BOOST_TRIGGER_KILL_WITH" Unit1Type="UNIT_DRAGON"/>
+		
+		<Row TechnologyType="TECH_CHIVALRY" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_CHIVALRY" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_CHIVALRY" BoostClass="BOOST_TRIGGER_CONSTRUCT_BUILDING" BuildingType="BUILDING_ARMORY"/>
+		<Row TechnologyType="TECH_SWORN_SWORDS" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_SWORN_SWORDS" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_SWORN_SWORDS" BoostClass="BOOST_TRIGGER_KILL_WITH" Unit1Type="UNIT_SWORDSMAN"/>
+		
+		<Row TechnologyType="TECH_KEEPS" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_KEEPS" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_KEEPS" BoostClass="BOOST_TRIGGER_HAVE_X_IMPROVEMENTS" ImprovementType="IMPROVEMENT_FORT" RequiresResource="true" NumItems="1"/>
+		
+	</Boosts>
+</GameInfo>

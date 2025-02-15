@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>402</build>
+		<revision>765</revision>
+	</m_Version>
+	<m_TemplateName text="Cultures"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Culture"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="DEFAULT"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_DAYNE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WYL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_QARTH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_FAROS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_IBBEN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LHAZAR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MARTELL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001b"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="NorthAfrican"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="SouthAmerican"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_DOTHRAKI"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Mughal"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="EastAsian"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="SouthAfrican"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BARATHEON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_2b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LANNISTER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_2c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_CLEGANE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_CASTAMERE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TARGARYEN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_2d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_OLD_GHIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NEW_GHIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MANTARYS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TOLOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HIGHTOWER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_ARBOR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_RYKKER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SELMY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TARTH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TARLY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MASSEY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TYRELL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations007b"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Mediterranean"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="SoutheastAsian"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BARATHEON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_4b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LANNISTER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_4c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_CLEGANE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_4d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_CASTAMERE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_4e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_OLD_GHIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_4f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NEW_GHIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_4g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MANTARYS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_4h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TOLOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_4i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TARGARYEN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_4d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HIGHTOWER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_ARBOR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_RYKKER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SELMY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TARTH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TARLY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MASSEY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_DAYNE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations010b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WYL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations010c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_QARTH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations010d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_FAROS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations010e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_IBBEN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations010f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LHAZAR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations010g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MARTELL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations010b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TYRELL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations011b"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="AncientBrick"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TULLY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_DOTHRAKI"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_3b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_STARK"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WILDLING"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MORMONT"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NIGHTSWATCH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BOLTON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_GLOVER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_KARSTARK"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_REED"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_UMBER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5j"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MAJOR_BOLTON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_5k"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_THE_TWINS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations003b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HARRENHAL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations003c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_COLDWATER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations003d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_ROYCE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations003e"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="AncientEarth"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="America"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ModernGlass"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TYRELL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BRAAVOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LORATH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LYS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MYR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NORVOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_PENTOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_QOHOR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TYROSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_VOLANTIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002j"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_SAATH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002k"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_SALLOSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002l"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_MARDOSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002m"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Colonial"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_ARRYN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations003b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_GREYJOY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations007b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BRAAVOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LORATH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LYS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MYR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NORVOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_PENTOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_QOHOR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TYROSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_VOLANTIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013j"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_SAATH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013k"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_SALLOSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013l"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_MARDOSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations013m"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="AncientWood"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BRAAVOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LORATH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LYS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MYR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NORVOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_PENTOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_QOHOR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TYROSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_VOLANTIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002j"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_SAATH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002k"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_SALLOSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002l"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_MARDOSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002m"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Indonesian"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_STARK"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WILDLING"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MORMONT"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations001d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NIGHTSWATCH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations001e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BOLTON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations001f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_GLOVER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations001g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_KARSTARK"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations001h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_REED"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations001i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_UMBER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations001j"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MAJOR_BOLTON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations001k"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Baltic"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_DOTHRAKI"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations006b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_STARK"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations008b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WILDLING"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations008c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MORMONT"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NIGHTSWATCH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BOLTON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_GLOVER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_KARSTARK"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_REED"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_UMBER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008j"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MAJOR_BOLTON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008k"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_DAYNE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WYL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_QARTH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_FAROS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_IBBEN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LHAZAR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MARTELL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009b"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="RowHouse"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_ARRYN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_THE_TWINS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HARRENHAL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_COLDWATER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_ROYCE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002e"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Scottish"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Brazil"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitCulture"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Asian"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LHAZAR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BRAAVOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LORATH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LYS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MYR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NORVOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_PENTOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_QOHOR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TYROSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_VOLANTIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002j"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TARGARYEN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_2d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_OLD_GHIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NEW_GHIS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MANTARYS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TOLOS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BARATHEON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_2b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_LANNISTER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_2c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_CLEGANE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_CASTAMERE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_2e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TYRELL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations007b"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Mediterranean"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_DOTHRAKI"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MARTELL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations007b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_DAYNE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WYL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_QARTH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_IBBEN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009f"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="MiddleEastern"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WHITEWALKER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001b"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Icemen"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_STARK"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations008b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_GREYJOY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations008z"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_TULLY"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations008z"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_WILDLING"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations008c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MORMONT"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_NIGHTSWATCH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_BOLTON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008f"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_GLOVER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008g"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_KARSTARK"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008h"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_REED"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008i"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_UMBER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008j"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_MAJOR_BOLTON"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations008k"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_FAROS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations009e"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_ARRYN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_THE_TWINS"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002b"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HARRENHAL"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002c"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_COLDWATER"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002d"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_ROYCE"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002e"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="European"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="African"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_SAATH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002k"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_SALLOSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002l"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_SARNOR_MARDOSH"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations002m"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="SouthAmerican"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Barbarian"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Indian"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Maori"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="NativeAmerican"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="SouthEastAsian"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

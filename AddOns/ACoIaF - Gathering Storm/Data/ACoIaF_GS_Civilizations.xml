@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<TypeProperties>
+	</TypeProperties>
+
+	<Civilizations>
+	</Civilizations>
+
+	<CivilizationLeaders>
+	</CivilizationLeaders>
+
+	<Colors>
+	</Colors>
+
+	<PlayerColors>
+	</PlayerColors>
+
+	<CivilizationCitizenNames>
+	</CivilizationCitizenNames>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ARRYN" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR" />
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR_NAME" Description="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR_DESCRIPTION"/>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_OURS_IS_THE_FURY_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_WINTER_IS_COMING_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_WINTER_IS_COMING"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_FREEFOLK_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_FREEFOLK"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_WE_DO_NOT_SOW_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_WE_DO_NOT_SOW"/>
+		</Update>
+	</Traits>
+
+	<DynamicModifiers>
+	</DynamicModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_OURS_IS_THE_FREE_HORSES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_HORSES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OURS_IS_THE_FREE_IRON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_IRON</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TULLY_ALLIANCEPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ALLIANCE_POINTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DUST_STORM_PREVENTION_GRADIENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DUST_STORM_PREVENTION_HABOOB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_MODERATE_FLOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_MAJOR_FLOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_THOUSAND_FLOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ARRYN_PRODUCTION_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_IS_MOUNTAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WE_DO_NOT_SOW_BUFF_OCEAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WE_DO_NOT_SOW_BUFF_SAILING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
+		
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_OURS_IS_THE_FREE_HORSES</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_HORSES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OURS_IS_THE_FREE_HORSES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OURS_IS_THE_FREE_IRON</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OURS_IS_THE_FREE_IRON</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TULLY_ALLIANCEPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DUST_STORM_PREVENTION_GRADIENT</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_DUST_STORM_GRADIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DUST_STORM_PREVENTION_GRADIENT</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DUST_STORM_PREVENTION_HABOOB</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_DUST_STORM_HABOOB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DUST_STORM_PREVENTION_HABOOB</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_MODERATE_FLOOD</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_FLOOD_MODERATE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_MODERATE_FLOOD</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_MAJOR_FLOOD</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_FLOOD_MAJOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_MAJOR_FLOOD</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_THOUSAND_FLOOD</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_FLOOD_1000_YEAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOOD_PREVENTION_THOUSAND_FLOOD</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ARRYN_PRODUCTION_MOUNTAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ARRYN_PRODUCTION_MOUNTAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WE_DO_NOT_SOW_BUFF_OCEAN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WE_DO_NOT_SOW_BUFF_OCEAN</ModifierId>
+			<Name>Valid</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WE_DO_NOT_SOW_BUFF_SAILING</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SAILING</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+
+	<Requirements>
+	</Requirements>
+
+	<RequirementArguments>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<Delete ModifierId="TRAIT_FREE_HORSES"/>
+		<Delete ModifierId="TRAIT_FREE_IRON"/>
+		<Row TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY" ModifierId="TRAIT_OURS_IS_THE_FREE_HORSES"/>
+		<Row TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY" ModifierId="TRAIT_OURS_IS_THE_FREE_IRON"/>
+		
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" ModifierId="TRAIT_TULLY_ALLIANCEPOINTS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" ModifierId="TRAIT_ALLIANCE_POINTS_FROM_TRADE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" ModifierId="TRAIT_FLOOD_PREVENTION_MODERATE_FLOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" ModifierId="TRAIT_AVOID_MODERATE_FLOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" ModifierId="TRAIT_FLOOD_PREVENTION_MAJOR_FLOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" ModifierId="TRAIT_AVOID_MAJOR_FLOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" ModifierId="TRAIT_FLOOD_PREVENTION_THOUSAND_FLOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" ModifierId="TRAIT_AVOID_THOUSAND_FLOOD"/>
+		
+		<Row TraitType="TRAIT_CIVILIZATION_WINTER_IS_COMING" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_WINTER_IS_COMING" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		
+		<Row TraitType="TRAIT_CIVILIZATION_FREEFOLK" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FREEFOLK" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		
+		<Row TraitType="TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN" ModifierId="TRAIT_DUST_STORM_PREVENTION_GRADIENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN" ModifierId="TRAIT_DUST_STORM_PREVENTION_HABOOB"/>
+		
+		<Row TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" ModifierId="TRAIT_WORK_GRASS_MOUNTAIN"/>
+		<Row TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" ModifierId="TRAIT_WORK_PLAINS_MOUNTAIN"/>
+		<Row TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" ModifierId="TRAIT_WORK_DESERT_MOUNTAIN"/>
+		<Row TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" ModifierId="TRAIT_WORK_TUNDRA_MOUNTAIN"/>
+		<Row TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" ModifierId="TRAIT_WORK_SNOW_MOUNTAIN"/>
+		<Row TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" ModifierId="TRAIT_ARRYN_PRODUCTION_MOUNTAIN"/>
+	
+		<Row TraitType="TRAIT_CIVILIZATION_WE_DO_NOT_SOW" ModifierId="TRAIT_WE_DO_NOT_SOW_BUFF_SAILING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_WE_DO_NOT_SOW" ModifierId="TRAIT_HURRICANE_PREVENTION_CAT_4"/>
+		<Row TraitType="TRAIT_CIVILIZATION_WE_DO_NOT_SOW" ModifierId="TRAIT_HURRICANE_PREVENTION_CAT_5"/>
+		
+	</TraitModifiers>
+	
+	<CityNames>
+	</CityNames>
+	
+	<StartBiasResources>
+	</StartBiasResources>
+	
+	<StartBiasTerrains>
+	</StartBiasTerrains>
+	
+	<StartBiasRivers>
+	</StartBiasRivers>
+
+</GameData>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		
+	</Types>
+	
+	<Civics>
+		<Update>
+			<Where CivicType="CIVIC_PROGRESS"/>
+			<Set>
+				<Description>LOC_CIVIC_FUTURE_CIVIC_XP2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Civics>
+	
+	<CivicPrereqs>
+	</CivicPrereqs>
+	
+	<CivicQuotes>
+	</CivicQuotes>
+	
+	<Boosts>
+	</Boosts>
+	
+	<Modifiers>
+	</Modifiers>
+	
+	<ModifierArguments>
+	</ModifierArguments>
+	
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_PROGRESS</CivicType>
+			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<CivicType>CIVIC_PROGRESS</CivicType>
+			<ModifierId>CIVIC_GRANT_FAVOR</ModifierId>
+		</Row>
+	</CivicModifiers>
+	
+	<RequirementSets>
+	</RequirementSets>
+	
+	<Requirements>
+	</Requirements>
+	
+	<RequirementArguments>
+	</RequirementArguments>
+	
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+</GameInfo>

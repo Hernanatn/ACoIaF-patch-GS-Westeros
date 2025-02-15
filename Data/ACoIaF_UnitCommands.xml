@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Kinds>
+	</Kinds>
+	<Types>
+	</Types>
+	<UnitCommands>
+		<Update>
+			<Where CommandType="UNITCOMMAND_FORM_CORPS" />
+			<Set>
+				<PrereqCivic>CIVIC_MILITARY_TRAINING</PrereqCivic>
+			</Set>
+		</Update>
+		<Update>
+			<Where CommandType="UNITCOMMAND_FORM_ARMY" />
+			<Set>
+				<PrereqCivic>CIVIC_MOBILIZATION</PrereqCivic>
+			</Set>
+		</Update>
+	</UnitCommands>
+</GameInfo>

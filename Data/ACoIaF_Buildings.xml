@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- Civ Buildings -->
+		<Row Type="BUILDING_WEIRWOOD_TREE" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_HALL_OF_HEROES" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_PYRE_OF_RHLLOR" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_TOURNAMENT_GROUNDS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TYRELL_GRANARY" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_BROTHEL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TULLY_WATER_MILL" Kind="KIND_BUILDING"/>
+
+		<!-- City State Buildings -->
+
+		<!-- Wonders
+		<Row Type="BUILDING_WHITE_CASTLE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HOUSE_OF_BLACK_AND_WHITE" Kind="KIND_BUILDING"/> -->
+		<Row Type="BUILDING_TITAN_OF_BRAAVOS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CASTERLY_ROCK" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_THE_EYRIE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_THE_CITADEL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GREAT_PYRAMID" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SEPT_OF_BAELOR" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_RED_KEEP" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HARRENHAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_THE_HIGH_TOWER" Kind="KIND_BUILDING"/>
+
+		<Row Type="BUILDING_GRAND_FIGHTING_PIT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GRAND_TOURNAMENT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_THOUSAND_ROOM_PALACE" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_STAR_FORT" />
+			<Set PrereqTech="TECH_KEEPS" />
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SEWER" />
+			<Set PrereqTech="TECH_KEEPS" />
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ZOO" />
+			<Set PrereqTech="TECH_CRYPTOZOOLOGY" />
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SHIPYARD" />
+			<Set PrereqTech="TECH_CARTOGRAPHY" />
+		</Update>
+		<!-- Civ Buildings -->
+		<Row BuildingType="BUILDING_WEIRWOOD_TREE" Name="LOC_TRAIT_CIVILIZATION_BUILDING_WEIRWOOD_TREE_NAME" Description="LOC_TRAIT_CIVILIZATION_BUILDING_WEIRWOOD_TREE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS"  CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_WEIRWOOD_TREE"/>
+		<Row BuildingType="BUILDING_HALL_OF_HEROES" Name="LOC_TRAIT_CIVILIZATION_BUILDING_HALL_OF_HEROES_NAME" Description="LOC_TRAIT_CIVILIZATION_BUILDING_HALL_OF_HEROES_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_HALL_OF_HEROES"/>
+		<Row BuildingType="BUILDING_PYRE_OF_RHLLOR" Name="LOC_TRAIT_LEADER_BUILDING_PYRE_OF_RHLLOR_NAME" Description="LOC_TRAIT_LEADER_BUILDING_PYRE_OF_RHLLOR_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE" TraitType="TRAIT_LEADER_BUILDING_PYRE_OF_RHLLOR"/>
+		<Row BuildingType="BUILDING_TOURNAMENT_GROUNDS" Name="LOC_TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS_NAME" Description="LOC_TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="135" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="2" TraitType="TRAIT_LEADER_BUILDING_TOURNAMENT_GROUNDS"/>
+		<Row BuildingType="BUILDING_TYRELL_GRANARY" Name="LOC_TRAIT_CIVILIZATION_BUILDING_TYRELL_GRANARY_NAME" Description="LOC_TRAIT_CIVILIZATION_BUILDING_TYRELL_GRANARY_DESCRIPTION" PrereqTech="TECH_POTTERY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="70" AdvisorType="ADVISOR_GENERIC" Housing="4" TraitType="TRAIT_CIVILIZATION_BUILDING_TYRELL_GRANARY"/>
+		<Row BuildingType="BUILDING_BROTHEL" Name="LOC_TRAIT_LEADER_BUILDING_BROTHEL_NAME" Description="LOC_TRAIT_LEADER_BUILDING_BROTHEL_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" Entertainment="2" CitizenSlots="1" TraitType="TRAIT_LEADER_BUILDING_BROTHEL"/>
+		<Row BuildingType="BUILDING_TULLY_WATER_MILL" Name="LOC_TRAIT_CIVILIZATION_BUILDING_TULLY_WATER_MILL_NAME" Description="LOC_TRAIT_CIVILIZATION_BUILDING_TULLY_WATER_MILL_DESCRIPTION" PrereqTech="TECH_THE_WHEEL" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" RequiresAdjacentRiver="true" OuterDefenseHitPoints="25" OuterDefenseStrength="1" TraitType="TRAIT_CIVILIZATION_BUILDING_TULLY_WATER_MILL"/>
+
+
+		<!-- City State Buildings -->
+
+		<!-- Wonders 
+		<Row BuildingType="BUILDING_HOUSE_OF_BLACK_AND_WHITE" Name="LOC_BUILDING_HOUSE_OF_BLACK_AND_WHITE_NAME" Description="LOC_BUILDING_HOUSE_OF_BLACK_AND_WHITE_DESCRIPTION" PrereqCivic="CIVIC_" Cost="1450" AdvisorType="ADVISOR_CULTURE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true"  Quote="LOC_BUILDING_HOUSE_OF_BLACK_AND_WHITE_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_WHITE_CASTLE" Name="LOC_BUILDING_WHITE_CASTLE_NAME" Description="LOC_BUILDING_WHITE_CASTLE_DESCRIPTION" PrereqTech="TECH_MASS_PRODUCTION" Cost="920" AdvisorType="ADVISOR_CONQUEST" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_WHITE_CASTLE_QUOTE" QuoteAudio=""/>
+		-->
+		<Row BuildingType="BUILDING_TITAN_OF_BRAAVOS" Name="LOC_BUILDING_TITAN_OF_BRAAVOS_NAME" Description="LOC_BUILDING_TITAN_OF_BRAAVOS_DESCRIPTION" PrereqTech="TECH_SHIPBUILDING" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" Quote="LOC_BUILDING_TITAN_OF_BRAAVOS_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_CASTERLY_ROCK" Name="LOC_BUILDING_CASTERLY_ROCK_NAME" Description="LOC_BUILDING_CASTERLY_ROCK_DESCRIPTION" PrereqTech="TECH_BANKING" Cost="710" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" AdjacentToMountain="true" DefenseModifier="4" GrantFortification="2" Quote="LOC_BUILDING_CASTERLY_ROCK_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_THE_EYRIE" Name="LOC_BUILDING_THE_EYRIE_NAME" Description="LOC_BUILDING_THE_EYRIE_DESCRIPTION" PrereqTech="TECH_CASTLES"  Cost="710" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" AdjacentToMountain="true" ObsoleteEra="ERA_INDUSTRIAL" DefenseModifier="6" GrantFortification="2" Quote="LOC_BUILDING_THE_EYRIE_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" Name="LOC_BUILDING_THE_CITADEL_NAME" Description="LOC_BUILDING_THE_CITADEL_DESCRIPTION" PrereqTech="TECH_SCHOLASTIC_ORDER" Cost="710" AdvisorType="ADVISOR_TECHNOLOGY" AdjacentDistrict="DISTRICT_CAMPUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_THE_CITADEL_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_GREAT_PYRAMID" Name="LOC_BUILDING_GREAT_PYRAMID_NAME" Description="LOC_BUILDING_GREAT_PYRAMID_DESCRIPTION" PrereqTech="TECH_MASONRY" Cost="220" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_GREAT_PYRAMID_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_SEPT_OF_BAELOR" Name="LOC_BUILDING_SEPT_OF_BAELOR_NAME" Description="LOC_BUILDING_SEPT_OF_BAELOR_DESCRIPTION"  PrereqCivic="CIVIC_THEOLOGY"  Cost="290" AdvisorType="ADVISOR_CULTURE" AdjacentDistrict="DISTRICT_HOLY_SITE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_SEPT_OF_BAELOR_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_RED_KEEP" Name="LOC_BUILDING_RED_KEEP_NAME" Description="LOC_BUILDING_RED_KEEP_DESCRIPTION" PrereqTech="TECH_FORTIFICATIONS" Cost="710" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_CITY_CENTER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Housing="2" Entertainment="2" DefenseModifier="4" GrantFortification="2" Quote="LOC_BUILDING_RED_KEEP_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_HARRENHAL" Name="LOC_BUILDING_HARRENHAL_NAME" Description="LOC_BUILDING_HARRENHAL_DESCRIPTION" PrereqTech="TECH_KEEPS" Cost="710" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_CITY_CENTER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Housing="4" DefenseModifier="10" GrantFortification="3" Quote="LOC_BUILDING_HARRENHAL_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_THE_HIGH_TOWER" Name="LOC_BUILDING_THE_HIGH_TOWER_NAME" Description="LOC_BUILDING_THE_HIGH_TOWER_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" Cost="180" AdvisorType="ADVISOR_RELIGIOUS"  MaxWorldInstances="1" Housing="2" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_THE_HIGH_TOWER_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_GRAND_FIGHTING_PIT" Name="LOC_BUILDING_GRAND_FIGHTING_PIT_NAME" Description="LOC_BUILDING_GRAND_FIGHTING_PIT_DESCRIPTION" PrereqCivic="CIVIC_FEUDALISM" Cost="400" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="3" RegionalRange="6"  Quote="LOC_BUILDING_GRAND_FIGHTING_PIT_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_GRAND_TOURNAMENT" Name="LOC_BUILDING_GRAND_TOURNAMENT_NAME" Description="LOC_BUILDING_GRAND_TOURNAMENT_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" Cost="400" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_ENCAMPMENT" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="3" RegionalRange="6" Quote="LOC_BUILDING_GRAND_TOURNAMENT_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+		<Row BuildingType="BUILDING_THOUSAND_ROOM_PALACE" Name="LOC_BUILDING_THOUSAND_ROOM_PALACE_NAME" Description="LOC_BUILDING_THOUSAND_ROOM_PALACE_DESCRIPTION" PrereqTech="TECH_KEEPS" Cost="710" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_ENCAMPMENT" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Housing="8" DefenseModifier="8" GrantFortification="3" Quote="LOC_BUILDING_THOUSAND_ROOM_PALACE_QUOTE" QuoteAudio="" TraitType="TRAIT_CIVILIZATION_NOT_WHITEWALKER_BUILDINGS"/>
+
+	</Buildings>
+
+	<BuildingPrereqs>
+		<!-- Civ Buildings -->
+		<Row Building="BUILDING_TEMPLE" PrereqBuilding="BUILDING_WEIRWOOD_TREE"/>
+		<Row Building="BUILDING_BANK" PrereqBuilding="BUILDING_BROTHEL"/>
+		<Row Building="BUILDING_ZOO" PrereqBuilding="BUILDING_TOURNAMENT_GROUNDS"/>
+
+		<!-- Wonders -->
+	</BuildingPrereqs>
+
+	<Building_ValidFeatures>
+		<!-- Wonders -->
+	</Building_ValidFeatures>
+	<Building_RequiredFeatures>
+		<!-- Wonders -->
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_TITAN_OF_BRAAVOS" TerrainType="TERRAIN_COAST"/>
+
+		<Row BuildingType="BUILDING_CASTERLY_ROCK" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_CASTERLY_ROCK" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_CASTERLY_ROCK" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_CASTERLY_ROCK" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_CASTERLY_ROCK" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+
+		<Row BuildingType="BUILDING_THE_EYRIE" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_THE_EYRIE" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_THE_EYRIE" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_THE_EYRIE" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_THE_EYRIE" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<!-- Civ Buildings -->
+		<Row BuildingType="BUILDING_WEIRWOOD_TREE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_HALL_OF_HEROES" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PYRE_OF_RHLLOR" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PYRE_OF_RHLLOR" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TOURNAMENT_GROUNDS" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_TYRELL_GRANARY" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_BROTHEL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_BROTHEL" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_TULLY_WATER_MILL" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TULLY_WATER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_THE_HIGH_TOWER" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_HARRENHAL" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</Building_YieldChanges>
+	<BuildingReplaces>
+		<!-- Civ Buildings -->
+		<Row CivUniqueBuildingType="BUILDING_WEIRWOOD_TREE" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_HALL_OF_HEROES" ReplacesBuildingType="BUILDING_BARRACKS"/>
+		<Row CivUniqueBuildingType="BUILDING_PYRE_OF_RHLLOR" ReplacesBuildingType="BUILDING_MONUMENT"/>
+		<Row CivUniqueBuildingType="BUILDING_TOURNAMENT_GROUNDS" ReplacesBuildingType="BUILDING_ARENA"/>
+		<Row CivUniqueBuildingType="BUILDING_TYRELL_GRANARY" ReplacesBuildingType="BUILDING_GRANARY"/>
+		<Row CivUniqueBuildingType="BUILDING_BROTHEL" ReplacesBuildingType="BUILDING_MARKET"/>
+		<Row CivUniqueBuildingType="BUILDING_TULLY_WATER_MILL" ReplacesBuildingType="BUILDING_WATER_MILL"/>
+	</BuildingReplaces>
+	<Building_GreatPersonPoints>
+		<!-- Civ Buildings -->
+		<Row BuildingType="BUILDING_WEIRWOOD_TREE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_PYRE_OF_RHLLOR" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_BROTHEL" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_TULLY_WATER_MILL" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_TITAN_OF_BRAAVOS" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_THE_HIGH_TOWER" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+	<DynamicModifiers>
+	</DynamicModifiers>
+	<Modifiers>
+		<!-- Civ Buildings -->
+		<Row>
+			<ModifierId>HALL_OF_HEROES_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>BARRACKS_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<!-- Wonders -->
+		<Row>
+			<ModifierId>SEPT_OF_BAELOR_GRANT_MARTYR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>CASTERLY_ROCK_GRANT_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PALACE_GRANT_SCROLLS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>THE_CITADEL_FREE_TECHS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>RED_KEEP_INFLUENCE_TOKENS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>EYRIE_HILLS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Grant Promotion-->
+		<Row>
+			<ModifierId>GRAND_PIT_GRANT_SEASONED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Grant Experience-->
+		<Row>
+			<ModifierId>GRAND_TOURNEY_LEVEL_UP_UNITS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Civ Buildings -->
+		<Row>
+			<ModifierId>HALL_OF_HEROES_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+
+		<!-- Wonders -->
+		<Row>
+			<ModifierId>SEPT_OF_BAELOR_GRANT_MARTYR</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_PROSELYTIZER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASTERLY_ROCK_GRANT_GOLD</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASTERLY_ROCK_GRANT_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>PALACE_GRANT_SCROLLS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SCROLLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>PALACE_GRANT_SCROLLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_CITADEL_FREE_TECHS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>RED_KEEP_INFLUENCE_TOKENS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>EYRIE_HILLS_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_EYRIE_IGNORE_HILLS_MOVEMENT_PENALTY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS</Value>
+		</Row>
+		<!--Grant Promotion-->
+		<Row>
+			<ModifierId>GRAND_PIT_GRANT_SEASONED</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_SEASONED</Value>
+		</Row>
+		<!--Grant Experience-->
+		<Row>
+			<ModifierId>GRAND_TOURNEY_LEVEL_UP_UNITS</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+	</RequirementSets>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+	<RequirementArguments>
+	</RequirementArguments>
+	<Requirements>
+	</Requirements>
+	<BuildingModifiers>
+
+		<!-- Civ Buildings -->
+		<Row BuildingType="BUILDING_WEIRWOOD_TREE" ModifierId="STAVE_CHURCH_FAITHWOODSADJACENCY"/>
+		<Row BuildingType="BUILDING_HALL_OF_HEROES" ModifierId="HALL_OF_HEROES_TRAINED_UNIT_XP_MODIFIER"/>
+		<Row BuildingType="BUILDING_TULLY_WATER_MILL" ModifierId="WATERMILL_ADDRICEFOOD"/>
+		<Row BuildingType="BUILDING_TULLY_WATER_MILL" ModifierId="WATERMILL_ADDWHEATYIELD"/>
+
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_SEPT_OF_BAELOR" ModifierId="SEPT_OF_BAELOR_GRANT_MARTYR"/>
+		<Row BuildingType="BUILDING_CASTERLY_ROCK" ModifierId="CASTERLY_ROCK_GRANT_GOLD"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" ModifierId="THE_CITADEL_FREE_TECHS"/>
+		<Row BuildingType="BUILDING_RED_KEEP" ModifierId="RED_KEEP_INFLUENCE_TOKENS"/>
+		<Row BuildingType="BUILDING_THE_EYRIE" ModifierId="EYRIE_HILLS_BONUS"/>
+		<Row BuildingType="BUILDING_TITAN_OF_BRAAVOS" ModifierId="TITAN_OF_BRAAVOS_ENTER_FOREIGN_LANDS_BONUS"/>
+		<Row BuildingType="BUILDING_GREAT_PYRAMID" ModifierId="PYRAMID_ADJUST_BUILDER_CHARGES"/>
+		<Row BuildingType="BUILDING_GREAT_PYRAMID" ModifierId="PYRAMID_GRANT_BUILDERS"/>
+		<Row BuildingType="BUILDING_GRAND_FIGHTING_PIT" ModifierId="GRAND_PIT_GRANT_SEASONED"/>
+		<Row BuildingType="BUILDING_GRAND_TOURNAMENT" ModifierId="GRAND_TOURNEY_LEVEL_UP_UNITS"/>
+	</BuildingModifiers>
+	<GameModifiers>
+	</GameModifiers>
+</GameData>

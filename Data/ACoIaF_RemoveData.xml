@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+
+
+
+	<Types>
+		<!-- Gossip -->
+		<Delete Type="GOSSIP_BEACH_RESORT_CREATED"/>
+		<!-- Buildings
+		<Delete Type="BUILDING_ZOO"/>-->
+		<Delete Type="BUILDING_TLACHTLI"/>
+		<Delete Type="BUILDING_MADRASA"/>
+		<Delete Type="BUILDING_FILM_STUDIO"/>
+		<Delete Type="BUILDING_SUKIENNICE"/>
+		<Delete Type="BUILDING_ELECTRONICS_FACTORY"/>
+
+		<Delete Type="BUILDING_SMALL_ROCKET"/>
+		<Delete Type="BUILDING_MEDIUM_ROCKET"/>
+		<Delete Type="BUILDING_LARGE_ROCKET"/>
+		<Delete Type="BUILDING_MUSEUM_ART"/>
+		<Delete Type="BUILDING_MUSEUM_ARTIFACT"/>
+		<Delete Type="BUILDING_FACTORY"/>
+		<Delete Type="BUILDING_STOCK_EXCHANGE"/>
+		<Delete Type="BUILDING_MILITARY_ACADEMY"/>
+		<Delete Type="BUILDING_HANGAR"/>
+		<Delete Type="BUILDING_SEAPORT"/>
+		<Delete Type="BUILDING_POWER_PLANT"/>
+		<Delete Type="BUILDING_BROADCAST_CENTER"/>
+		<Delete Type="BUILDING_FILM_STUDIO"/>
+		<Delete Type="BUILDING_RESEARCH_LAB"/>
+		<Delete Type="BUILDING_AIRPORT"/>
+		<Delete Type="BUILDING_STADIUM"/>
+
+		<!-- Civilizations-->
+		<Delete Type="CIVILIZATION_AMERICA"/>
+		<Delete Type="CIVILIZATION_ARABIA"/>
+		<Delete Type="CIVILIZATION_BRAZIL"/>
+		<Delete Type="CIVILIZATION_CHINA"/>
+		<Delete Type="CIVILIZATION_ENGLAND"/>
+		<Delete Type="CIVILIZATION_EGYPT"/>
+		<Delete Type="CIVILIZATION_FRANCE"/>
+		<Delete Type="CIVILIZATION_GERMANY"/>
+		<Delete Type="CIVILIZATION_GREECE"/>
+		<Delete Type="CIVILIZATION_INDIA"/>
+		<Delete Type="CIVILIZATION_JAPAN"/>
+		<Delete Type="CIVILIZATION_KONGO"/>
+		<Delete Type="CIVILIZATION_NORWAY"/>
+		<Delete Type="CIVILIZATION_ROME"/>
+		<Delete Type="CIVILIZATION_RUSSIA"/>
+		<Delete Type="CIVILIZATION_SCYTHIA"/>
+		<Delete Type="CIVILIZATION_SPAIN"/>
+		<Delete Type="CIVILIZATION_SUMERIA"/>
+		<Delete Type="CIVILIZATION_AZTEC"/>
+
+		<!-- Civilization Leaders-->
+		<Delete Type="LEADER_BARBAROSSA" />
+		<Delete Type="LEADER_CATHERINE_DE_MEDICI" />
+		<Delete Type="LEADER_CLEOPATRA" />
+		<Delete Type="LEADER_GANDHI" />
+		<Delete Type="LEADER_GILGAMESH" />
+		<Delete Type="LEADER_GORGO" />
+		<Delete Type="LEADER_HARDRADA" />
+		<Delete Type="LEADER_HOJO" />
+		<Delete Type="LEADER_MONTEZUMA" />
+		<Delete Type="LEADER_MVEMBA" />
+		<Delete Type="LEADER_PEDRO" />
+		<Delete Type="LEADER_PERICLES" />
+		<Delete Type="LEADER_PETER_GREAT" />
+		<Delete Type="LEADER_PHILIP_II" />
+		<Delete Type="LEADER_QIN" />
+		<Delete Type="LEADER_SALADIN" />
+		<Delete Type="LEADER_TOMYRIS" />
+		<Delete Type="LEADER_TRAJAN" />
+		<Delete Type="LEADER_T_ROOSEVELT" />
+		<Delete Type="LEADER_VICTORIA" />
+
+		<!-- City-States -->
+		<Delete Type="CIVILIZATION_AMSTERDAM"/>
+		<Delete Type="CIVILIZATION_BRUSSELS"/>
+		<Delete Type="CIVILIZATION_BUENOS_AIRES"/>
+		<Delete Type="CIVILIZATION_CARTHAGE"/>
+		<Delete Type="CIVILIZATION_GENEVA"/>
+		<Delete Type="CIVILIZATION_HATTUSA"/>
+		<Delete Type="CIVILIZATION_HONG_KONG"/>
+		<Delete Type="CIVILIZATION_JAKARTA"/>
+		<Delete Type="CIVILIZATION_JERUSALEM"/>
+		<Delete Type="CIVILIZATION_KABUL"/>
+		<Delete Type="CIVILIZATION_KANDY"/>
+		<Delete Type="CIVILIZATION_KUMASI"/>
+		<Delete Type="CIVILIZATION_LA_VENTA"/>
+		<Delete Type="CIVILIZATION_LISBON"/>
+		<Delete Type="CIVILIZATION_MOHENJO_DARO"/>
+		<Delete Type="CIVILIZATION_NAN_MADOL"/>
+		<Delete Type="CIVILIZATION_PRESLAV"/>
+		<Delete Type="CIVILIZATION_SEOUL"/>
+		<Delete Type="CIVILIZATION_STOCKHOLM"/>
+		<Delete Type="CIVILIZATION_TORONTO"/>
+		<Delete Type="CIVILIZATION_VALLETTA"/>
+		<Delete Type="CIVILIZATION_VILNIUS"/>
+		<Delete Type="CIVILIZATION_YEREVAN"/>
+		<Delete Type="CIVILIZATION_ZANZIBAR"/>
+
+		<!-- City-State Leaders -->
+		<Delete Type="LEADER_MINOR_CIV_AMSTERDAM" />
+		<Delete Type="LEADER_MINOR_CIV_BRUSSELS" />
+		<Delete Type="LEADER_MINOR_CIV_BUENOS_AIRES" />
+		<Delete Type="LEADER_MINOR_CIV_CARTHAGE" />
+		<Delete Type="LEADER_MINOR_CIV_GENEVA" />
+		<Delete Type="LEADER_MINOR_CIV_HATTUSA" />
+		<Delete Type="LEADER_MINOR_CIV_HONG_KONG" />
+		<Delete Type="LEADER_MINOR_CIV_JAKARTA" />
+		<Delete Type="LEADER_MINOR_CIV_JERUSALEM" />
+		<Delete Type="LEADER_MINOR_CIV_KABUL" />
+		<Delete Type="LEADER_MINOR_CIV_KANDY" />
+		<Delete Type="LEADER_MINOR_CIV_KUMASI" />
+		<Delete Type="LEADER_MINOR_CIV_LA_VENTA" />
+		<Delete Type="LEADER_MINOR_CIV_LISBON" />
+		<Delete Type="LEADER_MINOR_CIV_MOHENJO_DARO" />
+		<Delete Type="LEADER_MINOR_CIV_NAN_MADOL" />
+		<Delete Type="LEADER_MINOR_CIV_PRESLAV" />
+		<Delete Type="LEADER_MINOR_CIV_SEOUL" />
+		<Delete Type="LEADER_MINOR_CIV_STOCKHOLM" />
+		<Delete Type="LEADER_MINOR_CIV_TORONTO" />
+		<Delete Type="LEADER_MINOR_CIV_VALLETTA" />
+		<Delete Type="LEADER_MINOR_CIV_VILNIUS" />
+		<Delete Type="LEADER_MINOR_CIV_YEREVAN" />
+		<Delete Type="LEADER_MINOR_CIV_ZANZIBAR" />
+
+
+
+		
+		<!-- Civics 
+		<Delete Type="CIVIC_CODE_OF_LAWS"/>
+		<Delete Type="CIVIC_CRAFTSMANSHIP"/>
+		<Delete Type="CIVIC_FOREIGN_TRADE"/>
+		<Delete Type="CIVIC_MILITARY_TRADITION"/>
+		<Delete Type="CIVIC_STATE_WORKFORCE"/>
+		<Delete Type="CIVIC_EARLY_EMPIRE"/>
+		<Delete Type="CIVIC_MYSTICISM"/>
+		<Delete Type="CIVIC_GAMES_RECREATION"/>
+		<Delete Type="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Delete Type="CIVIC_DRAMA_POETRY"/>
+		<Delete Type="CIVIC_MILITARY_TRAINING"/>
+		<Delete Type="CIVIC_DEFENSIVE_TACTICS"/>
+		<Delete Type="CIVIC_RECORDED_HISTORY"/>
+		<Delete Type="CIVIC_THEOLOGY"/>
+		<Delete Type="CIVIC_NAVAL_TRADITION"/>
+		<Delete Type="CIVIC_FEUDALISM"/>
+		<Delete Type="CIVIC_CIVIL_SERVICE"/>
+		<Delete Type="CIVIC_MERCENARIES"/>
+		<Delete Type="CIVIC_MEDIEVAL_FAIRES"/>
+		<Delete Type="CIVIC_GUILDS"/>
+		<Delete Type="CIVIC_DIVINE_RIGHT"/>
+		<Delete Type="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Delete Type="CIVIC_NATIONALISM"/>
+		<Delete Type="CIVIC_MOBILIZATION"/>-->
+		<Delete Type="CIVIC_FUTURE_CIVIC"/>
+		<Delete Type="CIVIC_EXPLORATION"/>
+		<Delete Type="CIVIC_REFORMED_CHURCH"/>
+		<Delete Type="CIVIC_MERCANTILISM"/>
+		<Delete Type="CIVIC_THE_ENLIGHTENMENT"/>
+		<Delete Type="CIVIC_CIVIL_ENGINEERING"/>
+		<Delete Type="CIVIC_HUMANISM"/>
+		<Delete Type="CIVIC_COLONIALISM"/>
+		<Delete Type="CIVIC_OPERA_BALLET"/>
+		<Delete Type="CIVIC_NATURAL_HISTORY"/>
+		<Delete Type="CIVIC_SCORCHED_EARTH"/>
+		<Delete Type="CIVIC_URBANIZATION"/>
+		<Delete Type="CIVIC_CAPITALISM"/>
+		<Delete Type="CIVIC_CONSERVATION"/>
+		<Delete Type="CIVIC_MASS_MEDIA"/>
+		<Delete Type="CIVIC_NUCLEAR_PROGRAM"/>
+		<Delete Type="CIVIC_IDEOLOGY"/>
+		<Delete Type="CIVIC_SUFFRAGE"/>
+		<Delete Type="CIVIC_TOTALITARIANISM"/>
+		<Delete Type="CIVIC_CLASS_STRUGGLE"/>
+		<Delete Type="CIVIC_COLD_WAR"/>
+		<Delete Type="CIVIC_PROFESSIONAL_SPORTS"/>
+		<Delete Type="CIVIC_CULTURAL_HERITAGE"/>
+		<Delete Type="CIVIC_RAPID_DEPLOYMENT"/>
+		<Delete Type="CIVIC_SPACE_RACE"/>
+		<Delete Type="CIVIC_GLOBALIZATION"/>
+		<Delete Type="CIVIC_SOCIAL_MEDIA"/>
+		<Delete Type="CIVIC_ENVIRONMENTALISM"/>
+		<Delete Type="CIVIC_CORPORATE_LIBERTARIANISM"/>
+		<Delete Type="CIVIC_DIGITAL_DEMOCRACY"/>
+		<Delete Type="CIVIC_SYNTHETIC_TECHNOCRACY"/>
+		<Delete Type="CIVIC_NEAR_FUTURE_GOVERNANCE"/>
+		<Delete Type="CIVIC_GLOBAL_WARMING_MITIGATION"/>
+		<Delete Type="CIVIC_SMART_POWER_DOCTRINE"/>
+		<Delete Type="CIVIC_INFORMATION_WARFARE"/>
+		<Delete Type="CIVIC_EXODUS_IMPERATIVE"/>
+		<Delete Type="CIVIC_CULTURAL_HEGEMONY"/>
+
+		<!-- Continents-->
+		<Delete Type="CONTINENT_AFRICA"/>
+		<Delete Type="CONTINENT_AMASIA"/>
+		<Delete Type="CONTINENT_AMERICA"/>
+		<Delete Type="CONTINENT_ANTARCTICA"/>
+		<Delete Type="CONTINENT_ARCTICA"/>
+		<Delete Type="CONTINENT_ASIA"/>
+		<Delete Type="CONTINENT_ASIAMERICA"/>
+		<Delete Type="CONTINENT_ATLANTICA"/>
+		<Delete Type="CONTINENT_ATLANTIS"/>
+		<Delete Type="CONTINENT_AUSTRALIA"/>
+		<Delete Type="CONTINENT_AVALONIA"/>
+		<Delete Type="CONTINENT_AZANIA"/>
+		<Delete Type="CONTINENT_BALTICA"/>
+		<Delete Type="CONTINENT_CIMMERIA"/>
+		<Delete Type="CONTINENT_COLUMBIA"/>
+		<Delete Type="CONTINENT_CONGO_CRATON"/>
+		<Delete Type="CONTINENT_EURAMERICA"/>
+		<Delete Type="CONTINENT_EUROPE"/>
+		<Delete Type="CONTINENT_GONDWANA"/>
+		<Delete Type="CONTINENT_KALAHARIA"/>
+		<Delete Type="CONTINENT_KAZAKHSTANIA"/>
+		<Delete Type="CONTINENT_KERNORLAND"/>
+		<Delete Type="CONTINENT_KUMARI_KANDAM"/>
+		<Delete Type="CONTINENT_LAURASIA"/>
+		<Delete Type="CONTINENT_LAURENTIA"/>
+		<Delete Type="CONTINENT_LEMURIA"/>
+		<Delete Type="CONTINENT_MU"/>
+		<Delete Type="CONTINENT_NENA"/>
+		<Delete Type="CONTINENT_NORTH_AMERICA"/>
+		<Delete Type="CONTINENT_NOVOPANGAEA"/>
+		<Delete Type="CONTINENT_NUNA"/>
+		<Delete Type="CONTINENT_OCEANIA"/>
+		<Delete Type="CONTINENT_PANGAEA"/>
+		<Delete Type="CONTINENT_PANGAEA_ULTIMA"/>
+		<Delete Type="CONTINENT_PANNOTIA"/>
+		<Delete Type="CONTINENT_RODINIA"/>
+		<Delete Type="CONTINENT_SIBERIA"/>
+		<Delete Type="CONTINENT_SOUTH_AMERICA"/>
+		<Delete Type="CONTINENT_TERRA_AUSTRALIS"/>
+		<Delete Type="CONTINENT_UR"/>
+		<Delete Type="CONTINENT_VAALBARA"/>
+		<Delete Type="CONTINENT_VENDIAN"/>
+		<Delete Type="CONTINENT_ZEALANDIA"/>
+
+		<!-- District-->
+		<Delete Type="DISTRICT_AERODROME"/>
+		<Delete Type="DISTRICT_SPACEPORT"/>
+		<Delete Type="DISTRICT_ACROPOLIS"/>
+		<Delete Type="DISTRICT_BATH"/>
+		<Delete Type="DISTRICT_HANSA"/>
+		<Delete Type="DISTRICT_LAVRA"/>
+		<Delete Type="DISTRICT_MBANZA"/>
+		<Delete Type="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+		<Delete Type="DISTRICT_STREET_CARNIVAL"/>
+
+		<!--Features-->
+		<Delete Type="FEATURE_BARRIER_REEF"/>
+		<Delete Type="FEATURE_CLIFFS_DOVER"/>
+		<Delete Type="FEATURE_CRATER_LAKE"/>
+		<Delete Type="FEATURE_DEAD_SEA"/>
+		<Delete Type="FEATURE_EVEREST"/>
+		<Delete Type="FEATURE_GALAPAGOS"/>
+		<Delete Type="FEATURE_KILIMANJARO"/>
+		<Delete Type="FEATURE_PANTANAL"/>
+		<Delete Type="FEATURE_PIOPIOTAHI"/>
+		<Delete Type="FEATURE_TORRES_DEL_PAINE"/>
+		<Delete Type="FEATURE_TSINGY"/>
+		<Delete Type="FEATURE_YOSEMITE"/>
+
+		<!-- Governments -->
+		<Delete Type="GOVERNMENT_FASCISM"/>
+		<Delete Type="GOVERNMENT_COMMUNISM"/>
+		<Delete Type="GOVERNMENT_DEMOCRACY"/>
+
+		<!-- Great Admirals -->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ARTEMISIA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_THEMISTOCLES"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ZHENG_HE"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_CHING_SHIH"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO"/>
+
+		<!-- Great Engineers -->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_BI_SHENG"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_FILIPPO_BRUNELLESCHI"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_GUSTAVE_EIFFEL"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JAMES_WATT"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_NIKOLA_TESLA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ROBERT_GODDARD"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JANE_DREW"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SERGEI_KOROLEV"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN"/>
+
+		<!-- Great Generals -->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_BOUDICA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SUN_TZU"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_AETHELFLAED"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_EL_CID"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ANA_NZINGA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOHN_MONASH"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SAMORI_TURE"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SUDIRMAN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE"/>
+
+		<!-- Great Merchants 
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_COLAEUS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MARCUS_LICINIUS_CRASSUS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ZHANG_QIAN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MARCO_POLO"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI"/>-->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_GIOVANNI_DE_MEDICI"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ADAM_SMITH"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOHN_SPILSBURY"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_LEVI_STRAUSS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOHN_ROCKEFELLER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SARAH_BREEDLOVE"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MELITTA_BENTZ"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MARY_KATHERINE_GODDARD"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ESTEE_LAUDER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MASARU_IBUKA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA"/>
+
+		<!-- Great Prophets-->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JOHN_THE_BAPTIST"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_CONFUCIUS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ZOROASTER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SIDDHARTHA_GAUTAMA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_LAOZI"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SIMON_PETER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_BODHIDHARMA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ADI_SHANKARA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_SONGTSAN_GAMPO"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_O_NO_YASUMARO"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_IRENAEUS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MARTIN_LUTHER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_FRANCIS_OF_ASSISI"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MADHVA_ACHARYA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_THOMAS_AQUINAS"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_HAJI_HUUD"/>
+
+		<!-- Great Scientists -->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ARYABHATA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_EUCLID"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_HYPATIA"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ALAN_TURING"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ALBERT_EINSTEIN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ALFRED_NOBEL"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_MARY_LEAKEY"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_CARL_SAGAN"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK"/>
+
+		<!-- Improvements-->
+		<Delete Type="IMPROVEMENT_CHATEAU"/>
+		<Delete Type="IMPROVEMENT_COLOSSAL_HEAD"/>
+		<Delete Type="IMPROVEMENT_KURGAN"/>
+		<Delete Type="IMPROVEMENT_GREAT_WALL"/>
+		<Delete Type="IMPROVEMENT_MISSION"/>
+		<Delete Type="IMPROVEMENT_ROMAN_FORT"/>
+		<Delete Type="IMPROVEMENT_SPHINX"/>
+		<Delete Type="IMPROVEMENT_STEPWELL"/>
+		<Delete Type="IMPROVEMENT_ZIGGURAT"/>
+
+		<Delete Type="IMPROVEMENT_OIL_WELL"/>
+		<Delete Type="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
+		<Delete Type="IMPROVEMENT_AIRSTRIP"/>
+		<Delete Type="IMPROVEMENT_BEACH_RESORT"/>
+		<Delete Type="IMPROVEMENT_MISSILE_SILO"/>
+
+		<!-- Policies-->
+		<Delete Type="POLICY_NATIVE_CONQUEST" />
+		<Delete Type="POLICY_COLONIAL_OFFICES" />
+		<Delete Type="POLICY_INVENTION" />
+		<Delete Type="POLICY_FRESCOES" />
+		<Delete Type="POLICY_MACHIAVELLIANISM" />
+		<Delete Type="POLICY_WARS_OF_RELIGION" />
+		<Delete Type="POLICY_RELIGIOUS_ORDERS" />
+		<Delete Type="POLICY_SIMULTANEUM" />
+		<Delete Type="POLICY_LOGISTICS" />
+		<Delete Type="POLICY_TRIANGULAR_TRADE" />
+		<Delete Type="POLICY_RATIONALISM" />
+		<Delete Type="POLICY_FREE_MARKET" />
+		<Delete Type="POLICY_LIBERALISM" />
+		<Delete Type="POLICY_PRESS_GANGS" />
+		<Delete Type="POLICY_COLONIAL_TAXES" />
+		<Delete Type="POLICY_RAJ" />
+		<Delete Type="POLICY_PUBLIC_WORKS" />
+		<Delete Type="POLICY_SKYSCRAPERS" />
+		<Delete Type="POLICY_GRANDE_ARMEE" />
+		<Delete Type="POLICY_NATIONAL_IDENTITY" />
+		<Delete Type="POLICY_GRAND_OPERA" />
+		<Delete Type="POLICY_SYMPHONIES" />
+		<Delete Type="POLICY_PUBLIC_TRANSPORT" />
+		<Delete Type="POLICY_TOTAL_WAR" />
+		<Delete Type="POLICY_EXPROPRIATION" />
+		<Delete Type="POLICY_MILITARY_ORGANIZATION" />
+		<Delete Type="POLICY_MILITARY_RESEARCH" />
+		<Delete Type="POLICY_RESOURCE_MANAGEMENT" />
+		<Delete Type="POLICY_PROPAGANDA" />
+		<Delete Type="POLICY_LEVEE_EN_MASSE" />
+		<Delete Type="POLICY_LAISSEZ_FAIRE" />
+		<Delete Type="POLICY_MARKET_ECONOMY" />
+		<Delete Type="POLICY_NOBEL_PRIZE" />
+		<Delete Type="POLICY_NUCLEAR_ESPIONAGE" />
+		<Delete Type="POLICY_POLICE_STATE" />
+		<Delete Type="POLICY_ECONOMIC_UNION" />
+		<Delete Type="POLICY_FINEST_HOUR" />
+		<Delete Type="POLICY_ARSENAL_OF_DEMOCRACY" />
+		<Delete Type="POLICY_NEW_DEAL" />
+		<Delete Type="POLICY_LIGHTNING_WARFARE" />
+		<Delete Type="POLICY_THIRD_ALTERNATIVE" />
+		<Delete Type="POLICY_MARTIAL_LAW" />
+		<Delete Type="POLICY_GUNBOAT_DIPLOMACY" />
+		<Delete Type="POLICY_FIVE_YEAR_PLAN" />
+		<Delete Type="POLICY_COLLECTIVIZATION" />
+		<Delete Type="POLICY_PATRIOTIC_WAR" />
+		<Delete Type="POLICY_DEFENSE_OF_MOTHERLAND" />
+		<Delete Type="POLICY_CRYPTOGRAPHY" />
+		<Delete Type="POLICY_INTERNATIONAL_WATERS" />
+		<Delete Type="POLICY_CONTAINMENT" />
+		<Delete Type="POLICY_HERITAGE_TOURISM" />
+		<Delete Type="POLICY_SPORTS_MEDIA" />
+		<Delete Type="POLICY_MILITARY_FIRST" />
+		<Delete Type="POLICY_SATELLITE_BROADCASTS" />
+		<Delete Type="POLICY_INTEGRATED_SPACE_CELL" />
+		<Delete Type="POLICY_STRATEGIC_AIR_FORCE" />
+		<Delete Type="POLICY_ECOMMERCE" />
+		<Delete Type="POLICY_INTERNATIONAL_SPACE_AGENCY" />
+		<Delete Type="POLICY_ONLINE_COMMUNITIES" />
+		<Delete Type="POLICY_COLLECTIVE_ACTIVISM" />
+
+		<!-- Resources-->
+		<Delete Type="RESOURCE_COAL"/>
+		<Delete Type="RESOURCE_ALUMINUM"/>
+		<Delete Type="RESOURCE_NITER"/>
+		<Delete Type="RESOURCE_OIL"/>
+		<Delete Type="RESOURCE_URANIUM"/>
+		<Delete Type="RESOURCE_CINNAMON"/>
+		<Delete Type="RESOURCE_CLOVES"/>
+		<Delete Type="RESOURCE_JEANS"/>
+		<Delete Type="RESOURCE_COSMETICS"/>
+		<Delete Type="RESOURCE_TOYS"/>
+		<Delete Type="RESOURCE_PERFUME"/>
+		<Delete Type="RESOURCE_ANTIQUITY_SITE"/>
+
+
+		<!-- Projects-->
+		<Delete Type="PROJECT_LAUNCH_EARTH_SATELLITE"/>
+		<Delete Type="PROJECT_LAUNCH_MOON_LANDING"/>
+		<Delete Type="PROJECT_LAUNCH_MARS_REACTOR"/>
+		<Delete Type="PROJECT_LAUNCH_MARS_HABITATION"/>
+		<Delete Type="PROJECT_LAUNCH_MARS_HYDROPONICS"/>
+		<Delete Type="PROJECT_MANHATTAN_PROJECT"/>
+		<Delete Type="PROJECT_OPERATION_IVY"/>
+		<Delete Type="PROJECT_BUILD_NUCLEAR_DEVICE"/>
+		<Delete Type="PROJECT_BUILD_THERMONUCLEAR_DEVICE"/>
+		<Delete Type="PROJECT_CARNIVAL"/>
+
+		<!-- Units-->
+		<Delete Type="UNIT_ARCHAEOLOGIST"/>
+		<Delete Type="UNIT_NATURALIST"/>
+		<Delete Type="UNIT_RANGER"/>
+		<Delete Type="UNIT_MUSKETMAN"/>
+		<Delete Type="UNIT_INFANTRY"/>
+		<Delete Type="UNIT_AT_CREW"/>
+		<Delete Type="UNIT_TANK"/>
+		<Delete Type="UNIT_MECHANIZED_INFANTRY"/>
+		<Delete Type="UNIT_MODERN_AT"/>
+		<Delete Type="UNIT_MODERN_ARMOR"/>
+		<Delete Type="UNIT_FIELD_CANNON"/>
+		<Delete Type="UNIT_MACHINE_GUN"/>
+		<Delete Type="UNIT_CAVALRY"/>
+		<Delete Type="UNIT_HELICOPTER"/>
+		<Delete Type="UNIT_BOMBARD"/>
+		<Delete Type="UNIT_ARTILLERY"/>
+		<Delete Type="UNIT_ROCKET_ARTILLERY"/>
+		<Delete Type="UNIT_OBSERVATION_BALLOON"/>
+		<Delete Type="UNIT_ANTIAIR_GUN"/>
+		<Delete Type="UNIT_MOBILE_SAM"/>
+		<Delete Type="UNIT_IRONCLAD"/>
+		<Delete Type="UNIT_BATTLESHIP"/>
+		<Delete Type="UNIT_SUBMARINE"/>
+		<Delete Type="UNIT_AIRCRAFT_CARRIER"/>
+		<Delete Type="UNIT_DESTROYER"/>
+		<Delete Type="UNIT_NUCLEAR_SUBMARINE"/>
+		<Delete Type="UNIT_MISSILE_CRUISER"/>
+		<Delete Type="UNIT_BIPLANE"/>
+		<Delete Type="UNIT_FIGHTER"/>
+		<Delete Type="UNIT_BOMBER"/>
+		<Delete Type="UNIT_JET_FIGHTER"/>
+		<Delete Type="UNIT_JET_BOMBER"/>
+		<Delete Type="UNIT_CARAVEL"/>
+		<Delete Type="UNIT_FRIGATE"/>
+		<Delete Type="UNIT_PRIVATEER"/>
+		
+		<Delete Type="UNIT_LINE_INFANTRY"/>
+
+		<Delete Type="UNIT_NORWEGIAN_LONGSHIP"/>
+		<Delete Type="UNIT_ENGLISH_REDCOAT"/>
+		<Delete Type="UNIT_AMERICAN_ROUGH_RIDER"/>
+		<Delete Type="UNIT_SUMERIAN_WAR_CART"/>
+		<Delete Type="UNIT_SPANISH_CONQUISTADOR"/>
+		<Delete Type="UNIT_SCYTHIAN_HORSE_ARCHER"/>
+		<Delete Type="UNIT_ROMAN_LEGION"/>
+		<Delete Type="UNIT_NORWEGIAN_BERSERKER"/>
+		<Delete Type="UNIT_KONGO_SHIELD_BEARER"/>
+		<Delete Type="UNIT_JAPANESE_SAMURAI"/>
+		<Delete Type="UNIT_INDIAN_VARU"/>
+		<Delete Type="UNIT_GREEK_HOPLITE"/>
+		<Delete Type="UNIT_GERMAN_UBOAT"/>
+		<Delete Type="UNIT_FRENCH_GARDE_IMPERIALE"/>
+		<Delete Type="UNIT_ENGLISH_SEADOG"/>
+		<Delete Type="UNIT_EGYPTIAN_CHARIOT_ARCHER"/>
+		<Delete Type="UNIT_CHINESE_CROUCHING_TIGER"/>
+		<Delete Type="UNIT_BRAZILIAN_MINAS_GERAES"/>
+		<Delete Type="UNIT_AZTEC_EAGLE_WARRIOR"/>
+		<Delete Type="UNIT_ARABIAN_MAMLUK"/>
+		<Delete Type="UNIT_AMERICAN_P51"/>
+
+		<!--  Unit Operations -->
+		<Delete Type="UNITOPERATION_PLANT_FOREST"/>
+
+		<!-- RELIGIONS-->
+		<Delete Type="RELIGION_BUDDHISM"/>
+		<Delete Type="RELIGION_CATHOLICISM"/>
+		<Delete Type="RELIGION_CONFUCIANISM"/>
+		<Delete Type="RELIGION_HINDUISM"/>
+		<Delete Type="RELIGION_ISLAM"/>
+		<Delete Type="RELIGION_JUDAISM"/>
+		<Delete Type="RELIGION_ORTHODOXY"/>
+		<Delete Type="RELIGION_PROTESTANTISM"/>
+		<Delete Type="RELIGION_SHINTO"/>
+		<Delete Type="RELIGION_SIKHISM"/>
+		<Delete Type="RELIGION_TAOISM"/>
+		<Delete Type="RELIGION_ZOROASTRIANISM"/>
+		<Delete Type="RELIGION_CUSTOM_1" />
+		<Delete Type="RELIGION_CUSTOM_2" />
+		<Delete Type="RELIGION_CUSTOM_3" />
+		<Delete Type="RELIGION_CUSTOM_4" />
+		<Delete Type="RELIGION_CUSTOM_5" />
+		<Delete Type="RELIGION_CUSTOM_6" />
+		<Delete Type="RELIGION_CUSTOM_7" />
+		<Delete Type="RELIGION_CUSTOM_8" />
+		<Delete Type="RELIGION_CUSTOM_9" />
+		<Delete Type="RELIGION_CUSTOM_10" />
+		<Delete Type="RELIGION_CUSTOM_11" />
+		<Delete Type="RELIGION_CUSTOM_12" />
+
+		<!-- Techs-->
+		<Delete Type="TECH_MASS_PRODUCTION"/>
+		<Delete Type="TECH_GUNPOWDER"/>
+		<Delete Type="TECH_PRINTING"/>
+		<Delete Type="TECH_ASTRONOMY"/>
+		<Delete Type="TECH_METAL_CASTING"/>
+		<Delete Type="TECH_SIEGE_TACTICS"/>
+		<Delete Type="TECH_INDUSTRIALIZATION"/>
+		<Delete Type="TECH_MILITARY_SCIENCE"/>
+		<Delete Type="TECH_BALLISTICS"/>
+		<Delete Type="TECH_SCIENTIFIC_THEORY"/>
+		<Delete Type="TECH_STEAM_POWER"/>
+		<Delete Type="TECH_SANITATION"/>
+		<Delete Type="TECH_ECONOMICS"/>
+		<Delete Type="TECH_RIFLING"/>
+		<Delete Type="TECH_FLIGHT"/>
+		<Delete Type="TECH_REPLACEABLE_PARTS"/>
+		<Delete Type="TECH_STEEL"/>
+		<Delete Type="TECH_ELECTRICITY"/>
+		<Delete Type="TECH_RADIO"/>
+		<Delete Type="TECH_CHEMISTRY"/>
+		<Delete Type="TECH_COMBUSTION"/>
+		<Delete Type="TECH_ADVANCED_FLIGHT"/>
+		<Delete Type="TECH_ROCKETRY"/>
+		<Delete Type="TECH_ADVANCED_BALLISTICS"/>
+		<Delete Type="TECH_COMBINED_ARMS"/>
+		<Delete Type="TECH_PLASTICS"/>
+		<Delete Type="TECH_COMPUTERS"/>
+		<Delete Type="TECH_NUCLEAR_FISSION"/>
+		<Delete Type="TECH_SYNTHETIC_MATERIALS"/>
+		<Delete Type="TECH_TELECOMMUNICATIONS"/>
+		<Delete Type="TECH_SATELLITES"/>
+		<Delete Type="TECH_GUIDANCE_SYSTEMS"/>
+		<Delete Type="TECH_LASERS"/>
+		<Delete Type="TECH_COMPOSITES"/>
+		<Delete Type="TECH_STEALTH_TECHNOLOGY"/>
+		<Delete Type="TECH_ROBOTICS"/>
+		<Delete Type="TECH_NANOTECHNOLOGY"/>
+		<Delete Type="TECH_NUCLEAR_FUSION"/>
+		<Delete Type="TECH_FUTURE_TECH"/>
+
+		<!-- WMDs-->
+		<Delete Type="WMD_THERMONUCLEAR_DEVICE"/>
+		<Delete Type="WMD_NUCLEAR_DEVICE"/>
+
+		<!-- Wonders-->
+		<Delete Type="BUILDING_STONEHENGE"/>
+		<Delete Type="BUILDING_HANGING_GARDENS"/>
+		<Delete Type="BUILDING_PYRAMIDS"/>
+		<Delete Type="BUILDING_ORACLE"/>
+		<Delete Type="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Delete Type="BUILDING_COLOSSUS"/>
+		<Delete Type="BUILDING_PETRA"/>
+		<Delete Type="BUILDING_COLOSSEUM"/>
+		<Delete Type="BUILDING_GREAT_LIBRARY"/>
+		<Delete Type="BUILDING_MAHABODHI_TEMPLE"/>
+		<Delete Type="BUILDING_TERRACOTTA_ARMY"/>
+		<Delete Type="BUILDING_HAGIA_SOPHIA"/>
+		<Delete Type="BUILDING_ALHAMBRA"/>
+		<Delete Type="BUILDING_CHICHEN_ITZA"/>
+		<Delete Type="BUILDING_MONT_ST_MICHEL"/>
+		<Delete Type="BUILDING_GREAT_ZIMBABWE"/>
+		<Delete Type="BUILDING_HUEY_TEOCALLI"/>
+		<Delete Type="BUILDING_VENETIAN_ARSENAL"/>
+		<Delete Type="BUILDING_FORBIDDEN_CITY"/>
+		<Delete Type="BUILDING_POTALA_PALACE"/>
+		<Delete Type="BUILDING_RUHR_VALLEY"/>
+		<Delete Type="BUILDING_BOLSHOI_THEATRE"/>
+		<Delete Type="BUILDING_OXFORD_UNIVERSITY"/>
+		<Delete Type="BUILDING_BIG_BEN"/>
+		<Delete Type="BUILDING_HERMITAGE"/>
+		<Delete Type="BUILDING_EIFFEL_TOWER"/>
+		<Delete Type="BUILDING_BROADWAY"/>
+		<Delete Type="BUILDING_CRISTO_REDENTOR"/>
+		<Delete Type="BUILDING_ESTADIO_DO_MARACANA"/>
+		<Delete Type="BUILDING_SYDNEY_OPERA_HOUSE"/>
+
+		<!-- Victories -->
+		<Delete Type="VICTORY_TECHNOLOGY"/>
+	</Types>
+
+	<Buildings>
+	</Buildings>
+	<Districts>
+	</Districts>
+	<Units>
+	</Units>
+	<DiplomaticActions>
+	</DiplomaticActions>
+
+	<Features>
+	</Features>
+
+	<Improvements>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_FORT" />
+			<Set PrereqTech="TECH_FORTIFICATIONS" />
+		</Update>
+	</Improvements>
+
+	<UnitCommands>
+	</UnitCommands>
+
+	<UnitUpgrades>
+		<Delete Unit="UNIT_BATTERING_RAM" UpgradeUnit="UNIT_MEDIC"/>
+		<Delete Unit="UNIT_SIEGE_TOWER" UpgradeUnit="UNIT_MEDIC"/>
+	</UnitUpgrades>
+
+	<CivilopediaPageExcludes>
+	</CivilopediaPageExcludes>
+
+	<CivilopediaPageGroupExcludes>
+	</CivilopediaPageGroupExcludes>
+	<Eras>
+		<Update>
+			<Where EraType="ERA_RENAISSANCE" />
+			<Set Name="LOC_ERA_ACOIAF_LATE_MEDIEVAL_NAME" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_INDUSTRIAL" />
+			<Set Name="LOC_ERA_ACOIAF_HEROES_NAME" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_MODERN" />
+			<Set Name="LOC_ERA_ACOIAF_VALYRIAN_NAME" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_ATOMIC" />
+			<Set Name="LOC_ERA_ACOIAF_KINGDOM_NAME" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_INFORMATION" />
+			<Set Name="LOC_ERA_ACOIAF_CONQUEST_NAME" />
+		</Update>
+	</Eras>
+</GameInfo>
+<GameData>
+	<BaseGameText>
+		<Update>
+			<Where Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_3" />
+			<Set Text="Carriage" />
+		</Update>
+	</BaseGameText>
+</GameData>

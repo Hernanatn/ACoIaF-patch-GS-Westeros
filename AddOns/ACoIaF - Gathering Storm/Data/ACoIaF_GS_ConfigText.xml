@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_OURS_IS_THE_FURY_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Provides House Baratheon with 2 [ICON_RESOURCE_Horses] horse and 2 [ICON_RESOURCE_Iron] iron resources per [ICON_TURN] turn after they have been revealed and you do not have them improved.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SEVEN_KINGDOMS_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Cannot train settlers, but recieve +50% [ICON_Production] Production towards wonders, +6 Influence points and +3 [ICON_FAVOR] Favor per [ICON_Turn] Turn and +10% [ICON_Culture] Culture, [ICON_Faith] Faith, [ICON_Food] Food, [ICON_Gold] Gold, [ICON_Production] Production, and [ICON_Science] Science per city-state you are the Suzerain of. Gain the Kingsguard Unique Unit when they unlock the Iron Working Technology.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide 60% of civics and technologies instead of 50%. Alliance Points for being in an alliance and from trade routes are doubled. Does not receive damage from Floods.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WINTER_IS_COMING_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Tundra and Snow tiles provide +1 [ICON_Faith] Faith and +1 [ICON_Production] Production in addition to an additonal standard addjacency bonus for Holy Site districts. Extra territory upon founding cities. Units do not receive damage from Blizzards.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FREEFOLK_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Movement] Movement for the first 10 turns after declaring a Surprise War on a Major Civilization. Freefolk Camps trigger a Culture Bomb. Units do not receive damage from Blizzards.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+1[ICON_CULTURE] Culture +1[ICON_PRODUCTION] Production from Desert tiles. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit. Units do not receive damage from Sand Storms.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Citizens may work Mountain tiles. Mountain tiles provide +1 [ICON_PRODUCTION] Production and provide double adjacency bonus for Campus and Holy Site districts. May declare war on anyone at war with their allies without warmonger penalties.</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_VALE_DEFENDER_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Units gain +5 [ICON_Strength] Combat Strength on hill tiles and an additonal +5 [ICON_Strength] Combat Strength while within their borders. Defeating an enemy unit within your borders causes that city to gain 20 Loyalty.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_WE_DO_NOT_SOW_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Start with the sailing technology unlocked and the ability to enter ocean tiles immediately. Naval melee units heal in neutral territory. May from Fleets and Armadas earlier than usual (Cartography). Units do not receive damage from Hurricanes. </Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_THE_STORM_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Receive a second Iron Fleet or Iron Reaver each time you train one. Gain the Iron Reaver Unique Unit when they unlock the Shipbuilding Technology. Civilizations who are at war with Euron receive +100% unit damage from Hurricanes while in Euron's territory.</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR_NAME" Language="en_US">
+			<Text>Moon Door</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Moon Door, unique to House Arryn.[NEWLINE][NEWLINE]Acts as a movement portal on a mountain range, allowing units to move into it and exit from another portal at the cost of 2 [ICON_Movement] Movement. Can only be built on an adjacent Mountain tile. Cannot be pillaged or removed.</Text>
+		</Row>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME" />
+			<Set Text="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR_NAME" />
+		</Update>
+		<Update>
+			<Where Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_NAME" />
+			<Set Text="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MOON_DOOR_NAME" />
+		</Update>
+		<Row Tag="LOC_TRAIT_LEADER_DORNISH_MASTERPLAN_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Dornish districts provide +1 [ICON_GreatPerson] Great Person point of their type. Have access to Oberyn, an exclusive unique Governor with military and diplomatic abilities.</Text>
+		</Row>
+		<Delete Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_MOUNTAIN_ROAD_CHAPTER_HISTORY_PARA_1"/>
+		<Delete Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_MOUNTAIN_ROAD_CHAPTER_HISTORY_PARA_2"/>
+		
+	</LocalizedText>
+</GameData>
