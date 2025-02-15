@@ -37,8 +37,8 @@
 
 
 	<Maps>
-		<Row File="{e769d0ed-e2de-43ec-b88c-085acfb4a89e}Maps/GSWesterosStandard.Civ6Map" Name="LOC_WESTEROS_MAP_STANDARD_NAME" Description="LOC_WESTEROS_MAP_STANDARD_DESCRIPTION" SortIndex="80"/>
-		<Row File="{e769d0ed-e2de-43ec-b88c-085acfb4a89e}Maps/GSWesterosEssosHuge.Civ6Map" Name="LOC_WESTEROS_ESSOS_MAP_STANDARD_NAME" Description="LOC_WESTEROS_ESSOS_MAP_STANDARD_DESCRIPTION" SortIndex="100"/>
+		<Row File="{e769d0ed-e2de-43ec-b88c-085acfb4a89e}Maps/GSWesterosStandard.Civ6Map" Name="LOC_WESTEROS_MAP_STANDARD_NAME" Description="LOC_WESTEROS_MAP_STANDARD_DESCRIPTION" SortIndex="80" RulesetType="RULESET_ACOIAF_2"/>
+		<Row File="{e769d0ed-e2de-43ec-b88c-085acfb4a89e}Maps/GSWesterosEssosHuge.Civ6Map" Name="LOC_WESTEROS_ESSOS_MAP_STANDARD_NAME" Description="LOC_WESTEROS_ESSOS_MAP_STANDARD_DESCRIPTION" SortIndex="100" RulesetType="RULESET_ACOIAF_2"/>
 	</Maps>
 	
 
