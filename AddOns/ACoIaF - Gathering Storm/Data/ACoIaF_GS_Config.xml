@@ -837,4 +837,8 @@
 			<SortIndex>40</SortIndex>
 		</Row>
 	</PlayerItems>
+	<StartPosition>
+		<Replace MapName="GSWesterosStandard" Civilization="CIVILIZATION_WHITEWALKER" X="3" Y="77" />
+		<Replace MapName="GSWesterosEssosHuge" Civilization="CIVILIZATION_WHITEWALKER" X="5" Y="90" />
+	</StartPosition>
 </GameInfo>

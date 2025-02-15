@@ -65,6 +65,9 @@
 			<File>Data/ACoIaF_GS_Units.xml</File>
 			<File>Data/WW_GS_GameplayData.xml</File>
 		</UpdateDatabase>
+		<UpdateDatabase id="TSL_WhiteWalkers">
+			<File>Scripts/ACoIaF_WW_TSL.sql</File>
+		</UpdateDatabase>
 		<UpdateText id="ACoIaF_XP2" criteria="ACoIaF_Expansion2Only" >
 			<File>Data/ACoIaF_GS_ConfigText.xml</File>
 		</UpdateText>
@@ -109,6 +112,7 @@
 		<File>Data/ACoIaF_GS_Technologies.xml</File>
 		<File>Data/ACoIaF_GS_Units.xml</File>
 		<File>Data/WW_GS_GameplayData.xml</File>
+		<File>Scripts/ACoIaF_WW_TSL.sql</File>
 		<File>Scripts/ACoIaF_WhiteWalkers.lua</File>
 		<File>Scripts/ACoIaF_GSWesteros_Positioning.lua</File>
 		<File>Scripts/ACoIaF_GSWesterosEssos_Positioning.lua</File>
