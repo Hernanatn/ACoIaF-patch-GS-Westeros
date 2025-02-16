@@ -17,10 +17,54 @@
 	</RuleSets>
 	<DomainValues>
 		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="RANDOM" Name="LOC_RANDOM_LEADER" Description="LOC_RANDOM_LEADER" SortIndex="1"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Calendar" Value="CALENDAR_STANDARD_FROM_START_ERA" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" SortIndex="1"/>
+		<!-- Civilizations -->
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_STARK" Name="LOC_CIVILIZATION_STARK" Description="LOC_CIVILIZATION_STARK_DESCRIPTION" SortIndex="2"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_LANNISTER" Name="LOC_CIVILIZATION_LANNISTER" Description="LOC_CIVILIZATION_LANNISTER_DESCRIPTION" SortIndex="3"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_BARATHEON" Name="LOC_CIVILIZATION_BARATHEON" Description="LOC_CIVILIZATION_BARATHEON_DESCRIPTION" SortIndex="4"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_TYRELL" Name="LOC_CIVILIZATION_TYRELL" Description="LOC_CIVILIZATION_TYRELL_DESCRIPTION" SortIndex="5"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_GREYJOY" Name="LOC_CIVILIZATION_GREYJOY" Description="LOC_CIVILIZATION_GREYJOY_DESCRIPTION" SortIndex="6"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_MARTELL" Name="LOC_CIVILIZATION_MARTELL" Description="LOC_CIVILIZATION_MARTELL_DESCRIPTION" SortIndex="7"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_TARGARYEN" Name="LOC_CIVILIZATION_TARGARYEN" Description="LOC_CIVILIZATION_TARGARYEN_DESCRIPTION" SortIndex="8"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_ARRYN" Name="LOC_CIVILIZATION_ARRYN" Description="LOC_CIVILIZATION_ARRYN_DESCRIPTION" SortIndex="9"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_TULLY" Name="LOC_CIVILIZATION_TULLY" Description="LOC_CIVILIZATION_TULLY_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_DOTHRAKI" Name="LOC_CIVILIZATION_DOTHRAKI" Description="LOC_CIVILIZATION_DOTHRAKI_DESCRIPTION" SortIndex="11"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_WILDLING" Name="LOC_CIVILIZATION_WILDLING" Description="LOC_CIVILIZATION_WILDLING_DESCRIPTION" SortIndex="12"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="CIVILIZATION_MAJOR_BOLTON" Name="LOC_CIVILIZATION_MAJOR_BOLTON" Description="LOC_CIVILIZATION_MAJOR_BOLTON_DESCRIPTION" SortIndex="13"/>
+
+		<!-- Leaders -->
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_EDDARD" Name="LOC_LEADER_EDDARD" Description="LOC_LEADER_EDDARD_DESCRIPTION" SortIndex="14"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_TYWIN" Name="LOC_LEADER_TYWIN" Description="LOC_LEADER_TYWIN_DESCRIPTION" SortIndex="15"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_STANNIS" Name="LOC_LEADER_STANNIS" Description="LOC_LEADER_STANNIS_DESCRIPTION" SortIndex="16"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_KING_ROBERT" Name="LOC_LEADER_KING_ROBERT" Description="LOC_LEADER_KING_ROBERT_DESCRIPTION" SortIndex="17"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_OLENNA" Name="LOC_LEADER_OLENNA" Description="LOC_LEADER_OLENNA_DESCRIPTION" SortIndex="18"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_BALON" Name="LOC_LEADER_BALON" Description="LOC_LEADER_BALON_DESCRIPTION" SortIndex="19"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_DORAN" Name="LOC_LEADER_DORAN" Description="LOC_LEADER_DORAN_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_DANY" Name="LOC_LEADER_DANY" Description="LOC_LEADER_DANY_DESCRIPTION" SortIndex="21"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_PETYR" Name="LOC_LEADER_PETYR" Description="LOC_LEADER_PETYR_DESCRIPTION" SortIndex="22"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_JON_ARRYN" Name="LOC_LEADER_JON_ARRYN" Description="LOC_LEADER_JON_ARRYN_DESCRIPTION" SortIndex="23"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_EDMURE" Name="LOC_LEADER_EDMURE" Description="LOC_LEADER_EDMURE_DESCRIPTION" SortIndex="24"/>
+
+		<!-- Additional Leaders -->
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_JON_SNOW" Name="LOC_LEADER_JON_SNOW" Description="LOC_LEADER_JON_SNOW_DESCRIPTION" SortIndex="25"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_CERSEI" Name="LOC_LEADER_CERSEI" Description="LOC_LEADER_CERSEI_DESCRIPTION" SortIndex="26"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_EURON" Name="LOC_LEADER_EURON" Description="LOC_LEADER_EURON_DESCRIPTION" SortIndex="27"/>
+
+		<!-- War of the Five Kings -->
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_ROBB" Name="LOC_LEADER_ROBB" Description="LOC_LEADER_ROBB_DESCRIPTION" SortIndex="28"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_JOFFERY" Name="LOC_LEADER_JOFFERY" Description="LOC_LEADER_JOFFERY_DESCRIPTION" SortIndex="29"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_RENLY" Name="LOC_LEADER_RENLY" Description="LOC_LEADER_RENLY_DESCRIPTION" SortIndex="30"/>
+
+		<!-- Wild Essos -->
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_DROGO" Name="LOC_LEADER_DROGO" Description="LOC_LEADER_DROGO_DESCRIPTION" SortIndex="31"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_MANCE" Name="LOC_LEADER_MANCE" Description="LOC_LEADER_MANCE_DESCRIPTION" SortIndex="32"/>
+
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_ROOSE" Name="LOC_LEADER_ROOSE" Description="LOC_LEADER_ROOSE_DESCRIPTION" SortIndex="33"/>
+		<Row Domain="ACoIaF_GS_Ruleset_Players" Value="LEADER_NIGHTKING" Name="LOC_LEADER_NIGHTKING" Description="LOC_LEADER_NIGHTKING_DESCRIPTION" SortIndex="34"/>
 	</DomainValues>
 	<RulesetDomainOverrides>
 		<Row Ruleset="RULESET_ACOIAF_2" ParameterId="PlayerLeader" Domain="ACoIaF_GS_Ruleset_Players"/>
-		<Row Ruleset="RULESET_ACOIAF_2" ParameterId="GameCalendar" Domain="ACoIaFRuleset_Calendar"/>
+		<Row Ruleset="RULESET_ACOIAF_2" ParameterId="GameCalendar" Domain="ACoIaF_GS_Ruleset_Calendar"/>
 	</RulesetDomainOverrides>
 
 	<RulesetSupportedValues>
@@ -31,8 +75,10 @@
 
 	<RulesetUnsupportedValues>
 		<Row Ruleset="RULESET_ACOIAF_2" Domain="StandardMaps" Value="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map"/>
+		<!-- 
 		<Row Ruleset="RULESET_ACOIAF_2" Domain="StandardMaps" Value="{11865ab3-24cd-4c0a-96cc-a8ae7df1b31b}Maps/WesterosStandard.Civ6Map"/>
 		<Row Ruleset="RULESET_ACOIAF_2" Domain="StandardMaps" Value="{11865ab3-24cd-4c0a-96cc-a8ae7df1b31b}Maps/WesterosEssosHuge.Civ6Map"/>
+		-->
 	</RulesetUnsupportedValues>
 
 
